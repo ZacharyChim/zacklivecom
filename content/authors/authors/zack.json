@@ -1,0 +1,13 @@
+{
+  "id": "zack",
+  "name": "Zack",
+  "image": "/images/authors/zack.jpg",
+  "url": "https://zacklive.com",
+  "location": "Heidelberg, Germany",
+  "bio": "Hi, 我是Zack。",
+  "socialUrls": [
+    "https://github.com/gatsbyjs",
+    "https://twitter.com/gatsbyjs",
+    "mailto:gatsbyjs@example.com"
+  ]
+}
