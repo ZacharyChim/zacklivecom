@@ -14,7 +14,9 @@
   "rules": {
     "react/prefer-stateless-function": "off",
     "react/prop-types": "off",
-    "react/no-danger": "off"
+    "react/no-danger": "off",
+		"react/jsx-indent": [0, 0],
+		"react/jsx-indent-props": [0,0]
   },
   "settings": {
     "import/core-modules": []

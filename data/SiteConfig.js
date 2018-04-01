@@ -20,8 +20,8 @@ module.exports = {
   googleAnalyticsID: "UA-1483954-9", // GA tracking ID.
   // disqusShortname: "https-vagr9k-github-io-gatsby-advanced-starter", // enables Disqus comments, visually deviates from original Casper theme.
   siteSocialUrls: [
-    // "https://github.com/haysclark/gatsby-starter-casper",
-    // "https://twitter.com/gatsbyjs",
+    "https://github.com/ZacharyChim",
+    "https://twitter.com/zacklive",
     "mailto:zecharyw@gmail.com"
   ],
   postDefaultCategoryID: "coding", // Default category for posts.
@@ -29,12 +29,12 @@ module.exports = {
   userLinks: [
     {
       label: "GitHub",
-      url: "https://github.com/haysclark/gatsby-starter-casper",
+      url: "https://github.com/ZacharyChim",
       iconClassName: "fa fa-github" // Disabled, see Navigation.jsx
     },
     {
       label: "Twitter",
-      url: "https://twitter.com/gatsbyjs",
+      url: "https://twitter.com/zacklive",
       iconClassName: "fa fa-twitter" // Disabled, see Navigation.jsx
     },
     {
