@@ -53,7 +53,7 @@ class About extends Component {
 	  	"image": "/images/authors/zack.jpg",
 	  	"url": "https://zacklive.com",
 		};
-		const about = "Hi, I'm Zack.";
+		const about = "Hi, 我是Zack。<strong>我希望能让每个人都能学会编程。</strong>";
     return (
 			<div className="about">
 				<Drawer className="post-template" isOpen={this.state.menuOpen}>

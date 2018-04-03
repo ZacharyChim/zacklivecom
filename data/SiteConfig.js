@@ -2,14 +2,14 @@ module.exports = {
   blogPostDir: "posts", // The name of directory that contains your posts.
   blogAuthorDir: "authors", // The name of directory that contains your 'authors' folder.
   blogAuthorId: "zack", // The default and fallback author ID used for blog posts without a defined author.
-  siteTitle: "Zack Live", // Site title.
-  siteTitleAlt: "Zack Live 程式学徒", // Alternative site title for SEO.
+  siteTitle: "程式学徒 Zack Live", // Site title.
+  siteTitleAlt: "程式学徒 ZackLive", // Alternative site title for SEO.
   siteLogo:
     "/logos/logo-1024.png", // Logo used for SEO and manifest. e.g. "/logos/logo-1024.png",
   siteUrl: "https://zacklive.netlify.com", // Domain of your website without pathPrefix.
   pathPrefix: "/zacklivecom", // Prefixes all links. For cases when deployed to example.github.io/gatsby-starter-casper/.
   siteDescription:
-    "Learn coding with Zack Live.", // Website description used for RSS feeds/meta description tag.
+    "让每一个人都能学会编程", // Website description used for RSS feeds/meta description tag.
   siteCover:
     "/images/blog-cover.jpg", // Optional, the cover image used in header for home page. e.g: "/images/blog-cover.jpg",
   siteNavigation: true, // If navigation is enabled the Menu button will be visible
