@@ -2,11 +2,11 @@ module.exports = {
   blogPostDir: "posts", // The name of directory that contains your posts.
   blogAuthorDir: "authors", // The name of directory that contains your 'authors' folder.
   blogAuthorId: "zack", // The default and fallback author ID used for blog posts without a defined author.
-  siteTitle: "程式学徒 Zack Live", // Site title.
+  siteTitle: "程式学徒 ZackLive", // Site title.
   siteTitleAlt: "程式学徒 ZackLive", // Alternative site title for SEO.
   siteLogo:
     "/logos/logo-1024.png", // Logo used for SEO and manifest. e.g. "/logos/logo-1024.png",
-  siteUrl: "https://zacklive.netlify.com", // Domain of your website without pathPrefix.
+  siteUrl: "https://zacklive.com", // Domain of your website without pathPrefix.
   pathPrefix: "/zacklivecom", // Prefixes all links. For cases when deployed to example.github.io/gatsby-starter-casper/.
   siteDescription:
     "让每一个人都能学会编程", // Website description used for RSS feeds/meta description tag.
@@ -21,7 +21,7 @@ module.exports = {
   // disqusShortname: "https-vagr9k-github-io-gatsby-advanced-starter", // enables Disqus comments, visually deviates from original Casper theme.
   siteSocialUrls: [
     "https://github.com/ZacharyChim",
-    "https://twitter.com/zacklive",
+    "https://zacklive.com/about",
     "mailto:zecharyw@gmail.com"
   ],
   postDefaultCategoryID: "coding", // Default category for posts.
@@ -33,9 +33,9 @@ module.exports = {
       iconClassName: "fa fa-github" // Disabled, see Navigation.jsx
     },
     {
-      label: "Twitter",
-      url: "https://twitter.com/zacklive",
-      iconClassName: "fa fa-twitter" // Disabled, see Navigation.jsx
+      label: "微信",
+      url: "https://zacklive.com/about",
+      iconClassName: "fab fa-weixin" // Disabled, see Navigation.jsx
     },
     {
       label: "Email",
