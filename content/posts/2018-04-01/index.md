@@ -1,5 +1,5 @@
 ---
-title: "DJI Osmo Mobile 2 开箱文：最棒的手持稳定器"
+title: "DJI Osmo Mobile 2 开箱文：最强手机三轴稳定器"
 cover: "https://source.unsplash.com/fLraEdy7LMs/1280x500"
 author: "zack"
 date: "2018-04-1"
