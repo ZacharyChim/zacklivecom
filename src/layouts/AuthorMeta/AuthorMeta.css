@@ -24,7 +24,8 @@
 /* Location, website, and link */
 .author-profile .author-meta {
     margin: 2rem 0;
-    font-family: "Merriweather", serif;
+    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue",
+			Helvetica, PingFangSC-Thin, PingFangSC, "Noto Sans", "Noto Sans CJK", "Source Han Sans", "Microsoft YaHei", "微软雅黑", STXihei, "华文细黑", Arial, "Lucida Grande", sans-serif;
     letter-spacing: 0.01rem;
     font-size: 1.7rem;
 }

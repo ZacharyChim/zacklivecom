@@ -4,7 +4,8 @@
     font-size: 2rem;
     line-height: 1.5em;
     font-weight: 400;
-    font-family: "Merriweather", serif;
+    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue",
+			Helvetica, PingFangSC-Thin, PingFangSC, "Noto Sans", "Noto Sans CJK", "Source Han Sans", "Microsoft YaHei", "微软雅黑", STXihei, "华文细黑", Arial, "Lucida Grande", sans-serif;
     letter-spacing: 0.01rem;
     color: rgba(255, 255, 255, 0.8);
 }

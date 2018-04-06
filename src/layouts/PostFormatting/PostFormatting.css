@@ -57,7 +57,8 @@ div.page-template .post-title {
 .post-meta {
     display: block;
     margin: 1.75rem 0 0;
-    font-family: "Open Sans", sans-serif;
+    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue",
+			Helvetica, PingFangSC-Thin, PingFangSC, "Noto Sans", "Noto Sans CJK", "Source Han Sans", "Microsoft YaHei", "微软雅黑", STXihei, "华文细黑", Arial, "Lucida Grande", sans-serif;
     font-size: 1.5rem;
     line-height: 2.2rem;
     color: #9eabb3;

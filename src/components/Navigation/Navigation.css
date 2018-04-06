@@ -180,7 +180,8 @@
     color: #111 !important; /* Overides `.nav a:link, .nav a:visited` colour */
     text-align: center;
     font-size: 12px;
-    font-family: "Open Sans", sans-serif;
+    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue",
+			Helvetica, PingFangSC-Thin, PingFangSC, "Noto Sans", "Noto Sans CJK", "Source Han Sans", "Microsoft YaHei", "微软雅黑", STXihei, "华文细黑", Arial, "Lucida Grande", sans-serif;
     text-transform: uppercase;
     text-decoration: none;
     line-height: 35px;
