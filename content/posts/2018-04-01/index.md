@@ -1,6 +1,6 @@
 ---
 title: "DJI Osmo Mobile 2 开箱文：最强手机三轴稳定器"
-cover: "https://source.unsplash.com/-xJAb5-NJSQ/1280x500"
+cover: "images/2018-04-01/dji-osmo-mobile-2.png"
 author: "zack"
 date: "2018-04-1"
 category: "Gadgets"

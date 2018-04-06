@@ -75,6 +75,7 @@ class PostTemplate extends React.Component {
     const postNode = this.props.data.markdownRemark;
     const post = parsePost(postNode.frontmatter, slug);
     const { cover, title, date, author, tags } = post;
+		console.log(cover);
     const className = post.post_class ? post.post_class : "post";
     const authorData = AuthorModel.getAuthor(
       this.props.data.authors.edges,
