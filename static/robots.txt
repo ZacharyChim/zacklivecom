@@ -1,5 +1,3 @@
 User-agent: *
-Disallow: */tags/
-Disallow: */categories/
 
-sitemap: https://haysclark.github.io/gatsby-starter-casper/sitemap.xml
+sitemap: https://gatsby-starter-personal-blog/sitemap.xml

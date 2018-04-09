@@ -1,169 +1,225 @@
-const config = require("./data/SiteConfig");
+require("dotenv").config();
+const config = require("./content/meta/config");
 
-const pathPrefix = config.pathPrefix === "/" ? "" : config.pathPrefix;
+const query = `{
+  allMarkdownRemark(filter: { id: { regex: "//posts|pages//" } }) {
+    edges {
+      node {
+        objectID: id
+        fields {
+          slug
+        }
+        internal {
+          content
+        }
+        frontmatter {
+          title
+          subTitle
+        }
+      }
+    }
+  }
+}`;
+
+const queries = [
+  {
+    query,
+    transformer: ({ data }) => data.allMarkdownRemark.edges.map(({ node }) => node)
+  }
+];
 
 module.exports = {
-  pathPrefix: config.pathPrefix,
   siteMetadata: {
-    siteUrl: config.siteUrl + pathPrefix,
-    rssMetadata: {
-      site_url: config.siteUrl + pathPrefix,
-      feed_url: config.siteUrl + pathPrefix + config.siteRss,
-      title: config.siteTitle,
-      description: config.siteDescription,
-      image_url: `${config.siteUrl + pathPrefix}/logos/logo-512.png`,
-      author: config.siteRssAuthor,
-      copyright: `${config.copyright.label} © ${config.copyright.year ||
-        new Date().getFullYear()}`
+    title: config.siteTitle,
+    description: config.siteDescription,
+    siteUrl: config.siteUrl,
+    pathPrefix: config.pathPrefix,
+    algolia: {
+      appId: process.env.ALGOLIA_APP_ID ? process.env.ALGOLIA_APP_ID : "",
+      searchOnlyApiKey: process.env.ALGOLIA_SEARCH_ONLY_API_KEY
+        ? process.env.ALGOLIA_SEARCH_ONLY_API_KEY
+        : "",
+      indexName: process.env.ALGOLIA_INDEX_NAME ? process.env.ALGOLIA_INDEX_NAME : ""
+    },
+    facebook: {
+      appId: process.env.FB_APP_ID ? process.env.FB_APP_ID : ""
     }
   },
   plugins: [
-    "gatsby-plugin-react-helmet",
+    // {
+    //   resolve: `gatsby-plugin-algolia`,
+    //   options: {
+    //     appId: process.env.ALGOLIA_APP_ID ? process.env.ALGOLIA_APP_ID : "",
+    //     apiKey: process.env.ALGOLIA_ADMIN_API_KEY ? process.env.ALGOLIA_ADMIN_API_KEY : "",
+    //     indexName: process.env.ALGOLIA_INDEX_NAME ? process.env.ALGOLIA_INDEX_NAME : "",
+    //     queries,
+    //     chunkSize: 10000 // default: 1000
+    //   }
+    // },
     {
-      resolve: "gatsby-source-filesystem",
+      resolve: `gatsby-source-filesystem`,
       options: {
-        name: "posts",
-        path: `${__dirname}/content/${config.blogPostDir}`
+        path: `${__dirname}/content/posts/`,
+        name: "posts"
       }
     },
     {
-      resolve: "gatsby-source-filesystem",
+      resolve: `gatsby-source-filesystem`,
       options: {
-        name: "authors",
-        path: `${__dirname}/content/${config.blogAuthorDir}`
+        path: `${__dirname}/content/pages/`,
+        name: "pages"
       }
     },
-    "gatsby-transformer-json",
     {
-      resolve: "gatsby-transformer-remark",
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        name: `parts`,
+        path: `${__dirname}/content/parts/`
+      }
+    },
+    {
+      resolve: `gatsby-transformer-remark`,
       options: {
         plugins: [
+          `gatsby-plugin-sharp`,
           {
-            resolve: "gatsby-remark-images",
+            resolve: `gatsby-remark-images`,
             options: {
-              maxWidth: 710
+              maxWidth: 800,
+              backgroundColor: "transparent"
             }
           },
           {
-            resolve: "gatsby-remark-responsive-iframe"
+            resolve: `gatsby-remark-responsive-iframe`,
+            options: {
+              wrapperStyle: `margin-bottom: 2em`
+            }
           },
-          "gatsby-remark-prismjs",
-          "gatsby-remark-copy-linked-files",
-          "gatsby-remark-autolink-headers"
+          `gatsby-remark-prismjs`,
+          `gatsby-remark-copy-linked-files`,
+          `gatsby-remark-smartypants`
         ]
       }
     },
+    `gatsby-plugin-sharp`,
+    `gatsby-transformer-sharp`,
+    `gatsby-plugin-react-helmet`,
+    `gatsby-plugin-catch-links`,
     {
-      resolve: "gatsby-plugin-google-analytics",
+      resolve: `gatsby-plugin-manifest`,
       options: {
-        trackingId: config.googleAnalyticsID
-      }
-    },
-    {
-      resolve: "gatsby-plugin-nprogress",
-      options: {
-        color: config.themeColor
-      }
-    },
-    "gatsby-plugin-sharp",
-    "gatsby-plugin-catch-links",
-    "gatsby-plugin-twitter",
-    "gatsby-plugin-sitemap",
-    {
-      resolve: "gatsby-plugin-manifest",
-      options: {
-        name: config.siteTitle,
-        short_name: config.siteTitle,
-        description: config.siteDescription,
-        start_url: config.pathPrefix,
-        background_color: config.backgroundColor,
-        theme_color: config.themeColor,
-        display: "minimal-ui",
+        name: config.manifestName,
+        short_name: config.manifestShortName,
+        start_url: config.manifestStartUrl,
+        background_color: config.manifestBackgroundColor,
+        theme_color: config.manifestThemeColor,
+        display: config.manifestDisplay,
         icons: [
           {
-            src: "/logos/logo-192x192.png",
+            src: "/icons/icon-48x48.png",
+            sizes: "48x48",
+            type: "image/png"
+          },
+          {
+            src: "/icons/icon-96x96.png",
+            sizes: "96x96",
+            type: "image/png"
+          },
+          {
+            src: "/icons/icon-144x144.png",
+            sizes: "144x144",
+            type: "image/png"
+          },
+          {
+            src: "/icons/icon-192x192.png",
             sizes: "192x192",
             type: "image/png"
           },
           {
-            src: "/logos/logo-512x512.png",
+            src: "/icons/icon-256x256.png",
+            sizes: "256x256",
+            type: "image/png"
+          },
+          {
+            src: "/icons/icon-384x384.png",
+            sizes: "384x384",
+            type: "image/png"
+          },
+          {
+            src: "/icons/icon-512x512.png",
             sizes: "512x512",
             type: "image/png"
           }
         ]
       }
     },
-    "gatsby-plugin-offline",
+    `gatsby-plugin-offline`,
     {
-      resolve: "gatsby-plugin-feed",
+      resolve: `gatsby-plugin-google-analytics`,
       options: {
-        setup(ref) {
-          const ret = ref.query.site.siteMetadata.rssMetadata;
-          ret.allMarkdownRemark = ref.query.allMarkdownRemark;
-          ret.generator = "GatsbyJS Casper Starter";
-          return ret;
-        },
+        trackingId: process.env.GOOGLE_ANALYTICS_ID
+      }
+    },
+    {
+      resolve: `gatsby-plugin-feed`,
+      options: {
         query: `
-        {
-          site {
-            siteMetadata {
-              rssMetadata {
-                site_url
-                feed_url
+          {
+            site {
+              siteMetadata {
                 title
                 description
-                image_url
-                author
-                copyright
+                siteUrl
+                site_url: siteUrl
               }
             }
           }
-        }
-      `,
+        `,
         feeds: [
           {
-            serialize(ctx) {
-              const rssMetadata = ctx.query.site.siteMetadata.rssMetadata;
-              return ctx.query.allMarkdownRemark.edges.map(edge => ({
-                categories: edge.node.frontmatter.tags,
-                date: edge.node.frontmatter.date,
-                title: edge.node.frontmatter.title,
-                description: edge.node.excerpt,
-                author: rssMetadata.author,
-                url: rssMetadata.site_url + edge.node.fields.slug,
-                guid: rssMetadata.site_url + edge.node.fields.slug,
-                custom_elements: [{ "content:encoded": edge.node.html }]
-              }));
+            serialize: ({ query: { site, allMarkdownRemark } }) => {
+              return allMarkdownRemark.edges.map(edge => {
+                return Object.assign({}, edge.node.frontmatter, {
+                  description: edge.node.excerpt,
+                  url: site.siteMetadata.siteUrl + edge.node.fields.slug,
+                  guid: site.siteMetadata.siteUrl + edge.node.fields.slug,
+                  custom_elements: [{ "content:encoded": edge.node.html }]
+                });
+              });
             },
             query: `
-            {
-              allMarkdownRemark(
-                limit: 1000,
-                sort: { order: DESC, fields: [frontmatter___date] },
-              ) {
-                edges {
-                  node {
-                    excerpt
-                    html
-                    timeToRead
-                    fields { slug }
-                    frontmatter {
-                      title
-                      cover
-                      date
-                      category
-                      tags
-                      author
+              {
+                allMarkdownRemark(
+                  limit: 1000,
+                  sort: { order: DESC, fields: [fields___prefix] },
+                  filter: { id: { regex: "//posts//" } }
+                ) {
+                  edges {
+                    node {
+                      excerpt
+                      html
+                      fields {
+                        slug
+                        prefix
+                      }
+                      frontmatter {
+                        title
+                      }
                     }
                   }
                 }
               }
-            }
-          `,
-            output: config.siteRss
+            `,
+            output: "/rss.xml"
           }
         ]
       }
+    },
+    {
+      resolve: `gatsby-plugin-sitemap`
+    },
+    {
+      resolve: "gatsby-plugin-svgr"
     }
   ]
 };
