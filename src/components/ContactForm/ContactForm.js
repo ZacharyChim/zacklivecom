@@ -97,7 +97,7 @@ class ContactForm extends React.Component {
           value={name}
           onChange={this.handleChange}
           validators={["required"]}
-          errorMessages={["this field is required"]}
+          errorMessages={["本栏必填"]}
           fullWidth
           margin="normal"
           className={classes.singleLineInput}
@@ -109,7 +109,7 @@ class ContactForm extends React.Component {
           value={email}
           onChange={this.handleChange}
           validators={["required", "isEmail"]}
-          errorMessages={["this field is required", "email is not valid"]}
+          errorMessages={["本栏必填", "email格式不正确"]}
           fullWidth
           margin="normal"
           className={classes.singleLineInput}
@@ -121,7 +121,7 @@ class ContactForm extends React.Component {
           value={message}
           onChange={this.handleChange}
           validators={["required"]}
-          errorMessages={["this field is required"]}
+          errorMessages={["本栏必填"]}
           multiline
           fullWidth
           margin="normal"

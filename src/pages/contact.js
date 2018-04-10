@@ -15,10 +15,10 @@ const Contact = () => {
   return (
     <Main>
       <Article>
-        <PageHeader title="Contact" />
+        <PageHeader title="联系我们" />
         <Content>
-          Feel free to contact me by email: <Obfuscate email="greglobinski@gmail.com" /> or use the
-          form below.
+          欢迎与我联系，email: <Obfuscate email="zecharyw@gmail.com" /><br />
+					或使用一下表格：
         </Content>
         <Form />
       </Article>

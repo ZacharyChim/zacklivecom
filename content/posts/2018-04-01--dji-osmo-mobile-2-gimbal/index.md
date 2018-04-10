@@ -1,6 +1,6 @@
 ---
 title: DJI Osmo Mobile 2开箱文：最强手机三轴稳定器
-subTitle: DJI
+subTitle: 这或许是目前最优秀且最高CP值的手机三轴稳定器
 cover: dji-osmo-mobile-2.png
 category: "Gadgets"
 ---
