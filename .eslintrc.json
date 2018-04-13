@@ -44,7 +44,8 @@
     {
       "files": ["*.spec.js", "*.integration.js"],
       "rules": {
-        "no-unused-expressions": "off"
+        "no-unused-expressions": "off",
+				"indent": [2, "tab", { "SwitchCase": 1 }],
       }
     }
   ]
