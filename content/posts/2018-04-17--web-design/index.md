@@ -11,6 +11,8 @@ category: "网页设计学徒"
 
 程度：**完全新手**
 
+<embed height="415" width="544" quality="high" allowfullscreen="true" type="application/x-shockwave-flash" src="//static.hdslb.com/miniloader.swf" flashvars="aid=22408533&page=1" pluginspage="http://www.adobe.com/shockwave/download/download.cgi?P1_Prod_Version=ShockwaveFlash"></embed>
+
 ##今天会学到什么？
 
 1. 网页的本质是什么？认识HTML
