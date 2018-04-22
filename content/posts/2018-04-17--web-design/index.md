@@ -13,6 +13,10 @@ category: "网页设计学徒"
 
 <embed height="415" width="544" quality="high" allowfullscreen="true" type="application/x-shockwave-flash" src="//static.hdslb.com/miniloader.swf" flashvars="aid=22408533&page=1" pluginspage="http://www.adobe.com/shockwave/download/download.cgi?P1_Prod_Version=ShockwaveFlash"></embed>
 
+视频链接：
+![Bilibili](https://www.bilibili.com/video/av22408533/)
+![YouTube](https://youtu.be/L8vDykyhK7I)
+
 ##今天会学到什么？
 
 1. 网页的本质是什么？认识HTML

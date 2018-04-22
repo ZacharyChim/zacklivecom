@@ -7,7 +7,7 @@ module.exports = {
   siteUrl: "https://zacklive.com",
   pathPrefix: "",
   siteImage: "preview.jpg",
-  siteLanguage: "zh-Hans",
+  siteLanguage: "zh-cmn-Hans",
   // author
   authorName: "Zack",
   authorTwitterAccount: "zacklive",
