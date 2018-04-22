@@ -1,5 +1,5 @@
 ---
-title: 网页设计学徒：什么是网页？发表你的首个网页
+title: 网页设计学徒01：什么是网页？发表你的首个网页
 subTitle: 网页的本质就是一个HTML格式的文本文件。那HTMl又是什么？
 cover: website.jpg
 category: "网页设计学徒"
