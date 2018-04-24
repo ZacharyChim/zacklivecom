@@ -11,7 +11,7 @@ category: "网页设计学徒"
 
 这一课我们会学习VS Code的使用：
 
-1. VS Code的下载与安装
+1. VS Code的下载与安装以及语言设定
 2. VS Code输入提示与Emmet快速输入
 3. 更换VS Code主题
    - Material Theme
