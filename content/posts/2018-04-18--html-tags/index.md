@@ -5,7 +5,7 @@ cover: tags.jpg
 category: "网页设计学徒"
 ---
 
-![VS Code编辑器](tags.jpg)
+![HTML标签](tags.jpg)
 
 这是网页设计学徒的第二课。上一课我们开始了HTML的学习，这一课我们会继续深入HTML，了解更多HTML标签。
 
