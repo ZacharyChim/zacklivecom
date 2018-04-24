@@ -29,7 +29,7 @@ const PostShare = asyncComponent(() =>
 const PostFooter = ({ classes, author, post, slug }) => {
   return (
     <footer className={classes.footer}>
-      <PostShare post={post} slug={slug} />
+      {/* <PostShare post={post} slug={slug} /> */}
       <PostAuthor author={author} />
       {/* <PostComments post={post} slug={slug} facebook={facebook} /> */}
     </footer>

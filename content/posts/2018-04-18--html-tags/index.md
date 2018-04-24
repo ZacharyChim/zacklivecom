@@ -24,3 +24,7 @@ category: "网页设计学徒"
 * [Bilibili](https://www.bilibili.com/video/av22408899)
 * [YouTube](https://youtu.be/L8vDykyhK7I)
 
+课程列表
+1. [网页设计学徒01：什么是网页？](/web-design)
+2. [网页设计学徒02：网页的语言、标题和图片](/html-tags)
+

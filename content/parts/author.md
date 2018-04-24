@@ -2,4 +2,6 @@
 title: author
 ---
 
-**Zack** 让每一个人都能学会编程。
+**Zack**
+我的微信：
+![微信](wechat.jpg)
