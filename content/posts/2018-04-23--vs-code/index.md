@@ -7,12 +7,26 @@ category: "网页设计学徒"
 
 ![VS Code编辑器](editor.jpg)
 
-这是网页设计学徒的第三课。这一课我们会学习使用一个由微软推出的专业程式编辑器：VS Code。这个编辑器能够让你的编程事半功倍。
+这是网页设计学徒的第三课。这一课我们会学习使用一个由微软推出的免费专业程式编辑器：VS Code。这个编辑器能够让你的编程事半功倍。
 
 这一课我们会学习VS Code的使用：
 
 1. VS Code的下载与安装
-2. 更换VS Code主题
-3. Emmet 快速输入
+2. VS Code输入提示与Emmet快速输入
+3. 更换VS Code主题
+   - Material Theme
+   - Atom One Dark Theme 
+   - Dracula Official
+
 4. 更改tab设定
-5. 安装插件：vscode-icons 与 Chinese Lorem Ipsum
+5. 安装插件：vscode-icons 、 Chinese Lorem Ipsum 与 Live Server
+
+[VS Code下载链接](https://code.visualstudio.com/)
+
+![VS Code编缉器](vs-code.png)
+
+若你实在不喜欢VS Code，还有两个同样十分受欢迎的专业编辑器，皆可免费使用：
+
+1. [Sublime Text](https://www.sublimetext.com/)：虽是收费软件，但提供无限期免费试用，只是偶尔会弹出购买提示。其特点是速度非常快。
+
+2. [Atom Text Editor](https://atom.io/)：开源，且由GitHub开发，同样非常强大，只是速度较慢。

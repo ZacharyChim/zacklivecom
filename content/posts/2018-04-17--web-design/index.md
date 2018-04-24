@@ -1,5 +1,5 @@
 ---
-title: 网页设计学徒01：什么是网页？发表你的首个网页
+title: 网页设计学徒01：什么是网页？【视频教学】
 subTitle: 网页的本质就是一个HTML格式的文本文件。那HTMl又是什么？
 cover: website.jpg
 category: "网页设计学徒"
@@ -10,8 +10,6 @@ category: "网页设计学徒"
 这是《[程式学徒](/apprentice-coding/)》的第一个系列：《网页设计学徒》。这个系列适合完全没程式经验的新手。
 
 程度：**完全新手**
-
-<embed height="415" width="544" quality="high" allowfullscreen="true" type="application/x-shockwave-flash" src="//static.hdslb.com/miniloader.swf" flashvars="aid=22408533&page=1" pluginspage="http://www.adobe.com/shockwave/download/download.cgi?P1_Prod_Version=ShockwaveFlash"></embed>
 
 视频链接：
 * [Bilibili](https://www.bilibili.com/video/av22408533/)
