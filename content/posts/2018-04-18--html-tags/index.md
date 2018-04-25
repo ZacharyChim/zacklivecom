@@ -24,6 +24,35 @@ category: "网页设计学徒"
 * [Bilibili](https://www.bilibili.com/video/av22408899)
 * [YouTube](https://youtu.be/L8vDykyhK7I)
 
+目前你的index.html应该如下：
+
+```
+<!DOCTYPE html>
+
+<html lang="zh-cmn-hans">
+
+<head>
+	<title>我是标题</title>
+
+	<meta charset="utf-8">
+</head>
+
+<body>
+	<h1>正文标题</h1>
+	<h2>正文标题</h2>
+	<h3>正文标题</h3>
+
+	<p>Hello!</p>
+
+	<a href="https://zacklive.com">Zack</a>
+
+	<img src="website.jpg" alt="图片"/>
+	
+</body>
+
+</html>
+```
+
 课程列表
 1. [网页设计学徒01：什么是网页？](/web-design)
 2. [网页设计学徒02：网页的语言、标题和图片](/html-tags)
