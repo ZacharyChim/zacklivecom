@@ -12,6 +12,10 @@ category: "网页设计学徒"
 这一课我们会学习VS Code的使用：
 
 1. VS Code的下载与安装以及语言设定
+   1. Windows: F1 或 Mac：Command + Shift + P，进入指令输入
+   2. 输入：Configure Language 或 语言设置
+   3. 修改：`"locale":"en"`为`"locale":"zh-CN"`。繁体中文为“zh-TW”。
+   4. 重启VS Code。
 2. VS Code输入提示与Emmet快速输入
 3. 更换VS Code主题
    - Material Theme
