@@ -9,6 +9,11 @@ category: "网页设计学徒"
 
 这是网页设计学徒的第三课。这一课我们会学习使用一个由微软推出的免费专业程式编辑器：VS Code。这个编辑器能够让你的编程事半功倍。
 
+视频链接：
+1. [YouKu](http://v.youku.com/v_show/id_XMzU2NzU5MTQ1Mg==.html)
+2. [BiliBili](https://www.bilibili.com/video/av22615781/)
+3. [YouTube](https://youtu.be/OcQxjvbUtSk)
+
 这一课我们会学习VS Code的使用：
 
 1. VS Code的下载与安装以及语言设定
@@ -21,12 +26,6 @@ category: "网页设计学徒"
    - Material Theme
    - Atom One Dark Theme 
    - Dracula Official
-
-视频链接：
-1. [YouKu](http://v.youku.com/v_show/id_XMzU2NzU5MTQ1Mg==.html)
-2. [BiliBili](https://www.bilibili.com/video/av22615781/)
-3. [YouTube](https://youtu.be/OcQxjvbUtSk)
-
 4. 更改tab设定
 5. 安装插件：vscode-icons 、 Chinese Lorem Ipsum 与 Live Server
 
