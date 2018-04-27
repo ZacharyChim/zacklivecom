@@ -22,7 +22,6 @@ category: "网页设计学徒"
    - Atom One Dark Theme 
    - Dracula Official
 
-<embed src='http://player.youku.com/player.php/sid/XMzU2NzU5MTQ1Mg==/v.swf' allowFullScreen='true' quality='high' width='480' height='400' align='middle' allowScriptAccess='always' type='application/x-shockwave-flash'></embed>
 视频链接：
 [YouKu](http://v.youku.com/v_show/id_XMzU2NzU5MTQ1Mg==.html)
 [BiliBili](https://www.bilibili.com/video/av22615781/)
