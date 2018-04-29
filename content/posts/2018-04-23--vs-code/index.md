@@ -38,3 +38,11 @@ category: "网页设计学徒"
 1. [Sublime Text](https://www.sublimetext.com/)：虽是收费软件，但提供无限期免费试用，只是偶尔会弹出购买提示。其特点是速度非常快。
 
 2. [Atom Text Editor](https://atom.io/)：开源，且由GitHub开发，同样非常强大，只是速度较慢。
+
+下一课我们会用VS Code来编写程式，并介绍一下网页的常见结构。
+
+《网页设计学徒》课程链接：
+1. [网页设计学徒01：什么是网页？](/web-design)
+2. [网页设计学徒02：网页的语言、标题和图片](/html-tags)
+3. [网页设计学徒03：VS Code专业程式编辑器](/vs-code)
+4. [网页设计学徒04：网页由哪些部分构成？](/html-sementic)
