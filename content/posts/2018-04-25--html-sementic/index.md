@@ -62,6 +62,8 @@ category: "网页设计学徒"
 </html>
 ```
 
-Tab的设定：菜单：Code -〉 首选项 -〉 设置： `"editor.tabSize = 2"
+Tab的设定：选单：Code -〉 首选项 -〉 设置： `"editor.tabSize = 2"
+
+自动换行：选单：查看 -〉 切换自动换行
 
 启动Live Server，可即时看到修改效果。
