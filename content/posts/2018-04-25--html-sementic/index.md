@@ -9,6 +9,11 @@ category: "网页设计学徒"
 
 上一课我们介绍了[VS Code](/vs-code)这款程式编辑器，今天我们就要用它来完成网页基本结构的设计。
 
+视频链接：
+1. [BiliBili]()
+2. [YouKu]()
+3. [YouTube](https://youtu.be/_ePCBPYKsI4)
+
 那么一个网页最基本该有哪些内容呢？以下是一个常见的网页结构：
 
 ![常见网页结构](html-sementic.png)
