@@ -22,12 +22,12 @@ category: "网页设计学徒"
    3. 修改：`"locale":"en"`为`"locale":"zh-CN"`。繁体中文为“zh-TW”。
    4. 重启VS Code。
 2. VS Code输入提示与Emmet快速输入
-3. 更换VS Code主题
+3. 更换VS Code主题，于扩展中搜索以下任一主题
    - Material Theme
    - Atom One Dark Theme 
    - Dracula Official
-4. 更改tab设定
-5. 安装插件：vscode-icons 、 Chinese Lorem Ipsum 与 Live Server
+   安装后，前往Windows：文件／Mac: Code -〉 首选项 -〉 颜色主题，选择刚安装的主题
+4. 安装插件：vscode-icons 、 Chinese Lorem Ipsum 与 Live Server
 
 [VS Code下载链接](https://code.visualstudio.com/)
 

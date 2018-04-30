@@ -10,7 +10,7 @@ category: "网页设计学徒"
 上一课我们介绍了[VS Code](/vs-code)这款程式编辑器，今天我们就要用它来完成网页基本结构的设计。
 
 视频链接：
-1. [BiliBili]()
+1. [BiliBili](https://www.bilibili.com/video/av22742382/)
 2. [YouKu]()
 3. [YouTube](https://youtu.be/_ePCBPYKsI4)
 
