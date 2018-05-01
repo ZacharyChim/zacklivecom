@@ -11,7 +11,7 @@ category: "网页设计学徒"
 
 视频链接：
 1. [BiliBili](https://www.bilibili.com/video/av22742382/)
-2. [YouKu]()
+2. [YouKu](http://v.youku.com/v_show/id_XMzU3MzQ2MTcyNA==.html)
 3. [YouTube](https://youtu.be/_ePCBPYKsI4)
 
 那么一个网页最基本该有哪些内容呢？以下是一个常见的网页结构：
