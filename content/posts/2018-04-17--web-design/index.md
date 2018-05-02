@@ -13,7 +13,7 @@ category: "网页设计学徒"
 
 视频链接：
 * [Bilibili](https://www.bilibili.com/video/av22408533/)
-* [YouTube](https://youtu.be/cS5-ZOt60zg)
+* [YouTube](https://youtu.be/ePlosU44AKg)
 
 ##今天会学到什么？
 
