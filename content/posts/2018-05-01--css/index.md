@@ -17,6 +17,7 @@ category: "网页设计学徒"
 今天我们就要学习怎样用CSS使网页变得更美观。
 
 **视频链接**：
+[Bilibili](https://www.bilibili.com/video/av22893762/)
 [YouTube](https://youtu.be/9ZCP7ibSVDw)
 
 ##如何将CSS加入HTML
