@@ -9,6 +9,11 @@ category: "网页设计学徒"
 
 上一课我们简单地介绍了CSS以及怎样将CSS加入到HTML当中。这一课我们要进一步学习更多CSS的相关知识。
 
+**视频链接**：
+[Bilibili]()
+[YouTube](https://youtu.be/8Cs7RBCSAcU)
+
+
 背景颜色`background-color`可以直接用`background`来设定，差别在于，`background`除了颜色还能设定背景图片等，这些我们稍后会讲到，你也可以到[W3School的CSS背景](http://www.w3school.com.cn/css/css_background.asp)查看详细用法。另外，当顏色值的六个数字或字母都一样时，可以缩写成三个，如`#ffffff`等于`#fff`。
 
 ```
