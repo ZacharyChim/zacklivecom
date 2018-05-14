@@ -10,7 +10,9 @@ category: "网页设计学徒"
 上一课我们简单地介绍了CSS以及怎样将CSS加入到HTML当中。这一课我们要进一步学习更多CSS的相关知识。
 
 **视频链接**：
-[Bilibili]()
+
+[Bilibili](https://www.bilibili.com/video/av23416937/)
+
 [YouTube](https://youtu.be/8Cs7RBCSAcU)
 
 

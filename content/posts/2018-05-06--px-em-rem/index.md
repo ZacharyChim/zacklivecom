@@ -9,6 +9,10 @@ category: "网页设计学徒"
 
 在CSS当中，有三个常见的计量单位：**px**、**em**和**rem**。它们都能表示大小，那它们有什么分别？为什么需要三个不同的单位？还有最重要的是，什么时候该用哪一个？这些问题便是本篇要回答的内容。
 
+**视频链接**：
+[Bilibili]()
+[YouTube](https://youtu.be/PvE0knGPvlo)
+
 ##px是什么（pixel：像素）？
 
 ![pixel](/pixel.gif)
