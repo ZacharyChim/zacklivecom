@@ -81,6 +81,8 @@ HTML标签属性：属性有多种，以下是ID属性：
 </html>
 ```
 
+##将区块设为Grid
+
 Site这个`<div>`便是我们的Grid，在CSS（style.css）中加入以下设定：
 ```
 #site {
@@ -112,6 +114,8 @@ Site这个`<div>`便是我们的Grid，在CSS（style.css）中加入以下设�
 
 **grid-template-areas**：设定网格的每一个区块放些什么。我们的网格是2栏4行，因此这里也是2x4个值。第一行的两栏都放了**header**，也就是header会在第一行横跨两栏。第二跟第四行也一样。但第三行的第一栏是**main**（占三等份3fr），第二栏是**aside**（占一等份1fr）。
 
+##分别指定每一个grid-area
+
 最后grid-template-areas里的区块要在CSS里用grid-area来设定。
 
 ```
@@ -142,6 +146,8 @@ footer {
 ```
 
 我们为每一个grid-area设定了不同的背景颜色，以便区分。
+
+##不要让图片比容器还大
 
 最后，图片要是太大，会影响到区块的大小，因此将图片的宽度设为其容器的100%:
 
