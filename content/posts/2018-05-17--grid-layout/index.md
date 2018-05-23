@@ -223,7 +223,11 @@ footer {
 
 ##总结：CSS Grid网格可实现任何网页布局
 
-这里介绍了CSS Grid，这是CSS最新的技术之一，功能十分强大，可以实现基本上所有你能想像到的网页布局。在以后的教学中我们会介绍更多CSS Grid的内容，如果你想要提前了解CSS Grid的其他功能，可以参考[Learn CSS Grid](https://learncssgrid.com/)这个网站（英文）。
+这里介绍了CSS Grid，这是CSS最新的技术之一，功能十分强大，可以实现基本上所有你能想像到的网页布局。在以后的教学中我们会介绍更多CSS Grid的内容，你也可以参考以下网站（英文）：
+
+1. [Learn CSS Grid](https://learncssgrid.com/)：CSS Grid基本教学。
+
+2. [CSS Grid by Example](https://gridbyexample.com/)：大量CSS Grid的应用实例。
 
 《网页设计学徒》课程链接：
 1. [网页设计学徒01：什么是网页？](/web-design)
