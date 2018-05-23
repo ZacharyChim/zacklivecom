@@ -81,7 +81,7 @@ HTML标签属性：属性有多种，以下是ID属性：
 </html>
 ```
 
-##将区块设为Grid
+##将区块设为网格
 
 Site这个`<div>`便是我们的Grid，在CSS（style.css）中加入以下设定：
 ```
