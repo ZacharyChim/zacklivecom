@@ -11,7 +11,7 @@ CSS Grid（网格）是最近一两年才引入CSS的新技术，可以让我们
 
 **视频链接**：
 
-[Bilibili](https://www.bilibili.com/video/av23419060/)
+[Bilibili](https://www.bilibili.com/video/av23893173/)
 
 [YouTube](https://youtu.be/prurO0Mm3h8)
 
