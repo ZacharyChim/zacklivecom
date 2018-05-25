@@ -77,6 +77,7 @@ html {
 4. [网页设计学徒04：网页由哪些部分构成？](/html-sementic)
 5. [网页设计学徒05：用CSS美化网页](/css)
 6. [网页设计学徒06：CSS盒子模型](/css-box-model)
+7. [网页设计学徒07：CSS Grid网页排版2018](/css-grid)
 
 《网页设计学徒》番外篇：
 1. [CSS中px、em、rem有什么分别？](/px-em-rem)

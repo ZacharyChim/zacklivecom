@@ -9,6 +9,12 @@ category: "网页设计学徒"
 
 CSS Grid（网格）是最近一两年才引入CSS的新技术，可以让我们轻易地完成网页的布局设计。目前CSS Grid已得到大多数浏览器的支持，可以放心使用。
 
+**视频链接**：
+
+[Bilibili](https://www.bilibili.com/video/av23419060/)
+
+[YouTube](https://youtu.be/prurO0Mm3h8)
+
 ##CSS Grid（网格）是什么？
 
 ![CSS Grid](css-grid.jpg)
@@ -236,6 +242,7 @@ footer {
 4. [网页设计学徒04：网页由哪些部分构成？](/html-sementic)
 5. [网页设计学徒05：用CSS美化网页](/css)
 6. [网页设计学徒06：CSS盒子模型](/css-box-model)
+7. [网页设计学徒07：CSS Grid网页排版2018](/css-grid)
 
 《网页设计学徒》番外篇：
 1. [CSS中px、em、rem有什么分别？](/px-em-rem)
