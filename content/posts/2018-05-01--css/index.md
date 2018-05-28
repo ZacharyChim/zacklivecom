@@ -134,6 +134,8 @@ body {
 
 查询CSS可以设定哪些东西：[W3Schools](http://www.w3school.com.cn/css)
 
+查询好看（现代）的配色建议：[Flat UI Colors](https://flatuicolors.com/)
+
 《网页设计学徒》课程链接：
 1. [网页设计学徒01：什么是网页？](/web-design)
 2. [网页设计学徒02：网页的语言、标题和图片](/html-tags)
@@ -145,3 +147,4 @@ body {
 
 《网页设计学徒》番外篇：
 1. [CSS中px、em、rem有什么分别？](/px-em-rem)
+2. [fr介绍：CSS网格带来的新单位](/fr-css-grid)
