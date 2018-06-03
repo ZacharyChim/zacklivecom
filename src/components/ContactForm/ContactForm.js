@@ -59,21 +59,21 @@ class ContactForm extends React.Component {
   };
 
   handleSubmit = e => {
-    fetch("/", {
-      method: "POST",
-      headers: { "Content-Type": "application/x-www-form-urlencoded" },
-      body: encode({ "form-name": "contact", ...this.state })
-    })
-      .then(() => {
-        console.log("Form submission success");
-        navigateTo("/success");
-      })
-      .catch(error => {
-        console.error("Form submission error:", error);
-        this.handleNetworkError();
-      });
+    // fetch("/", {
+    //   method: "POST",
+    //   headers: { "Content-Type": "application/x-www-form-urlencoded" },
+    //   body: encode({ "form-name": "contact", ...this.state })
+    // })
+    //   .then(() => {
+    //     console.log("Form submission success");
+    //     navigateTo("/success");
+    //   })
+    //   .catch(error => {
+    //     console.error("Form submission error:", error);
+    //     this.handleNetworkError();
+    //   });
 
-    e.preventDefault();
+    // e.preventDefault();
   };
 
   render() {
