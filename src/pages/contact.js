@@ -7,7 +7,7 @@ import Main from "../components/Main";
 import Article from "../components/Main/Article";
 import PageHeader from "../components/Page/PageHeader";
 import Content from "../components/Main/Content";
-import Form from "../components/ContactForm";
+// import Form from "../components/ContactForm";
 
 const styles = theme => ({});
 
@@ -20,7 +20,7 @@ const Contact = () => {
           欢迎与我联系，email: <Obfuscate email="zecharyw@gmail.com" /><br />
 					或使用一下表格：
         </Content>
-        <Form />
+        {/* <Form /> */}
       </Article>
     </Main>
   );
