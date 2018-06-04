@@ -9,6 +9,12 @@ category: "网页设计学徒"
 
 CSS网格（grid）大大地降低了网页布局设计的难度，个人认为是最近几年，CSS最重要的更新。从此以后，即使没有[Bootstrap](https://getbootstrap.com/)之类的框架协助也能轻松用网格的模式进行网页布局设计。
 
+**视频链接**：
+
+[Bilibili](https://www.bilibili.com/video/av24356617/)
+
+[YouTube](https://youtu.be/2kF52soxce0)
+
 与CSS网格关系密切的是一个新的单位：fr（来自英文：fraction）。fr将**剩余的空间**进行**等分**，每一个单位便是一等份。我们用一个基本例子进行解释。
 
 ##fr例子
