@@ -104,7 +104,7 @@ grid-template-rows: 100px, 100px, 100px;
   color: white;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
-  grid-template-rows: 100px, 100px, 100px;
+  grid-template-rows: 100px 100px 100px;
 }
 
 #part1 {
