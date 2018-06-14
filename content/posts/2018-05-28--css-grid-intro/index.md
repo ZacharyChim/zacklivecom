@@ -5,6 +5,8 @@ cover: grid.jpg
 category: "网页设计学徒"
 ---
 
+网页排版布局的设计从最初的Table丶到Div + Float，再到近年的Flexbox，都不是一个完善的解决方案，正如很多前端设计师所说，这些更接近於Hacking，而不是Designing。直到CSS Grid的发布（以及各大浏览器对其的支持），我们才终於有了一个真正意义上的解决方案。因此，我们也鼓励大家尽早掌握这一技术并广泛使用，使之普及化。
+
 <ol type="I">
 
 <li><a href="#I">显性网格</a>
