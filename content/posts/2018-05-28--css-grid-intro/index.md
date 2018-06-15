@@ -1,6 +1,6 @@
 ---
 title: CSS网格(grid)完整教学
-subTitle: CCS网格(grid)的图文介绍与详细讲解。
+subTitle: CSS Grid网格的图文介绍与详细讲解。
 cover: grid.jpg
 category: "网页设计学徒"
 ---
