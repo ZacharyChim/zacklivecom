@@ -324,17 +324,17 @@ grid-template-areas:
 接着，我们要将相应的HTML标签和网格区域关联起来。
 
 ```
-div#header {
+#part1 {
   grid-area: header;
 }
 ```
 
-这里我们让一个ID为header的div去占据`grid-template-areas`中"header header"的位置。注意，`grid-area`和上面的`grid-template-areas`不一样。前者是代表一个区域，后者是列出全部区域。
+这里我们让part1去占据`grid-template-areas`中"header header"的位置。注意，`grid-area`和上面的`grid-template-areas`不一样。前者是代表一个区域，后者是列出全部区域。
 
 我们也可以这样写：
 
 ```
-div#header {
+#part1 {
   grid-column: header;
   grid-row: header;
 }
