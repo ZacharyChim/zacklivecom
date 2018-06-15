@@ -309,9 +309,6 @@ grid-row:    row-2-start / row-3-end;
 可以看到页首（header）、导航（nav）以及页尾都占一行两栏，而正文（main）和边栏（aside）则在同一行，各占一栏。用网格区域的话可以这样写：
 
 ```
-grid-column: 3fr 1fr;
-grid-row: repeat(4, 200px);
-
 grid-template-areas:
   "header header"
   "nav    nav"
