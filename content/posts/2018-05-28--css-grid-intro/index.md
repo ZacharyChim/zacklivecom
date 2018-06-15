@@ -76,7 +76,7 @@ category: "网页设计学徒"
 
 ```
 grid-template-columns: 1fr 1fr 1fr;
-grid-template-rows: 100px, 100px, 100px;
+grid-template-rows: 100px 100px 100px;
 ```
 
 这里设定了三栏，每一栏为1fr。若你对fr这个单位不太了解，可以查看[我们的教学](/fr-css-grid)。
