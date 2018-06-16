@@ -65,12 +65,18 @@ CSS网格（CSS Grid）就是将页面透过栏跟行划成一个个的格子，
 </ol>
 
 **视频链接**：
+Part 1:
 
 [YouTube](https://youtu.be/8IdFggL-0ok)
 
 [YouKu](https://v.youku.com/v_show/id_XMzY2NjY1MDM0MA==.html)
 
 [BiliBili](https://www.bilibili.com/video/av24952746/)
+
+Part 2:
+
+[YouTube](https://youtu.be/FCj6oT49MW8)
+
 
 网格可以分为两种，一种是我们主动去定义的，称为显性网格（explicit grid）；另一种是系统自动产生，称为隐性网格（implicit grid）。
 
