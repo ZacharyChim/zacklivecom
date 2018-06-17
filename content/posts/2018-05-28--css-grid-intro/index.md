@@ -86,6 +86,10 @@ Part 3:
 
 * [YouTube](https://youtu.be/n5G-FFNLQTA)
 
+* [BiliBili](https://www.bilibili.com/video/av25067156/)
+
+* [YouKu](https://v.youku.com/v_show/id_XMzY2OTk5NzM0NA==.html)
+
 网格可以分为两种，一种是我们主动去定义的，称为显性网格（explicit grid）；另一种是系统自动产生，称为隐性网格（implicit grid）。
 
 ##I. <a name="I">显性网格</a>
