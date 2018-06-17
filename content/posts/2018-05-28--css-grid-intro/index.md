@@ -1,5 +1,5 @@
 ---
-title: CSS网格(grid)完整教学
+title: CSS网格(CSS Grid)完整教学
 subTitle: CSS Grid网格的图文介绍与详细讲解。
 cover: grid.jpg
 category: "网页设计学徒"
@@ -729,3 +729,4 @@ justify-content: space-evenly;
 《网页设计学徒》番外篇：
 1. [CSS中px、em、rem有什么分别？](/px-em-rem)
 2. [fr介绍：CSS网格带来的新单位](/fr-css-grid)
+3. [CSS网格(CSS Grid)完整教学](/css-grid-grid)
