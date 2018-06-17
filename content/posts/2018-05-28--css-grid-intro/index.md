@@ -70,9 +70,9 @@ Part 1:
 
 * [YouTube](https://youtu.be/8IdFggL-0ok)
 
-* [YouKu](https://v.youku.com/v_show/id_XMzY2NjY1MDM0MA==.html)
-
 * [BiliBili](https://www.bilibili.com/video/av24952746/)
+
+* [YouKu](https://v.youku.com/v_show/id_XMzY2NjY1MDM0MA==.html)
 
 Part 2:
 
