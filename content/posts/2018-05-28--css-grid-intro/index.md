@@ -264,6 +264,10 @@ grid-template-columns: repeat(auto-fill, minmax(100px, 1fr));
 
 ![网格auto-fit](grid-auto-fit.jpg)
 
+第一行使用`auto-fill`，自动产生了空白栏来填充多余的空间。
+
+第二行使用`auto-fit`，多余的空间被平均分配给了每一栏。
+
 ###I.1.d <a name="I1d">grid-gap：间隔</a>
 
 `grid-gap: 3rem 1rem;`：设定行与行的间隔为3rem，栏与栏的间隔为1rem；也可以分开设定：
