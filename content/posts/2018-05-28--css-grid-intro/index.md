@@ -21,7 +21,8 @@ CSS网格（CSS Grid）就是将页面透过栏跟行划成一个个的格子，
       <ol type="a">
         <li><a href="#I1a">repeat：多次重复同样的大小</a></li>
         <li><a href="#I1b">minmax：指定最小值与最大值</a></li>
-        <li><a href="#I1c">grid-gap：单元格之间的间隔</a></li>
+        <li><a href="#I1c">auto-fill与auto-fit</a></li>
+        <li><a href="#I1d">grid-gap：单元格之间的间隔</a></li>
       </ol>
     </li>
     <li><a href="#I2">网格区块的划分</a>
@@ -61,7 +62,6 @@ CSS网格（CSS Grid）就是将页面透过栏跟行划成一个个的格子，
     </li>
   </ol>
 </li>
-
 </ol>
 
 **视频链接**：
@@ -220,7 +220,51 @@ grid-template-rows: 100px minmax(100px, auto) 100px;
 
 你可以试著将第5格所有的文字移除，你会看到它的高度最100px和上下两行一样，这是因为最小值设定了100px，即使没有内容，它也会保持最小100px；但当内容超过100px的容量，它会自动增加行高（最大值为auto），也就是上图看到的情况。
 
-###I.1.c <a name="I1c">grid-gap：间隔</a>
+###I.1.c <a name="I1c">auto-fill與auto-fit</a>
+
+####auto-fill
+
+如果你确定了每一栏的最小宽度（如100px），可以这样设定：
+
+```
+grid-template-columns: repeat(auto-fill, minmax(100px, 1fr));
+```
+
+`auto-fill`是自动填充的意思，`minmax`的最小值设了100px，最大值为1fr。所以整句的意思是：每一栏最少为100px，萤幕宽度能放几个就放几个，多出来的自动移到下一行；**若宽度太大，足以放多一栏时，则会填上空白栏；但不足以多放一栏时，则是平均地增加每一栏宽度**
+
+下例网格容器中有5个div，为了方便查看，每一个div都有以下class：
+
+```
+.part {
+  background: blue;
+  color: white;
+  border: 1px solid red;
+  padding: 10px;
+  text-align: center;
+}
+```
+
+当萤幕宽度能容下全部5个div，但不足以容下多一个时，我们会看到以下画面：
+
+![网格自动填充](grid-auto-fill.jpg)
+
+当萤幕宽度能容下全部5个div，且足以容下多一个div（100px）时，透过Google Chrome的开发者工具侦察（Inspect）的效果：
+
+![网格自动填充](grid-auto-fill-inspect.jpg)
+
+当萤幕宽度不足以容下全部5个div时：
+
+![网格自动填充换行](grid-auto-fill-break.jpg)
+
+这就可以在不使用媒体查询（Media Query）的情况下，实现**响应式网页设计**。当然，这也不是说，有了网格就不需要媒体查询，最好的做法是两者组合使用。
+
+####auto-fit
+
+`auto-fit`跟`auto-fill`非常类似，唯一的差别是上述的第二种情况：当萤幕宽度能容下更多的div时，`auto-fit`会将多余的宽度平均分给每一栏，而不是像`auto-fill`那样增加一些空白栏。
+
+![网格auto-fit](grid-auto-fit.jpg)
+
+###I.1.d <a name="I1d">grid-gap：间隔</a>
 
 `grid-gap: 3rem 1rem;`：设定行与行的间隔为3rem，栏与栏的间隔为1rem；也可以分开设定：
 ```
