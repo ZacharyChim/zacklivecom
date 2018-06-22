@@ -70,6 +70,14 @@ html {
 4. em相对于上层容器字体大小，1em等于一个单位的上层容器字体大小。若上层容器字体大小为12px，则1em就等于12px。
 5. px、rem和em都能用小数点表示。
 
+建议：
+
+rem：用于字体大小设定
+
+em：用于padding、margin、border-radius
+
+px：用于border-width
+
 《网页设计学徒》课程链接：
 1. [网页设计学徒01：什么是网页？](/web-design)
 2. [网页设计学徒02：网页的语言、标题和图片](/html-tags)
