@@ -232,7 +232,7 @@ grid-template-rows: 100px minmax(100px, auto) 100px;
 grid-template-columns: repeat(auto-fill, minmax(100px, 1fr));
 ```
 
-`auto-fill`是自动填充的意思，`minmax`的最小值设了100px，最大值为1fr。所以整句的意思是：每一栏最少为100px，萤幕宽度能放几个就放几个，多出来的自动移到下一行；**若宽度太大，足以放多一栏时，则会填上空白栏；但不足以多放一栏时，则是平均地增加每一栏宽度**
+`auto-fill`是自动填充的意思，`minmax`的最小值设了100px，最大值为1fr。所以整句的意思是：每一栏最少为100px，屏幕宽度能放几个就放几个，多出来的自动移到下一行；**若宽度太大，足以放多一栏时，则会填上空白栏；但不足以多放一栏时，则是平均地增加每一栏宽度**
 
 下例网格容器中有5个div，为了方便查看，每一个div都有以下class：
 
@@ -246,15 +246,15 @@ grid-template-columns: repeat(auto-fill, minmax(100px, 1fr));
 }
 ```
 
-当萤幕宽度能容下全部5个div，但不足以容下多一个时，我们会看到以下画面：
+当屏幕宽度能容下全部5个div，但不足以容下多一个时，我们会看到以下画面：
 
 ![网格自动填充](grid-auto-fill.jpg)
 
-当萤幕宽度能容下全部5个div，且足以容下多一个div（100px）时，透过Google Chrome的开发者工具侦察（Inspect）的效果：
+当屏幕宽度能容下全部5个div，且足以容下多一个div（100px）时，透过Google Chrome的开发者工具侦察（Inspect）的效果：
 
 ![网格自动填充](grid-auto-fill-inspect.jpg)
 
-当萤幕宽度不足以容下全部5个div时：
+当屏幕宽度不足以容下全部5个div时：
 
 ![网格自动填充换行](grid-auto-fill-break.jpg)
 
@@ -262,7 +262,7 @@ grid-template-columns: repeat(auto-fill, minmax(100px, 1fr));
 
 ####auto-fit
 
-`auto-fit`跟`auto-fill`非常类似，唯一的差别是上述的第二种情况：当萤幕宽度能容下更多的div时，`auto-fit`会将多余的宽度平均分给每一栏，而不是像`auto-fill`那样增加一些空白栏。
+`auto-fit`跟`auto-fill`非常类似，唯一的差别是上述的第二种情况：当屏幕宽度能容下更多的div时，`auto-fit`会将多余的宽度平均分给每一栏，而不是像`auto-fill`那样增加一些空白栏。
 
 ![网格auto-fit](grid-auto-fit.jpg)
 
