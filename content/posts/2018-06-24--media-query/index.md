@@ -17,6 +17,8 @@ CSS提供了很多功能帮助我们实现这种设计，上一课所介绍的[C
 
 * [BiliBili](https://www.bilibili.com/video/av25700729/)
 
+* [YouKu](https://v.youku.com/v_show/id_XMzY5MDMzODQ1Ng==.html)
+
 ##媒体查询（Media Query）
 
 媒体查询也是CSS提供的功能。它可以设定一些条件，如屏幕宽度不超过600px，只有在条件符合时，才套用媒体查询内部的CSS设定。
