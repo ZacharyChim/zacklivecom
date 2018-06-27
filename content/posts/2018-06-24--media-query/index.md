@@ -13,7 +13,9 @@ CSS提供了很多功能帮助我们实现这种设计，上一课所介绍的[C
 
 **视频连结**
 
-[YouTube](https://youtu.be/Zph2c4gQ36g)
+* [YouTube](https://youtu.be/Zph2c4gQ36g)
+
+* [BiliBili](https://www.bilibili.com/video/av25700729/)
 
 ##媒体查询（Media Query）
 
