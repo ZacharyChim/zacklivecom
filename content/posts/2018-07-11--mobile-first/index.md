@@ -15,6 +15,8 @@ category: "网页设计学徒"
 
 2. [BiliBili](https://www.bilibili.com/video/av26697768/)
 
+3. [YouKu](https://v.youku.com/v_show/id_XMzcxOTI4MzkyMA==.html)
+
 我们以上一课的例子来实作一下，让大家能够了解这一思路。
 
 ##移动优先设计原则实例
