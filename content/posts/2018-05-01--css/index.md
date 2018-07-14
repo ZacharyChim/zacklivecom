@@ -144,6 +144,8 @@ body {
 5. [网页设计学徒05：用CSS美化网页](/css)
 6. [网页设计学徒06：CSS盒子模型](/css-box-model)
 7. [网页设计学徒07：CSS Grid网页排版2018](/css-grid)
+8. [网页设计学徒08：媒体查询与响应式网页设计](/media-query)
+9. [网页设计学徒09：移动优先设计原则](/mobile-first)
 
 《网页设计学徒》番外篇：
 1. [CSS中px、em、rem有什么分别？](/px-em-rem)
