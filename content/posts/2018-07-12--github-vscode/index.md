@@ -7,7 +7,7 @@ category: "网页设计学徒"
 
 ![VS Code GitHub](vscode-github.jpg)
 
-[之前的课程](/web-design)中，我们已经提到过GitHub。它是一个程式员的社区，也是一个方便好用的源码管理工具。GitHub的源码管理技术叫做Git，这是目前全世界最多人使用的源码管理技术。这一课，我们会讲一下如何在VS Code里面使用这一项技术。
+[之前的课程](/web-design)中，我们已经提到过GitHub。它是一个程式员的社区，也是一个方便好用的程式码管理工具。GitHub的程式码管理技术叫做Git，这是目前全世界最多人使用的程式码管理技术。这一课，我们会讲一下如何在VS Code里面使用这一项技术，将代码上传到GitHub。
 
 ##上传修改过的文件至GitHub
 
@@ -32,6 +32,44 @@ GitHub是基于Git的技术，所以我们要先安装Git。前往Git的官网�
 ![Git](git.jpg)
 
 在中间右侧便能下载Git的安装文件，Windows和Mac的版本都有提供，根据你的电脑选择相应的版本下载安装即可。
+
+##建立SSH密钥
+
+要使用GitHub，首先要登入你的GitHub帐号。同样地，要上传程式码，也需要登入你的GitHub，不然就变成什么人都能修改你的程式。但每次都要输入帐号密码也是一件烦人的事，于是便有了SSH密钥。SSH密钥就像一把锁和钥匙，你把钥匙放在自己的电脑里，并将锁交给GitHub。每次连结GitHub时，就会进行钥匙跟锁的配对，能配上的就会让你进去修改程式码。
+
+现在我们要做两件事，一是建立SSH密钥，二是将锁交给GitHub。
+
+如果你用的是Windows，请打开命令行(Command Line)；若是Mac，则打开命令行终端(Terminal)。
+
+接著，输入以下指令，记得将引号里的email换成你自己的：
+
+```
+ssh-keygen -t rsa -b 4096 -C "your_email@example.com"
+```
+
+过程中，程式会问你几个问题，除了以下问题，其他直接按Enter：
+
+```
+Enter a file in which to save the key (/c/Users/you/.ssh/id_rsa):[Press enter]
+```
+
+小括号中的内容可能会不同，因为里面便是密钥存放的位置。一般Windows下，便是：C盘／用户（Users）／你的用户名／.ssh/，最后的id_rsa是密钥的名称。
+
+按完一轮Enter，完成整个过程后，我们去到存放密钥的位置，里面会有两个文件：id_rsa和id_rsa.pub。pub是public（公开）的缩写，这是要交给GitHub的锁。它是一个文本文件，用笔记本之类的文字编辑软件便能打开，里面有一堆看起来没有意义的文字，将之全选并复制。
+
+![ssh key](ssh-key.jpg)
+
+接著，前往GitHub，点击右上角你的头像，在弹出选单中点设定(Settings)，进入设定页后，选择左侧选单中的SSH and GPG keys，这里便会来到SSH设定页面。点击右上方的New SSH key按钮，再将刚刚复制的文字贴到Key里面，并填入Title（可随意，如Git），最后按下Add SSH key。这样便成功将锁交给了GitHub。
+
+![GitHub New SSH](github-new-ssh.jpg)
+
+最后，我们可以测试一下。回到命令行，输入以下指令，并按下Enter：
+
+```
+ssh -T git@github.com
+```
+
+得到"You've successfully authenticated"的讯息，代表成功。
 
 ##克隆仓库
 
