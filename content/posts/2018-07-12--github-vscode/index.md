@@ -50,12 +50,38 @@ ssh-keygen -t rsa -b 4096 -C "your_email@example.com"
 过程中，程式会问你几个问题，除了以下问题，其他直接按Enter：
 
 ```
-Enter a file in which to save the key (/c/Users/you/.ssh/id_rsa):[Press enter]
+Enter a file in which to save the key (/Users/you/.ssh/id_rsa):[Press enter]
 ```
 
-小括号中的内容可能会不同，因为里面便是密钥存放的位置。一般Windows下，便是：C盘／用户（Users）／你的用户名／.ssh/，最后的id_rsa是密钥的名称。
+小括号中的内容可能会不同，因为里面便是密钥存放的位置。一般在Windows下，便是：C盘／用户（Users）／你的用户名／.ssh/，最后的id_rsa是密钥的名称。而Mac则在／用户（Users）／你的用户名／.ssh/当中。按下Enter等于存放在预设的位置。
 
-按完一轮Enter，完成整个过程后，我们去到存放密钥的位置，里面会有两个文件：id_rsa和id_rsa.pub。pub是public（公开）的缩写，这是要交给GitHub的锁。它是一个文本文件，用笔记本之类的文字编辑软件便能打开，里面有一堆看起来没有意义的文字，将之全选并复制。
+按完一轮Enter，密钥就产生了。接下来，我们要将钥匙记录在自己的电脑上，这就要用到ssh-agent。继续输入指令：
+
+```
+eval "$(ssh-agent -s)"
+```
+
+这个指令的意思是在背景中启动ssh-agent，你会得到类似以下的回应：
+
+```
+Agent pid 59566
+```
+
+再输入：
+
+```
+ssh-add /Users/you/.ssh/id_rsa
+```
+
+开头的ssh-add便是添加ssh密钥的意思，后面是密钥的位置，你可以复制前面显示的预设位置。注意，我这里打的“you”应该要改为你的用户名，而且是Mac版的。按下Enter后，会显示类似以下的讯息：
+
+```
+Identity added: /Users/you/.ssh/id_rsa
+```
+
+这就代表密钥添加成功。下一步就是要将锁交给GitHub。
+
+我们去到存放密钥的位置（类似：/Users/you/.ssh/），里面会有两个文件：id_rsa和id_rsa.pub。pub是public（公开）的缩写，这是要交给GitHub的锁。它是一个文本文件，用笔记本之类的文字编辑软件便能打开，里面有一堆看起来没有意义的文字，将之全选并复制。如果你看不到.ssh文件夹，那可能是被隐藏起来了，你可以到搜索引擎查一下如果显示Windows（或Mac）的隐藏文件。
 
 ![ssh key](ssh-key.jpg)
 
@@ -69,7 +95,15 @@ Enter a file in which to save the key (/c/Users/you/.ssh/id_rsa):[Press enter]
 ssh -T git@github.com
 ```
 
-得到"You've successfully authenticated"的讯息，代表成功。
+第一次运行时，会得到类似以下的讯息：
+
+```
+The authenticity of host 'github.com (IP ADDRESS)' can't be established.
+RSA key fingerprint is 16:27:ac:a5:76:28:2d:36:63:1b:56:4d:eb:df:a6:48.
+Are you sure you want to continue connecting (yes/no)?
+```
+
+输入yes后，便会得到包含"You've successfully authenticated"的讯息，那便代表成功了。
 
 ##克隆仓库
 
