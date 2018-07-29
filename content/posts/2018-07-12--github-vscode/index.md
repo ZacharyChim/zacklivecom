@@ -15,6 +15,7 @@ category: "网页设计学徒"
 
 2. [BiliBili](https://www.bilibili.com/video/av27899301/)
 
+3. [YouKu](https://v.youku.com/v_show/id_XMzc0OTM4NDUxNg==.html)
 
 ##上传修改过的文件至GitHub
 
