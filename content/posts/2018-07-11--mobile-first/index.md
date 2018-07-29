@@ -107,17 +107,21 @@ body {
 这便是今天的内容，下一课我们会讨论一下VS Code与GitHub的整合。
 
 《网页设计学徒》课程链接：
-1. [网页设计学徒01：什么是网页？](/web-design)
-2. [网页设计学徒02：网页的语言、标题和图片](/html-tags)
-3. [网页设计学徒03：VS Code专业程式编辑器](/vs-code)
-4. [网页设计学徒04：网页由哪些部分构成？](/html-sementic)
-5. [网页设计学徒05：用CSS美化网页](/css)
-6. [网页设计学徒06：CSS盒子模型](/css-box-model)
-7. [网页设计学徒07：CSS Grid网页排版2018](/css-grid)
-8. [网页设计学徒08：媒体查询与响应式网页设计](/media-query)
-9. [网页设计学徒09：移动优先设计原则](/mobile-first)
+
+1.  [网页设计学徒 01：什么是网页？](/web-design)
+2.  [网页设计学徒 02：网页的语言、标题和图片](/html-tags)
+3.  [网页设计学徒 03：VS Code 专业程式编辑器](/vs-code)
+4.  [网页设计学徒 04：网页由哪些部分构成？](/html-sementic)
+5.  [网页设计学徒 05：用 CSS 美化网页](/css)
+6.  [网页设计学徒 06：CSS 盒子模型](/css-box-model)
+7.  [网页设计学徒 07：CSS Grid 网页排版 2018](/css-grid)
+8.  [网页设计学徒 08：媒体查询与响应式网页设计](/media-query)
+9.  [网页设计学徒 09：移动优先设计原则](/mobile-first)
+10. [网页设计学徒10：VS Code整合GitHub](github-vscode)
 
 《网页设计学徒》番外篇：
-1. [CSS中px、em、rem有什么分别？](/px-em-rem)
-2. [fr介绍：CSS网格带来的新单位](/fr-css-grid)
-3. [CSS网格(CSS Grid)完整教学](/css-grid-grid)
+
+1.  [CSS 中 px、em、rem 有什么分别？](/px-em-rem)
+2.  [fr 介绍：CSS 网格带来的新单位](/fr-css-grid)
+3.  [CSS 网格(CSS Grid)完整教学](/css-grid-grid)
+4.  [中文网页字体设定2018篇](chinese-font-family)
