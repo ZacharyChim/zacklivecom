@@ -29,7 +29,7 @@ category: "网页设计学徒"
 
 我们先来看看国外的大厂是怎样写`font-family`的，这对中文的写法有很大的参考价值。
 
-首先来看全球最大内容管理系统(CMS：就是帮你架网站的系统)：WordPress。据统计，全世界30%的网站都是用WordPress制作的。而它的`font-family`是这样写的：
+首先来看全球最大内容管理系统(CMS：就是帮你架网站的系统)：[WordPress](https://make.wordpress.org/core/2016/07/07/native-fonts-in-4-6/)。据统计，全世界30%的网站都是用WordPress制作的。而它的`font-family`是这样写的：
 
 ```
 body {
