@@ -1,5 +1,5 @@
 ---
-title: 中文网页字体设定2018篇 - 《网页设计学徒》番外篇
+title: 中文网页字体设定2018 - 《网页设计学徒》番外篇
 subTitle: 2018年，Font-family怎样设定最适合中文网页？
 cover: chinese-font-family.jpg
 category: "网页设计学徒"
