@@ -13,6 +13,9 @@ category: "网页设计学徒"
 
 1. [YouTube](https://youtu.be/8wGtj679o7E)
 
+2. [BiliBili](https://www.bilibili.com/video/av27899301/)
+
+
 ##上传修改过的文件至GitHub
 
 我们在第一课时已经在GitHub上建立了一个程式仓库，但已经有好几课的程式没有没新到仓库上面。今天我们先将之前修改过的文件上传到GitHub之上。方法其实已经讲过，这里就简单地带一下。
