@@ -19,6 +19,13 @@ category: "网页设计学徒"
 
 3. 建立index.html和style.css，并连结两者。
 
+直接看视频教学：
+
+**视频连结**
+
+1. [YouTube](https://youtu.be/VAy1FiNXp8s)
+
+
 《网页设计学徒》课程链接：
 
 1.  [网页设计学徒 01：什么是网页？](/web-design)
