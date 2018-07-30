@@ -52,13 +52,15 @@ container p {
 
 ##rem > em > px
 
-当然，rem是基于HTML的字体大小，或要改变HTML的字体大小，我们要用px来设定。
+当然，rem是基于HTML的字体大小，或要改变HTML的字体大小，我们可以用px来设定。
 
 ```
 html {
   font-size: 12px
 }
 ```
+
+但是改变HTML字体大小会影响用户浏览器的字体设定，所以，建议HTML的字体最好设为100%：`font-size: 100%`，也就是等于浏览器的设定，在预设情况下也是16px。
 
 另外，px、rem和em都可以用小数点，如0.5rem等。
 
@@ -70,13 +72,6 @@ html {
 4. em相对于上层容器字体大小，1em等于一个单位的上层容器字体大小。若上层容器字体大小为12px，则1em就等于12px。
 5. px、rem和em都能用小数点表示。
 
-建议：
-
-rem：用于字体大小设定
-
-em：用于padding、margin、border-radius
-
-px：用于border-width
 
 《网页设计学徒》课程链接：
 
