@@ -25,6 +25,10 @@ category: "网页设计学徒"
 
 1. [YouTube](https://youtu.be/VAy1FiNXp8s)
 
+2. [YouKu](https://v.youku.com/v_show/id_XMzc1NTAyMDY0MA==.html)
+
+3. [BiliBili](https://www.bilibili.com/video/av28142267/)
+
 
 《网页设计学徒》课程链接：
 
