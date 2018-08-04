@@ -111,11 +111,11 @@ body {
 7.  [网页设计学徒 07：CSS Grid 网页排版 2018](/css-grid)
 8.  [网页设计学徒 08：媒体查询与响应式网页设计](/media-query)
 9.  [网页设计学徒 09：移动优先设计原则](/mobile-first)
-10. [网页设计学徒10：VS Code整合GitHub](github-vscode)
+10. [网页设计学徒10：VS Code整合GitHub](/github-vscode)
 
 《网页设计学徒》番外篇：
 
 1.  [CSS 中 px、em、rem 有什么分别？](/px-em-rem)
 2.  [fr 介绍：CSS 网格带来的新单位](/fr-css-grid)
 3.  [CSS 网格(CSS Grid)完整教学](/css-grid-grid)
-4.  [中文网页字体设定2018篇](chinese-font-family)
+4.  [中文网页字体设定2018篇](/chinese-font-family)
