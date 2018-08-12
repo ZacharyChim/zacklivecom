@@ -1,5 +1,5 @@
 ---
-title: 网页设计学徒12：履历网页实作（2）HTML
+title: 网页设计学徒12：履历网页实作（2）HTML篇
 subTitle: 运用所学到的网页设计知识完成履历网页制作。HTML篇
 cover: cv.jpg
 category: "网页设计学徒"
@@ -44,6 +44,9 @@ main又包括几个区块：技能（skill）、服务（service）、专业承
 8.  [网页设计学徒 08：媒体查询与响应式网页设计](/media-query)
 9.  [网页设计学徒 09：移动优先设计原则](/mobile-first)
 10. [网页设计学徒10：VS Code整合GitHub](/github-vscode)
+11. [网页设计学徒11：履历网页实作（1）](/cv-website)
+12. [网页设计学徒12：履历网页实作（2）HTML篇](/cv-html)
+13. [网页设计学徒13（完结）：履历网页实作（3）CSS篇](/cv-css)
 
 《网页设计学徒》番外篇：
 
