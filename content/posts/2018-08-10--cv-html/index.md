@@ -21,7 +21,13 @@ category: "网页设计学徒"
 
 main又包括几个区块：技能（skill）、服务（service）、专业承诺（promise）与联系我们（contact）。区块在HTML中可以用`<section>`标签表示，用法和`<div>`一样。
 
-其中，服务的部分我们用了并排的三张卡片式设计，并且应用了**Flex box**技术，这是和CSS Grid类似的排版技术。不同在于，Flex box是线性的（横著排或竖著排，排满一个方向才会移到下一行或列），CSS Grid是二维的（平面中任何位置都可以放东西，像之前九宫格的例子）。Flex box使用教学也可以查[W3 School](http://www.w3school.com.cn/)，这里只是简单的演示一下，让大家知道Flex box的存在。
+其中，服务的部分我们用了并排的三张卡片式设计，并且应用了**Flexbox**技术，这是和CSS Grid类似的排版技术。不同在于，Flexbox是线性的（横著排或竖著排，排满一个方向才会移到下一行或列），CSS Grid是二维的（平面中任何位置都可以放东西，像之前九宫格的例子）。Flexbox使用教学也可以查[W3 School](http://www.w3school.com.cn/)，这里只是简单的演示一下，让大家知道Flexbox的存在。
+
+另外，这里用到的所有照片都是来自[Unsplash](https://unsplash.com/). Unsplash提供可以商用或自用的免费照片，而且照片的质量相当高。
+
+**视频连结**
+
+* [YouTube](https://youtu.be/l65nZjkf5GY)
 
 
 《网页设计学徒》课程链接：
