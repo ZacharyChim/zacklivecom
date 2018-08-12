@@ -29,6 +29,8 @@ main又包括几个区块：技能（skill）、服务（service）、专业承
 
 * [YouTube](https://youtu.be/l65nZjkf5GY)
 
+* [BiliBili](https://www.bilibili.com/video/av29195588/)
+
 
 《网页设计学徒》课程链接：
 
