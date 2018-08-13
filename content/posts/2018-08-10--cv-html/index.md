@@ -1,5 +1,5 @@
 ---
-title: 网页设计学徒12：履历网页实作（2）HTML篇
+title: 网页设计学徒12：履历网页实作 - HTML篇
 subTitle: 运用所学到的网页设计知识完成履历网页制作。HTML篇
 cover: cv.jpg
 category: "网页设计学徒"
