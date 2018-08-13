@@ -19,6 +19,7 @@ CSS会分成两大部分，一是小屏幕的效果，即采用[移动优先](/m
 
 **视频连结**
 
+* [YouTube](https://youtu.be/LKAW3TLiyFU)
 
 
 ##网页设计学徒系统完结
