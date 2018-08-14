@@ -15,13 +15,15 @@ CSS会分成两大部分，一是小屏幕的效果，即采用[移动优先](/m
 
 这一课中，我们会用到**flexbox**技术。主要是让大家认识其存在，而没有进行详细教学，若要了解更多，请参阅[此文](https://www.w3cplus.com/css3/understanding-flexbox-everything-you-need-to-know.html)。
 
-这里履历网页的所有程式和图片都已上传到[GitHub](https://github.com/ZacharyChim/cv)，你可以下载或直接查看。
+这里履历网页的所有程式和图片都已上传到[GitHub](https://github.com/ZacharyChim/cv)，你可以下载或直接查看。你也可以练习一下将程式上传到你自己的GitHub。
 
 **视频连结**
 
 * [YouTube](https://youtu.be/LKAW3TLiyFU)
 
 * [BiliBili](https://www.bilibili.com/video/av29228255/)
+
+* [YouKu](https://v.youku.com/v_show/id_XMzc3Nzc5Mjk2MA==.html)
 
 
 ##网页设计学徒系统完结
