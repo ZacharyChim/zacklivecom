@@ -1,6 +1,6 @@
 ---
-title: 《JavaScript DOM 编程艺术》第1、2章：数据类型与运算
-subTitle: 《JavaScript DOM 编程艺术》是受到众人推崇的JavaScript入门书籍。JavaScript学徒系列将以此书为教材来制作JavaScript学习影片。
+title: 《JavaScript DOM编程艺术》第1、2章：数据类型与运算
+subTitle: 本课介绍JavaScript语法基础：数据类型与运算。《JavaScript DOM 编程艺术》是受到众人推崇的JavaScript入门书籍。《JavaScript学徒》系列将以此书为教材来制作JavaScript学习影片。
 cover: dom-scripting.jpg
 category: "JavaScript学徒"
 ---
