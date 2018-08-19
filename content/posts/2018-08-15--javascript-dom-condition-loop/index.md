@@ -7,6 +7,8 @@ category: "JavaScript学徒"
 
 ![JavaScript DOM 编程艺术](dom-scripting.jpg)
 
+这是《JavaScript学徒》系列的第二课，本课会继续《JavaScript DOM 编程艺术》第2章，介绍JavaScript语法中的条件语句和循环语句。
+
 ##条件语句
 
 如果（if）条件成立，则执行大括号里的语句；否则，执行`else`后面的语句。条件放在小括号里，须为布尔值。
