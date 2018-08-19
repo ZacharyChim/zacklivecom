@@ -17,7 +17,7 @@ JavaScript学徒系列会以经典书籍为教材制作影片，和大家一起�
 
 ##DOM：Document Object Model
 
-DOM的概念是将整个网页视为一个文件（Document），网页上的每一个标签都视为这个文件的底下一个节点，如下图：
+DOM的概念是将整个网页视为一个文件（Document）对象（Object），网页上的每一个标签都视为这个文件对象底下的一个节点，如下图：
 
 ![Document Object Model](dom.jpg)
 
@@ -41,7 +41,9 @@ JavaScript的程式可放在`<script></script>`当中，然后将这个`<script>
 </html>
 ``` 
 
-接著你便可以在myScript.js里写JavaScript程式。
+通常`<script>`会放在`</body>`这个结束标签之前，这意味著，用户会看到整个网页之后，才执行JavaScript的程式，这样会比较快看到网页。或改为放在开头，则会变成用户要等待程式跑完，才开始下载网页。
+
+接著你便可以在myScript.js里写JavaScript程式。由于，Script中文也翻译成脚本，所以JavaScript程式有时也被程为脚本。
 
 ##JavaScript语法
 
