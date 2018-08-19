@@ -7,7 +7,7 @@ category: "JavaScript学徒"
 
 ![JavaScript DOM 编程艺术](dom-scripting.jpg)
 
-这是《JavaScript学徒》系列的第三课，本课会继续《JavaScript DOM 编程艺术》第2章，介绍JavaScript语法中的函数与对象。
+这是《JavaScript学徒》系列的第三课，本课会继续《JavaScript DOM 编程艺术》第2章，介绍JavaScript中的函数与对象。
 
 ##函数
 
