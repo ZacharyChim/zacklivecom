@@ -16,7 +16,7 @@ category: "JavaScript学徒"
 ```
 function printNames() {
   var names = ["John", "David", "Mike"];
-  for ( var count = 0; i < names.length; i++ ) {
+  for ( var count = 0; count < names.length; count++ ) {
     alert(names[count]);
   }
 }
