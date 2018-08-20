@@ -16,6 +16,7 @@ JavaScript学徒系列会以经典书籍为教材制作影片，和大家一起�
 ##视频连结
 
 * [YouTube](https://youtu.be/v8NpLlGprP4)
+* [YouKu](https://v.youku.com/v_show/id_XMzc5MDMwNjUzMg==.html)
 
 学习JavaScript要掌握的第一个概念便是DOM。
 
