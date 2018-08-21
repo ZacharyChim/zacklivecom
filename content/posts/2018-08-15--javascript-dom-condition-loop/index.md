@@ -11,6 +11,7 @@ category: "JavaScript学徒"
 
 ##视频连结
 * [YouTube](https://youtu.be/Gi1s6wh6kG0)
+* [YouKu](https://v.youku.com/v_show/id_XMzc5MTg5MTk1Ng==.html)
 
 ##条件语句
 
