@@ -9,6 +9,9 @@ category: "JavaScript学徒"
 
 这是《JavaScript学徒》系列的第三课，本课会继续《JavaScript DOM 编程艺术》第2章，介绍JavaScript中的函数与对象。
 
+##教学视频连结
+* [YouTube](https://youtu.be/8CynRzsC74I)
+
 ##函数
 
 函数是将一段程式码封装起来，以便重覆使用。
