@@ -11,6 +11,8 @@ category: "JavaScript学徒"
 
 ##教学视频连结
 * [YouTube](https://youtu.be/8CynRzsC74I)
+* [BiliBili](https://www.bilibili.com/video/av29987143/)
+* [YouKu](https://v.youku.com/v_show/id_XMzc5MjE3MzAxMg==.html)
 
 ##函数
 
