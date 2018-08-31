@@ -1,5 +1,6 @@
 ---
-title: 发送成功
+title: Success
 ---
 
-感谢您的留言，我们会尽快回复。
+Thank you. <br />
+I will answer to your message as soon as possible.

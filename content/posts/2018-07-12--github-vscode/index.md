@@ -1,11 +1,13 @@
 ---
 title: 网页设计学徒10：VS Code整合GitHub
-subTitle: GitHub基于Git版本管理系统，与VS Code整合后可更有效管理程式码。
+author: Zack
 cover: vscode-github.jpg
 category: "网页设计学徒"
 ---
 
 ![VS Code GitHub](vscode-github.jpg)
+
+GitHub基于Git版本管理系统，与VS Code整合后可更有效管理程式码。
 
 [之前的课程](/web-design)中，我们已经提到过GitHub。它是一个程式员的社区，也是一个方便好用的程式码管理工具。GitHub的程式码管理技术叫做**Git**，这是目前全世界最多人使用的程式码管理技术。这一课，我们会讲一下如何在VS Code里面使用这一项技术，将代码上传到GitHub。
 

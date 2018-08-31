@@ -1,5 +1,5 @@
 ---
-title: 网页设计学徒课程
+title: 网页设计学徒
 menuTitle: 网页设计学徒
 ---
 

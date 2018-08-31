@@ -1,11 +1,12 @@
 ---
 title: DJI Osmo Mobile 2开箱文：最强手机三轴稳定器
-subTitle: 这或许是目前最优秀且最高CP值的手机三轴稳定器
+author: Zack
 cover: dji-osmo-mobile-2.png
 category: "Gadgets"
 ---
 终於拿到从DJI官网上订购的Osmo Mobile 2稳定器。原本二月便已在Apple专门店上市，然而台湾的Apple却迟迟未上架，最终只好直接从官网购买。官网也一度没货，有货以後才发现，下单後需要20天才会出货，等到寄到已经差不多一个月了。只能说DJI官网的购物体验实在不能符合2018年的消费者的期待。所幸产品本身是相当令人满意，马上来开箱。
-<!--more-->
+
+这或许是目前最优秀且最高CP值的手机三轴稳定器。
 
 ##DJI Osmo Mobile 2开箱影片
 

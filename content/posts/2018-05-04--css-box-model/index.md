@@ -1,11 +1,13 @@
 ---
 title: 网页设计学徒06：CSS盒子模型【视频教学】
-subTitle: CSS（层叠样式表）用于为网页添加样式（字体、间距和颜色等）
+author: Zack
 cover: css-style.jpg
 category: "网页设计学徒"
 ---
 
 ![CSS层叠样式表](/css-style.jpg)
+
+CSS（层叠样式表）用于为网页添加样式（字体、间距和颜色等）
 
 上一课我们简单地介绍了CSS以及怎样将CSS加入到HTML当中。这一课我们要进一步学习更多CSS的相关知识。
 

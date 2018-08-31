@@ -1,11 +1,13 @@
 ---
 title: 网页设计学徒01：什么是网页？【视频教学】
-subTitle: 网页的本质就是一个HTML格式的文本文件。那HTMl又是什么？
+author: Zack
 cover: website.jpg
 category: "网页设计学徒"
 ---
 
 ![网页设计教学](website.jpg)
+
+网页的本质就是一个HTML格式的文本文件。那HTMl又是什么？
 
 这是《[程式学徒](/apprentice-coding/)》的第一个系列：《网页设计学徒》。这个系列适合完全没程式经验的新手。
 

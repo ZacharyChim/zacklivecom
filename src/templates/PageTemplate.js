@@ -1,57 +1,38 @@
 import React from "react";
 import PropTypes from "prop-types";
-import { connect } from "react-redux";
 
-import { setNavigatorPosition, setNavigatorShape } from "../state/store";
-import { moveNavigatorAside } from "../utils/shared";
-import Main from "../components/Main/";
-import Page from "../components/Page/";
-import Footer from "../components/Footer/";
 import Seo from "../components/Seo";
+import Article from "../components/Article";
+import Page from "../components/Page";
+import { ThemeContext } from "../layouts";
 
-class PageTemplate extends React.Component {
-  moveNavigatorAside = moveNavigatorAside.bind(this);
-
-  componentDidMount() {
-    if (this.props.navigatorPosition === "is-featured") {
-      this.moveNavigatorAside();
+const PageTemplate = props => {
+  const {
+    data: {
+      page
     }
-  }
+  } = props;
 
-  render() {
-    const { data } = this.props;
-    const facebook = (((data || {}).site || {}).siteMetadata || {}).facebook;
+  return (
+    <React.Fragment>
+      <ThemeContext.Consumer>
+        {theme => (
+          <Article theme={theme}>
+            <Page page={page} theme={theme} />
+          </Article>
+        )}
+      </ThemeContext.Consumer>
 
-    return (
-      <Main>
-        <Page page={data.page} />
-        <Footer footnote={data.footnote} />
-        <Seo data={data.post} facebook={facebook} />
-      </Main>
-    );
-  }
-}
+      <Seo data={page} />
+    </React.Fragment>
+  );
+};
 
 PageTemplate.propTypes = {
-  data: PropTypes.object.isRequired,
-  navigatorPosition: PropTypes.string.isRequired,
-  setNavigatorPosition: PropTypes.func.isRequired,
-  isWideScreen: PropTypes.bool.isRequired
+  data: PropTypes.object.isRequired
 };
 
-const mapStateToProps = (state, ownProps) => {
-  return {
-    navigatorPosition: state.navigatorPosition,
-    isWideScreen: state.isWideScreen
-  };
-};
-
-const mapDispatchToProps = {
-  setNavigatorPosition,
-  setNavigatorShape
-};
-
-export default connect(mapStateToProps, mapDispatchToProps)(PageTemplate);
+export default PageTemplate;
 
 //eslint-disable-next-line no-undef
 export const pageQuery = graphql`
@@ -61,17 +42,6 @@ export const pageQuery = graphql`
       html
       frontmatter {
         title
-      }
-    }
-    footnote: markdownRemark(id: { regex: "/footnote/" }) {
-      id
-      html
-    }
-    site {
-      siteMetadata {
-        facebook {
-          appId
-        }
       }
     }
   }

@@ -1,11 +1,13 @@
 ---
 title: 网页设计学徒04：网页由哪些部分构成？【视频教学】
-subTitle: 一个网页最基本应该有哪些内容？
+author: Zack
 cover: html-sementic.jpg
 category: "网页设计学徒"
 ---
 
 ![网页结构](html-sementic.jpg)
+
+一个网页最基本应该有哪些内容？
 
 上一课我们介绍了[VS Code](/vs-code)这款程式编辑器，今天我们就要用它来完成网页基本结构的设计。
 

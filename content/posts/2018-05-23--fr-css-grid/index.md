@@ -1,11 +1,13 @@
 ---
 title: fr介绍：CSS网格带来的新单位（网页设计学徒番外篇02）
-subTitle: CSS Grid带来新的单位：fr，代表对剩余空间进行等分。
+author: Zack
 cover: fr-css-grid.jpg
 category: "网页设计学徒"
 ---
 
 ![fr CSS Grid](fr-css-grid.jpg)
+
+CSS Grid带来新的单位：fr，代表对剩余空间进行等分。
 
 CSS网格（grid）大大地降低了网页布局设计的难度，个人认为是最近几年，CSS最重要的更新。从此以后，即使没有[Bootstrap](https://getbootstrap.com/)之类的框架协助也能轻松用网格的模式进行网页布局设计。
 

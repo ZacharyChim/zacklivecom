@@ -1,9 +1,13 @@
-import theme from "../styles/theme";
+export function getScreenWidth() {
+  if (typeof window !== `undefined`) {
+    return window.innerWidth;
+  }
+}
 
 export function isWideScreen() {
   if (typeof window !== `undefined`) {
     const windowWidth = window.innerWidth;
-    const mediaQueryL = theme.mediaQueryTresholds.L;
+    const mediaQueryL = 1024;
 
     return windowWidth >= mediaQueryL;
   }

@@ -1,11 +1,13 @@
 ---
 title: 中文网页字体设定2018 - 《网页设计学徒》番外篇
-subTitle: 2018年，Font-family怎样设定最适合中文网页？
+author: Zack
 cover: chinese-font-family.jpg
 category: "网页设计学徒"
 ---
 
 ![中文网页字体](chinese-font-family.jpg)
+
+2018年，Font-family怎样设定最适合中文网页？
 
 在介绍 HTML 时，我们提到过在 index.html 中可以设定[网页的语言](/html-tags)：`<html lang="zh-cmn-hans">`；字符编码：`<meta charset="utf-8">`；但还有一项相当重要设定并未提到，那便是字体。这是因为字体要在 CSS 当中，透过`font-family`来设定。而且字体需要考虑的问题相当多，例如：
 

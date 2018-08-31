@@ -1,11 +1,13 @@
 ---
 title: 网页设计学徒12：履历网页实作 - HTML篇
-subTitle: 运用所学到的网页设计知识完成履历网页制作。HTML篇
+author: Zack
 cover: cv.jpg
 category: "网页设计学徒"
 ---
 
 ![履历网页实作](cv.jpg)
+
+运用所学到的网页设计知识完成履历网页制作。HTML篇
 
 [上一课](/cv-website)，我们完成了履历网页实作的准备工作，这一课我们进入HTML的部分。
 

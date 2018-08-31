@@ -1,6 +1,6 @@
 ---
 title: 学徒系列介绍：让每一个人都能学会编程
-subTitle: 学习编程是为了不要被时代的巨浪冲垮在沙滩上。
+author: Zack
 cover: apprentice.jpg
 category: "coding"
 ---

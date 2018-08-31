@@ -1,11 +1,13 @@
 ---
 title: 网页设计学徒07：CSS Grid网页排版2018
-subTitle: CSS Grid是CSS的最新技术，能让你轻松进行网页布局设计。
+author: Zack
 cover: grid.jpg
 category: "网页设计学徒"
 ---
 
 ![CSS Grid](grid.jpg)
+
+CSS Grid是CSS的最新技术，能让你轻松进行网页布局设计。
 
 CSS Grid（网格）是最近一两年才引入CSS的新技术，可以让我们轻易地完成网页的布局设计。目前CSS Grid已得到大多数浏览器的支持，可以放心使用。
 

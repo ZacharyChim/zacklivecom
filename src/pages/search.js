@@ -1,22 +1,52 @@
-import React from "react";
 import PropTypes from "prop-types";
+import React from "react";
+
 require("core-js/fn/array/find");
 
-import Main from "../components/Main";
-import Article from "../components/Main/Article";
-import PageHeader from "../components/Page/PageHeader";
+import Article from "../components/Article";
 import Search from "../components/Search";
+import { ThemeContext } from "../layouts";
+import Seo from "../components/Seo";
+
+import AlgoliaIcon from "!svg-react-loader!../images/svg-icons/search-by-algolia.svg?name=AlgoliaLogo";
 
 const SearchPage = props => {
-  const { data } = props;
+  const {
+    data: {
+      site: {
+        siteMetadata: { algolia }
+      }
+    }
+  } = props;
 
   return (
-    <Main>
-      <Article>
-        <PageHeader title="Search by" algolia={true} />
-        <Search algolia={data.site.siteMetadata.algolia} />
-      </Article>
-    </Main>
+    <React.Fragment>
+      <ThemeContext.Consumer>
+        {theme => (
+          <Article theme={theme}>
+            <div className="icon">
+              <AlgoliaIcon />
+            </div>
+
+            <Search algolia={algolia} theme={theme} />
+          </Article>
+        )}
+      </ThemeContext.Consumer>
+
+      <Seo />
+
+      {/* --- STYLES --- */}
+      <style jsx>{`
+        .icon {
+          display: flex;
+          justify-content: flex-end;
+          margin-bottom: 20px;
+        }
+        .icon :global(svg) {
+          height: 30px;
+        }
+      `}</style>
+    </React.Fragment>
   );
 };
 
@@ -28,7 +58,7 @@ export default SearchPage;
 
 //eslint-disable-next-line no-undef
 export const query = graphql`
-  query AlgoliaQuery {
+  query SearchQuery {
     site {
       siteMetadata {
         algolia {

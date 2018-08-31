@@ -1,33 +1,35 @@
-import React from "react";
 import PropTypes from "prop-types";
-import injectSheet from "react-jss";
-import Obfuscate from "react-obfuscate";
+import React from "react";
 
-import Main from "../components/Main";
-import Article from "../components/Main/Article";
-import PageHeader from "../components/Page/PageHeader";
-import Content from "../components/Main/Content";
-// import Form from "../components/ContactForm";
+import { ThemeContext } from "../layouts";
+import Article from "../components/Article";
+import Contact from "../components/Contact";
+import Headline from "../components/Article/Headline";
+import Seo from "../components/Seo";
 
-const styles = theme => ({});
+const ContactPage = props => {
 
-const Contact = () => {
   return (
-    <Main>
-      <Article>
-        <PageHeader title="联系我们" />
-        <Content>
-          欢迎与我联系，email: <Obfuscate email="zecharyw@gmail.com" /><br />
-					或使用一下表格：
-        </Content>
-        {/* <Form /> */}
-      </Article>
-    </Main>
+    <React.Fragment>
+      <ThemeContext.Consumer>
+        {theme => (
+          <Article theme={theme}>
+            <header>
+              <Headline title="Contact" theme={theme} />
+            </header>
+            <Contact theme={theme} />
+          </Article>
+        )}
+      </ThemeContext.Consumer>
+
+      <Seo />
+    </React.Fragment>
   );
 };
 
-Contact.propTypes = {
-  classes: PropTypes.object.isRequired
+ContactPage.propTypes = {
+  data: PropTypes.object.isRequired
 };
 
-export default injectSheet(styles)(Contact);
+export default ContactPage;
+

@@ -33,17 +33,17 @@ const Seo = props => {
       <meta property="og:type" content="website" />
       {/* <meta property="fb:app_id" content={facebook.appId} /> */}
       {/* Twitter Card tags */}
-      {/* <meta name="twitter:card" content="summary" />
-				<meta
+      <meta name="twitter:card" content="summary" />
+      <meta
         name="twitter:creator"
         content={config.authorTwitterAccount ? config.authorTwitterAccount : ""}
-			/> */}
+      />
     </Helmet>
   );
 };
 
 Seo.propTypes = {
-  data: PropTypes.object
+  data: PropTypes.object,
   // facebook: PropTypes.object.isRequired
 };
 

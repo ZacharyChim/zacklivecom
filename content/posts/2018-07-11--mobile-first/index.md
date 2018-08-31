@@ -1,11 +1,13 @@
 ---
 title: 网页设计学徒09：移动优先设计原则
-subTitle: 移动优先(Mobile First)设计原则是指优先设计手机版的网页，再设计平板与桌面版本。
+author: Zack
 cover: mobile-first.jpg
 category: "网页设计学徒"
 ---
 
 ![移动优先设计](mobile-first.jpg)
+
+移动优先(Mobile First)设计原则是指优先设计手机版的网页，再设计平板与桌面版本。
 
 这一课我们要讲**移动优先(Mobile First)**设计原则。这个原则很简单，就是从小到大：先设计手机版的网页界面，再透过[媒体请求](/media-query)完成版面较大的平板与桌面版的设计。
 

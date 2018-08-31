@@ -1,11 +1,13 @@
 ---
 title: CSS网格(CSS Grid)完整教学
-subTitle: CSS Grid网格的图文介绍与详细讲解。
+author: Zack
 cover: grid.jpg
 category: "网页设计学徒"
 ---
 
 ![CSS网格(grid)完整教学](/grid.jpg)
+
+CSS Grid网格的图文介绍与详细讲解。
 
 这是网页设计学徒番外篇的第三篇，将详细介绍CSS网格（CSS Grid）技术。更新：2018年6月24日。
 

@@ -1,11 +1,13 @@
 ---
 title: CSS中px、em、rem有什么分别？（视频）网页设计学徒番外篇01
-subTitle: CSS有三种计量大小的单位：px、em、rem，它们到底有什么不同？何时用哪个？
+author: Zack
 cover: px-em-rem.jpg
 category: "网页设计学徒"
 ---
 
 ![px, em, rem](/px-em-rem.jpg)
+
+CSS有三种计量大小的单位：px、em、rem，它们到底有什么不同？何时用哪个？
 
 在CSS当中，有三个常见的计量单位：**px**、**em**和**rem**。它们都能表示大小，那它们有什么分别？为什么需要三个不同的单位？还有最重要的是，什么时候该用哪一个？这些问题便是本篇要回答的内容。
 

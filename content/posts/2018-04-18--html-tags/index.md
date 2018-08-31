@@ -1,11 +1,13 @@
 ---
 title: 网页设计学徒02：网页的语言、标题和图片【视频教学】
-subTitle: 如何为网页设定语言，加入标题和图片？
+author: Zack
 cover: tags.jpg
 category: "网页设计学徒"
 ---
 
 ![HTML标签](tags.jpg)
+
+如何为网页设定语言，加入标题和图片？
 
 这是网页设计学徒的第二课。上一课我们开始了HTML的学习，这一课我们会继续深入HTML，了解更多HTML标签。
 

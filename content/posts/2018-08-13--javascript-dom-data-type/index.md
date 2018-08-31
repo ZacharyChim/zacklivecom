@@ -1,6 +1,6 @@
 ---
 title: 《JavaScript DOM编程艺术》第1、2章：数据类型与运算
-subTitle: 本课介绍JavaScript语法基础：数据类型与运算。《JavaScript DOM 编程艺术》是受到众人推崇的JavaScript入门书籍。《JavaScript学徒》系列将以此书为教材来制作JavaScript学习影片。
+author: Zack
 cover: dom-scripting.jpg
 category: "JavaScript学徒"
 ---
@@ -12,6 +12,8 @@ JavaScript是目前全球最流行的程式语言之一，广泛应用于不同�
 JavaScript学徒系列会以经典书籍为教材制作影片，和大家一起学习JavaScript。
 
 《JavaScript DOM 编程艺术》是知乎上最多人推荐的JavaScript入门书，因此，我们便选了此书作为学习JavaScript的第一本书。
+
+本课介绍JavaScript语法基础：数据类型与运算。
 
 ##视频连结
 
