@@ -1,5 +1,5 @@
 ---
-title: 《JavaScript DOM编程艺术》第1、2章：数据类型与运算
+title: 《JavaScript DOM编程艺术》01：数据类型与运算
 author: Zack
 cover: dom-scripting.jpg
 category: "JavaScript学徒"

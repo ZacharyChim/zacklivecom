@@ -1,5 +1,5 @@
 ---
-title: 《JavaScript DOM 编程艺术》第2章：条件与循环
+title: 《JavaScript DOM 编程艺术》02：条件与循环
 cover: dom-scripting.jpg
 category: "JavaScript学徒"
 author: Zack

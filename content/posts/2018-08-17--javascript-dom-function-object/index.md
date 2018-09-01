@@ -1,5 +1,5 @@
 ---
-title: 《JavaScript DOM 编程艺术》第2章：函数与对象
+title: 《JavaScript DOM 编程艺术》03：函数与对象
 category: "JavaScript学徒"
 cover: dom-scripting.jpg
 author: Zack
