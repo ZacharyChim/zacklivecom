@@ -14,6 +14,7 @@ author: Zack
 * [YouTube](https://youtu.be/GGzf09XUEVQ)
 * [优酷](https://v.youku.com/v_show/id_XMzgwODA3NDgxMg==.html)
 * [微博](https://weibo.com/1736214117/Gxvgi8ZtX)
+* [B站](https://www.bilibili.com/video/av30959388/)
 
 ###DOM
 
