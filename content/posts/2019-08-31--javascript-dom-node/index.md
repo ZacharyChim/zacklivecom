@@ -11,6 +11,9 @@ author: Zack
 
 ##教学视频连结
 
+* [YouTube](https://youtu.be/GGzf09XUEVQ)
+
+
 ###DOM
 
 D: Document - 文档；每一个网页都是一个文档，如：index.html。
