@@ -12,7 +12,8 @@ author: Zack
 ##教学视频连结
 
 * [YouTube](https://youtu.be/GGzf09XUEVQ)
-* [YouKu](https://v.youku.com/v_show/id_XMzgwODA3NDgxMg==.html)
+* [优酷](https://v.youku.com/v_show/id_XMzgwODA3NDgxMg==.html)
+* [微博](https://weibo.com/1736214117/Gxvgi8ZtX)
 
 ###DOM
 
