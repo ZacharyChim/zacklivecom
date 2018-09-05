@@ -44,7 +44,7 @@ index.html：
 </head>
 <body>
   <h1>Snapshots</h1>
-  <ul id="purchases">
+  <ul>
     <li><a href="images/balloon.jpg" title="Balloon" onclick="showPic(this); return false;"> Ballon</a></li>
     <li><a href="images/cloud.jpg" title="Cloud" onclick="showPic(this); return false;"> Cloud</a></li>
     <li><a href="images/fire.jpg" title="Fire" onclick="showPic(this); return false;"> Fire</a></li>
