@@ -1,5 +1,5 @@
 ---
-title: 《JavaScript DOM 编程艺术》07：图片库实作01
+title: 《JavaScript DOM 编程艺术》07：事件处理函数
 category: "JavaScript学徒"
 cover: dom-scripting.jpg
 author: Zack
@@ -7,7 +7,7 @@ author: Zack
 
 ![JavaScript DOM 编程艺术](dom-scripting.jpg)
 
-这是《JavaScript学徒》系列的第七课，今天会进入《JavaScript DOM 编程艺术》第4章，这一章我们将完成一个图片库网页。这一课，我们先完成图片库的趋型。
+这是《JavaScript学徒》系列的第七课，今天会进入《JavaScript DOM 编程艺术》第4章，这一章我们将完成一个图片库网页。这一课，我们先完成图片库的趋型，并学习事件处理函数的概念。
 
 ##教学视频连结
 
