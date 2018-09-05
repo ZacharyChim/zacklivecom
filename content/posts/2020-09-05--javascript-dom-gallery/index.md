@@ -60,7 +60,7 @@ index.html：
 
 图片来自[Unsplash](https://unsplash.com)，存放于images目录底下。
 
-Placeholder图片来自[PlaceHolder.com](https://placeholder.com)，这个网站让你透过连结产生占位符图片，连结格式：https://via.placeholder.com/**width**x**height**。
+Placeholder图片来自[PlaceHolder.com](https://placeholder.com)，这个网站让你透过连结产生占位符图片，连结格式：`https://via.placeholder.com/widthxheight`。
 
 myScript.js
 
