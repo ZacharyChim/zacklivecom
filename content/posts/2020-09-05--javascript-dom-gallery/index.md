@@ -1,5 +1,5 @@
 ---
-title: 《JavaScript DOM 编程艺术》07：图片库实作
+title: 《JavaScript DOM 编程艺术》07：图片库实作01
 category: "JavaScript学徒"
 cover: dom-scripting.jpg
 author: Zack
@@ -7,7 +7,7 @@ author: Zack
 
 ![JavaScript DOM 编程艺术](dom-scripting.jpg)
 
-这是《JavaScript学徒》系列的第六课，今天会进入《JavaScript DOM 编程艺术》第4章，这一章我们将完成一个图片库网页。
+这是《JavaScript学徒》系列的第七课，今天会进入《JavaScript DOM 编程艺术》第4章，这一章我们将完成一个图片库网页。这一课，我们先完成图片库的趋型。
 
 ##教学视频连结
 
@@ -25,9 +25,9 @@ author: Zack
 
 ##图片库设计
 
-* “占位符”图片预留一个浏览区域。
+* “占位符（placeholder）”图片预留一个浏览区域。
 * 图片连结被点击时，拦截网页的默认行为，即不前往连结地址（不刷新窗口）
-* 图片连结被点击时，将“占位符”图片换成该图片连结相对应的图片。
+* 图片连结被点击时，将placeholder图片换成该图片连结相对应的图片。
 
 ##HTML与JavaScript
 
@@ -58,7 +58,9 @@ index.html：
 </html>
 ```
 
-图片来自[Unsplash](https://unsplash.com)。
+图片来自[Unsplash](https://unsplash.com)，存放于images目录底下。
+
+Placeholder图片来自[PlaceHolder.com](https://placeholder.com)，这个网站让你透过连结产生占位符图片，连结格式：https://via.placeholder.com/**width**x**height**。
 
 myScript.js
 
