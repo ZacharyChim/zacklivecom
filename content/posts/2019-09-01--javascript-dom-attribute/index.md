@@ -11,6 +11,10 @@ author: Zack
 
 ##教学视频连结
 
+* [YouTube](https://youtu.be/FXLP7Z6dD-o)
+* [优酷](https://v.youku.com/v_show/id_XMzgxMTMxNDUyNA==.html)
+* [B站](https://www.bilibili.com/video/av31119311/)
+
 ##获取属性：getAttribute
 
 `object.getAttribute(attribute)`
