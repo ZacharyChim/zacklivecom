@@ -13,7 +13,7 @@ author: Zack
 
 ##事件处理函数
 
-事件处理函数会在特定事件发生时被调用，例如，当鼠标停在某个元素上时会触发`onmouseover`事件处理函数；鼠标离开时，又会触发`onmouseout`事件。在图片库中，我们会用到`onclick`事件，也就是点击事件。使用方法如下：
+事件处理函数会在特定事件发生时触发，例如，当鼠标停在某个元素上时会触发`onmouseover`事件处理函数；鼠标离开时，又会触发`onmouseout`事件。在图片库中，我们会用到`onclick`事件，也就是点击事件。使用方法如下：
 
 `<a href="https://zacklive.com" onclick="showPic(this)">Click me</a>`
 
