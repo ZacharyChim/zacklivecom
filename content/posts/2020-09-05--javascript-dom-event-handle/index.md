@@ -13,6 +13,8 @@ author: Zack
 
 * [YouTube](https://youtu.be/htTnq9RMAkM)
 * [微博](https://weibo.com/1736214117/Gy3hi1Zt2)
+* [B站](https://www.bilibili.com/video/av31178631/)
+* [优酷](https://v.youku.com/v_show/id_XMzgxMjYyNjcxNg==.html)
 
 ##事件处理函数
 
