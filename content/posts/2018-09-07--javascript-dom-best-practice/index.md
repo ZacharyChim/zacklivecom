@@ -89,7 +89,7 @@ function prepareLinks() {
 
 ##向后兼容
 
-另一个要考虑的问题是，浏览器对JavaScript的支持程度不一样。某些访问者的浏览器由于版一较旧等原因，不支持某些方法。可以透过以下方式检查：
+另一个要考虑的问题是，浏览器对JavaScript的支持程度不一样。某些访问者的浏览器由于版本较旧等原因，不支持某些方法。可以透过以下方式检查：
 
 `if (!getElementById) return false;`
 
