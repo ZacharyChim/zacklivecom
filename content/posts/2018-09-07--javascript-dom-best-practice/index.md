@@ -7,7 +7,7 @@ author: Zack
 
 ![JavaScript DOM 编程艺术](dom-scripting.jpg)
 
-这是《JavaScript学徒》系列的第八课，今天会进入《JavaScript DOM 编程艺术》第5章，谈谈JavaScript的最佳实践。
+这是《JavaScript学徒》系列的第九课，今天会进入《JavaScript DOM 编程艺术》第5章，谈谈JavaScript的最佳实践。
 
 ##教学视频连结
 
