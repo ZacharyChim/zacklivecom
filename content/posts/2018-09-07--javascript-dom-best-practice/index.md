@@ -11,6 +11,7 @@ author: Zack
 
 ##教学视频连结
 
+* [YouTube](https://youtu.be/uWd6M1gkH3w)
 
 ##平穏退化
 
