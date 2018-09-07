@@ -11,6 +11,11 @@ author: Zack
 
 ##教学视频连结
 
+* [YouTube](https://youtu.be/fHZVRX6tbCU)
+* [微博](http://weibo.com/u/1736214117)
+* [优酷](https://v.youku.com/v_show/id_XMzgxNDg5MjYxMg==.html)
+* [B站](https://www.bilibili.com/video/av31274606/)
+
 ##childNodes属性
 
 **childNodes**可以用来取得一个元素对象的所有子节点，是一个包含全部子节点的数组。是复数，有s。
@@ -44,7 +49,7 @@ window.onload = countBodyChildren;
 * **属性节点**的nodeType属性值是**2**。
 * **文本节点**的nodeType属性值是**3**。
 
-可以将countBodyChildren函数最后alert的内容改为body_element.nodeType，boby是元素节点，结果应为1.
+可以将countBodyChildren函数最后alert的内容改为body_element.nodeType，body是元素节点，结果应为1.
 
 ##nodeValue属性
 
