@@ -77,7 +77,7 @@ function prepareLinks() {
   for (var i = 0; i < links.length; i++) {
     if (links[i].getAttribute("class") == "popup") {
       links[i].onclick =  function() {
-        popUp(this.getAttribute("href));
+        popUp(this.getAttribute("href"));
         return false;
       }
     }
@@ -100,12 +100,12 @@ function prepareLinks() {
 ```
 window.onload = prepareLinks;
 function prepareLinks() {
-  if (!document.getElementByTagName) return false;
+  if (!document.getElementsByTagName) return false;
   var links = document.getElementsByTagName("a");
   for (var i = 0; i < links.length; i++) {
     if (links[i].getAttribute("class") == "popup") {
       links[i].onclick =  function() {
-        popUp(this.getAttribute("href));
+        popUp(this.getAttribute("href"));
         return false;
       }
     }
