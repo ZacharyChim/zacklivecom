@@ -12,6 +12,8 @@ author: Zack
 ##教学视频连结
 
 * [YouTube](https://youtu.be/uWd6M1gkH3w)
+* [优酷](https://v.youku.com/v_show/id_XMzgxNTI3ODE4MA==.html)
+* [B站](https://www.bilibili.com/video/av31299614/)
 
 ##平穏退化
 
