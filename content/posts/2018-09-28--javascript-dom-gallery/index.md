@@ -97,7 +97,9 @@ function showPic(whichpic) {
 
 `showPic`当中还可以加入更多的检查：
 
-`var text = whichpic.getAttribute("title") ? whichpic.getAttribute("title") : "";`
+```
+var text = whichpic.getAttribute("title") ? whichpic.getAttribute("title") : "";
+```
 
 这里的问号和冒号组成**三元操作符**，意思是，若问号前的条件成立，取冒号前的值；若不成立，则取冒号后的值。这里便是，若存在`title`属性，则取该属性为`text`的值；若不存在，则取空字符串为`text`的值。
 
