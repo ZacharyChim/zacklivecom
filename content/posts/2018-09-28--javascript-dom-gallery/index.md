@@ -11,6 +11,7 @@ author: Zack
 
 ##教学视频连结
 
+* [YouTube](https://youtu.be/eGdJuXp2p20)
 
 
 ##能否平穏退化？
