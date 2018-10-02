@@ -1,5 +1,5 @@
 ---
-title: 《JavaScript DOM 编程艺术》10：应用最佳实践
+title: 《JavaScript DOM编程艺术》10：应用最佳实践
 category: "JavaScript学徒"
 cover: dom-scripting.jpg
 author: Zack

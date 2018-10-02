@@ -1,5 +1,5 @@
 ---
-title: 《JavaScript DOM 编程艺术》08：文本节点操作
+title: 《JavaScript DOM编程艺术》08：文本节点操作
 category: "JavaScript学徒"
 cover: dom-scripting.jpg
 author: Zack

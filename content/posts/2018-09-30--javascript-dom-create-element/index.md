@@ -1,0 +1,81 @@
+---
+title: 《JavaScript DOM编程艺术》11：动态创建标记
+category: "JavaScript学徒"
+cover: dom-scripting.jpg
+author: Zack
+---
+
+![JavaScript DOM 编程艺术](dom-scripting.jpg)
+
+这是《JavaScript学徒》系列的第十一课，今天会进入《JavaScript DOM 编程艺术》第7章，我们会一起学习如何用JavaScript动态创建标记。动态的意思是，在程式运行中创建标记，而不是在运行前就已经写好在index.html里面。之前，我们学习的是如何用JavaScript操作那些已经写好在index.html中的标记，现在我们要用JavaScript直接创建标记。
+
+##教学视频连结
+
+
+##传统方法
+
+旧方法不建议使用，只需大概了解一下，以便遇到时，知道是做什么的。
+
+###document.write
+
+`document.write("<p>This is inserted.</p>")`
+
+###innerHTML
+
+`innerHTML`既可以读取，也可以写入（赋值），但只能取得整体，不能取得里面的标记。
+
+```
+window.onload = function() {
+  var testdiv = document.getElementById("testdiv");
+  testdiv.innerHTML = "<p>I inserted <em>this</em> content.</p>";
+  alert(testdiv.innerHTML);
+}
+```
+
+##DOM方法
+
+###createElement
+
+```
+var para = document.createElement("p");
+alert(para.nodeName + ", " + para.nodeType);
+```
+
+###appendChild
+
+```
+var testdiv = document.getElementById("testdiv");
+var para = document.createElement("p");
+testdiv.appendChild(para);
+```
+
+###CreateTextNode
+
+```
+var txt = document.createTextNode("Hello world");
+para.appendChild(txt);
+```
+
+###insertBefore
+
+```
+var gallery = document.getElementById("iamgegallery");
+gallery.parentNode.insertBefore(placeholder, gallery);
+```
+
+要插入到gallery前面，那便是在其父元素底下进行。
+
+###insertAfter
+
+JavaScript不提供，自己写：
+
+```
+function insertAfter(newElement, targetElement) {
+  var parent = targetElement.parentNode;
+  if (parent.lastChild == targetElement) {
+    parent.appendChild(newElement);
+  } else {
+    parent.insertBefore(newElement, targetElement.nextSibling);
+  }
+}
+```

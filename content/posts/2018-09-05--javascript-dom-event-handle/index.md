@@ -1,5 +1,5 @@
 ---
-title: 《JavaScript DOM 编程艺术》07：事件处理函数
+title: 《JavaScript DOM编程艺术》07：事件处理函数
 category: "JavaScript学徒"
 cover: dom-scripting.jpg
 author: Zack

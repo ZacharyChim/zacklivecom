@@ -1,5 +1,5 @@
 ---
-title: 《JavaScript DOM 编程艺术》04：DOM与节点
+title: 《JavaScript DOM编程艺术》04：DOM与节点
 category: "JavaScript学徒"
 cover: dom-scripting.jpg
 author: Zack

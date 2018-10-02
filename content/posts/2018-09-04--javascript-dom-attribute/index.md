@@ -1,5 +1,5 @@
 ---
-title: 《JavaScript DOM 编程艺术》06：获取与修改属性
+title: 《JavaScript DOM编程艺术》06：获取与修改属性
 category: "JavaScript学徒"
 cover: dom-scripting.jpg
 author: Zack
