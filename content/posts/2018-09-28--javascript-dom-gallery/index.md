@@ -12,7 +12,8 @@ author: Zack
 ##教学视频连结
 
 * [YouTube](https://youtu.be/eGdJuXp2p20)
-* [BiliBili](https://www.bilibili.com/video/av32729095/)
+* [B站](https://www.bilibili.com/video/av32729095/)
+* [优酷](https://v.youku.com/v_show/id_XMzg0Mzc0OTY3Ng==.html)
 
 
 ##能否平穏退化？
