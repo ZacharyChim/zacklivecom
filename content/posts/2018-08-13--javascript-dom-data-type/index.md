@@ -5,13 +5,13 @@ cover: dom-scripting.jpg
 category: "JavaScript学徒"
 ---
 
-![JavaScript DOM 编程艺术](dom-scripting.jpg)
+![JavaScript DOM编程艺术](dom-scripting.jpg)
 
 JavaScript是目前全球最流行的程式语言之一，广泛应用于不同领域，尤其是网页方面，几乎每一个成熟的网站都会用到JavaScript。而且最近几年JavaScript的发展势头更是锐不可挡，未来前景巨大。透过JavaScript深入编程的世界是一个错不了的选择。
 
 JavaScript学徒系列会以经典书籍为教材制作影片，和大家一起学习JavaScript。
 
-《JavaScript DOM 编程艺术》是知乎上最多人推荐的JavaScript入门书，因此，我们便选了此书作为学习JavaScript的第一本书。
+《JavaScript DOM编程艺术》是知乎上最多人推荐的JavaScript入门书，因此，我们便选了此书作为学习JavaScript的第一本书。
 
 本课介绍JavaScript语法基础：数据类型与运算。
 

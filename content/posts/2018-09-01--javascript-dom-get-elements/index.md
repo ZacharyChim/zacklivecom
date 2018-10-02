@@ -5,9 +5,9 @@ cover: dom-scripting.jpg
 author: Zack
 ---
 
-![JavaScript DOM 编程艺术](dom-scripting.jpg)
+![JavaScript DOM编程艺术](dom-scripting.jpg)
 
-这是《JavaScript学徒》系列的第五课，今天会继续《JavaScript DOM 编程艺术》第3章，介绍如何用DOM方法获取元素节点。
+这是《JavaScript学徒》系列的第五课，今天会继续《JavaScript DOM编程艺术》第3章，介绍如何用DOM方法获取元素节点。
 
 ##教学视频连结
 

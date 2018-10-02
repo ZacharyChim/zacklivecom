@@ -5,9 +5,9 @@ cover: dom-scripting.jpg
 author: Zack
 ---
 
-![JavaScript DOM 编程艺术](dom-scripting.jpg)
+![JavaScript DOM编程艺术](dom-scripting.jpg)
 
-这是《JavaScript学徒》系列的第四课，本课会进入《JavaScript DOM 编程艺术》第3章，更深入地介绍DOM（Document Object Model 文档对象模型）。
+这是《JavaScript学徒》系列的第四课，本课会进入《JavaScript DOM编程艺术》第3章，更深入地介绍DOM（Document Object Model 文档对象模型）。
 
 ##教学视频连结
 
@@ -45,4 +45,4 @@ M：Model - 模型；将文档对象看成如下的模型：
 
 **id**和**class**是两个比较特别的属性，常配合CSS使用。id是唯一标识符，如：`<ul id="purchases">`，有了这句之后，整个文档里不能有另一个同样具有"purchase"这个id的`<ul>`标签，这样便能用来进行专属设定，例如提供专门的CSS样式；而class可用于多个标签，例如让数个标签共享某些CSS设定。
 
-《JavaScript DOM 编程艺术》是受到众人推崇的JavaScript入门书籍。《JavaScript学徒》系列将以此书为教材来制作JavaScript学习影片。
+《JavaScript DOM编程艺术》是受到众人推崇的JavaScript入门书籍。《JavaScript学徒》系列将以此书为教材来制作JavaScript学习影片。

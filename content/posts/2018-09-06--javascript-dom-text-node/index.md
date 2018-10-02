@@ -5,9 +5,9 @@ cover: dom-scripting.jpg
 author: Zack
 ---
 
-![JavaScript DOM 编程艺术](dom-scripting.jpg)
+![JavaScript DOM编程艺术](dom-scripting.jpg)
 
-这是《JavaScript学徒》系列的第八课，今天会继续《JavaScript DOM 编程艺术》第4章，进一步完善图片库网页。这一课的学习重点是文本节点的操作。
+这是《JavaScript学徒》系列的第八课，今天会继续《JavaScript DOM编程艺术》第4章，进一步完善图片库网页。这一课的学习重点是文本节点的操作。
 
 ##教学视频连结
 
@@ -124,7 +124,7 @@ img {
 }
 ```
 
-##《JavaScript DOM 编程艺术》第4章重点
+##《JavaScript DOM编程艺术》第4章重点
 
 这一章的重点是修改文本节点，介绍以下五种属性：
 

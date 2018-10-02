@@ -5,11 +5,11 @@ cover: dom-scripting.jpg
 author: Zack
 ---
 
-![JavaScript DOM 编程艺术](dom-scripting.jpg)
+![JavaScript DOM编程艺术](dom-scripting.jpg)
 
-本课介绍JavaScript中的函数与对象。《JavaScript DOM 编程艺术》是受到众人推崇的JavaScript入门书籍。《JavaScript学徒》系列将以此书为教材来制作JavaScript学习影片。
+本课介绍JavaScript中的函数与对象。《JavaScript DOM编程艺术》是受到众人推崇的JavaScript入门书籍。《JavaScript学徒》系列将以此书为教材来制作JavaScript学习影片。
 
-这是《JavaScript学徒》系列的第三课，本课会继续《JavaScript DOM 编程艺术》第2章，介绍JavaScript中的函数与对象。
+这是《JavaScript学徒》系列的第三课，本课会继续《JavaScript DOM编程艺术》第2章，介绍JavaScript中的函数与对象。
 
 ##教学视频连结
 * [YouTube](https://youtu.be/8CynRzsC74I)

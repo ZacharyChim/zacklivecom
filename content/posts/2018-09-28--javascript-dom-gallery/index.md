@@ -5,9 +5,9 @@ cover: dom-scripting.jpg
 author: Zack
 ---
 
-![JavaScript DOM 编程艺术](dom-scripting.jpg)
+![JavaScript DOM编程艺术](dom-scripting.jpg)
 
-这是《JavaScript学徒》系列的第十课，今天会进入《JavaScript DOM 编程艺术》第6章，将上一章的最佳实践应用到图片库例子中。
+这是《JavaScript学徒》系列的第十课，今天会进入《JavaScript DOM编程艺术》第6章，将上一章的最佳实践应用到图片库例子中。
 
 ##教学视频连结
 

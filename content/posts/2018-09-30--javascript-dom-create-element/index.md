@@ -5,9 +5,9 @@ cover: dom-scripting.jpg
 author: Zack
 ---
 
-![JavaScript DOM 编程艺术](dom-scripting.jpg)
+![JavaScript DOM编程艺术](dom-scripting.jpg)
 
-这是《JavaScript学徒》系列的第十一课，今天会进入《JavaScript DOM 编程艺术》第7章，我们会一起学习如何用JavaScript动态创建标记。动态的意思是，在程式运行中创建标记，而不是在运行前就已经写好在index.html里面。之前，我们学习的是如何用JavaScript操作那些已经写好在index.html中的标记，现在我们要用JavaScript直接创建标记。
+这是《JavaScript学徒》系列的第十一课，今天会进入《JavaScript DOM编程艺术》第7章，我们会一起学习如何用JavaScript动态创建标记。动态的意思是，在程式运行中创建标记，而不是在运行前就已经写好在index.html里面。之前，我们学习的是如何用JavaScript操作那些已经写好在index.html中的标记，现在我们要用JavaScript直接创建标记。
 
 ##教学视频连结
 

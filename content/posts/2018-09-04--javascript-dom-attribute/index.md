@@ -5,9 +5,9 @@ cover: dom-scripting.jpg
 author: Zack
 ---
 
-![JavaScript DOM 编程艺术](dom-scripting.jpg)
+![JavaScript DOM编程艺术](dom-scripting.jpg)
 
-这是《JavaScript学徒》系列的第六课，今天会继续《JavaScript DOM 编程艺术》第3章，介绍如何用DOM方法获取与修改元素属性。
+这是《JavaScript学徒》系列的第六课，今天会继续《JavaScript DOM编程艺术》第3章，介绍如何用DOM方法获取与修改元素属性。
 
 ##教学视频连结
 
@@ -72,4 +72,4 @@ alert(buyList.getAttribute("title"));
     * getAttribute
     * setAttribute
 
-那文本节点又是如何操作的呢？这便是《JavaScript DOM 编程艺术》第四章的重点。
+那文本节点又是如何操作的呢？这便是《JavaScript DOM编程艺术》第四章的重点。
