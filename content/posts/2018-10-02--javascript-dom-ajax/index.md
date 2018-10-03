@@ -17,7 +17,7 @@ author: Zack
 Ajax的核心就是XMLHttpRequest对象：
 
 ```
-var request = new XMLHttpRequest;
+var request = new XMLHttpRequest();
 ```
 使用例子
 ```
