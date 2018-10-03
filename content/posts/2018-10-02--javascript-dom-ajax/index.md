@@ -38,6 +38,10 @@ function getNewContent() {
   alert("Done");
 }
 ```
+open的三个参数分别是：
+1. 请求方法， 如"GET", "POST", "PUT"等
+2. 请求位置
+3. 是否异步操作
 
 `readyState`有5种值：
 
