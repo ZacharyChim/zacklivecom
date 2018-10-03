@@ -12,6 +12,7 @@ author: Zack
 ##教学视频连结
 
 * [YouTube](https://youtu.be/JnWTVyLqxIQ)
+* [微博](https://weibo.com/1736214117/GCiU0fyoZ)
 
 ##XMLHttpRequest
 
