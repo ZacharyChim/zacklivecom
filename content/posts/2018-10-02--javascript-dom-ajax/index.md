@@ -11,6 +11,7 @@ author: Zack
 
 ##教学视频连结
 
+* [YouTube](https://youtu.be/JnWTVyLqxIQ)
 
 ##XMLHttpRequest
 
@@ -39,6 +40,7 @@ function getNewContent() {
 }
 ```
 open的三个参数分别是：
+
 1. 请求方法， 如"GET", "POST", "PUT"等
 2. 请求位置
 3. 是否异步操作
