@@ -13,8 +13,9 @@ author: Zack
 
 ##视频连结
 * [YouTube](https://youtu.be/Gi1s6wh6kG0)
-* [YouKu](https://v.youku.com/v_show/id_XMzc5MTg5MTk1Ng==.html)
-* [BiliBili](https://www.bilibili.com/video/av29972831/)
+* [优酷](https://v.youku.com/v_show/id_XMzc5MTg5MTk1Ng==.html)
+* [B站](https://www.bilibili.com/video/av29972831/)
+* [腾讯](http://v.qq.com/x/page/c0729nixwyy.html)
 
 ##条件语句
 

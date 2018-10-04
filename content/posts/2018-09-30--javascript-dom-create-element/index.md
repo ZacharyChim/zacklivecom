@@ -12,6 +12,8 @@ author: Zack
 ##教学视频连结
 * [YouTube](https://youtu.be/6mmdnm5nM0M)
 * [微博](https://weibo.com/1736214117/GC7KviH6e)
+* [B站](https://www.bilibili.com/video/av32961876/)
+* [腾讯](http://v.qq.com/x/page/h0730w0cnh5.html)
 
 ##传统方法
 

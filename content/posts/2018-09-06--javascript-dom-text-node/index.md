@@ -15,6 +15,7 @@ author: Zack
 * [微博](http://weibo.com/u/1736214117)
 * [优酷](https://v.youku.com/v_show/id_XMzgxNDg5MjYxMg==.html)
 * [B站](https://www.bilibili.com/video/av31274606/)
+* [腾讯](http://v.qq.com/x/page/q0730de00l2.html)
 
 ##childNodes属性
 

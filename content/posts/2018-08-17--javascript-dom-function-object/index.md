@@ -15,6 +15,7 @@ author: Zack
 * [YouTube](https://youtu.be/8CynRzsC74I)
 * [BiliBili](https://www.bilibili.com/video/av29987143/)
 * [YouKu](https://v.youku.com/v_show/id_XMzc5MjE3MzAxMg==.html)
+* [腾讯](http://v.qq.com/x/page/h0730b7fsg2.html)
 
 ##函数
 

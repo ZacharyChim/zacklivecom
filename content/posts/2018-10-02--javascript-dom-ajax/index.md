@@ -13,6 +13,8 @@ author: Zack
 
 * [YouTube](https://youtu.be/JnWTVyLqxIQ)
 * [微博](https://weibo.com/1736214117/GCiU0fyoZ)
+* [B站](https://www.bilibili.com/video/av33053611/)
+* [腾讯](http://v.qq.com/x/page/a0730r3s5jy.html)
 
 ##XMLHttpRequest
 

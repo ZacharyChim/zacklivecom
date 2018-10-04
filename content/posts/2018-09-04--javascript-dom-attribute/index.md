@@ -14,6 +14,7 @@ author: Zack
 * [YouTube](https://youtu.be/FXLP7Z6dD-o)
 * [优酷](https://v.youku.com/v_show/id_XMzgxMTMxNDUyNA==.html)
 * [B站](https://www.bilibili.com/video/av31119311/)
+* [腾讯](http://v.qq.com/x/page/w07302ky7qg.html)
 
 ##获取属性：getAttribute
 

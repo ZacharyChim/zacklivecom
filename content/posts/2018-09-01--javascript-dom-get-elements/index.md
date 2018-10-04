@@ -14,6 +14,7 @@ author: Zack
 * [YouTube](https://youtu.be/lwc45ZTDE54)
 * [优酷](https://v.youku.com/v_show/id_XMzgwODMyMzgyNA==.html)
 * [B站](https://www.bilibili.com/video/av30977472/)
+* [腾讯](http://v.qq.com/x/page/e0730w0a5zs.html)
 
 
 ##获取元素节点的方法

@@ -14,6 +14,7 @@ author: Zack
 * [YouTube](https://youtu.be/eGdJuXp2p20)
 * [B站](https://www.bilibili.com/video/av32729095/)
 * [优酷](https://v.youku.com/v_show/id_XMzg0Mzc0OTY3Ng==.html)
+* [腾讯](http://v.qq.com/x/page/h0730affpau.html)
 
 
 ##能否平穏退化？
