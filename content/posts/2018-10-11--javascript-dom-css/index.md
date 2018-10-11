@@ -1,5 +1,5 @@
 ---
-title: 《JavaScript DOM编程艺术》14：动画
+title: 《JavaScript DOM编程艺术》13：CSS-DOM
 category: "JavaScript学徒"
 cover: dom-scripting.jpg
 author: Zack
