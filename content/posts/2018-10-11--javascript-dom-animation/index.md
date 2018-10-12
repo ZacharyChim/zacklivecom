@@ -10,6 +10,10 @@ author: Zack
 这是《JavaScript学徒》系列的第十四课，今天会介绍《JavaScript DOM编程艺术》第10章动画，学习用JavaScript来实现动画效果。
 
 ##教学视频连结
+* [YouTube](https://youtu.be/i39UAdpadU4)
+* [微博](https://weibo.com/1736214117/GDG2eClwy)
+* [腾讯](https://v.qq.com/x/page/o07446t4u8f.html)
+* [B站](https://www.bilibili.com/video/av33718416/)
 
 ##setTimeout & clearTimeout
 

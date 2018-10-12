@@ -10,6 +10,9 @@ author: Zack
 这是《JavaScript学徒》系列的第十三课，今天会介绍《JavaScript DOM编程艺术》第9章CSS-DOM，学习用JavaScript来操作CSS。
 
 ##教学视频连结
+* [YouTube](https://youtu.be/QVncmU0dNTM)
+* [腾讯](https://v.qq.com/x/page/d0744gyb6jy.html)
+* [微博](https://weibo.com/1736214117/GDG0vlB9m)
 
 ##结构--表示--行为
 
