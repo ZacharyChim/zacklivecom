@@ -37,6 +37,9 @@ parseInt("39 steps");
 ```
 function moveElement(elementID, final_x, final_y, interval) {
   var elem = document.getElementById(elementID);
+  if (elem.movement) {
+    clearTimeout(elem.movement);
+  }
   var xpos = parseInt(elem.style.left);
   var ypos = parseInt(elem.style.top);
   if (xpos == final_x && ypos == final_y) {
@@ -57,7 +60,7 @@ function moveElement(elementID, final_x, final_y, interval) {
   elem.style.left = xpos + "px";
   elem.style.top = ypos + "px";
   var repeat = "moveElement('" +elementID+ "'," +final_x+ "," +final_y+ "," +interval+ ")";
-  movement = setTimeout(repeat, interval);
+  elem.movement = setTimeout(repeat, interval);
 }
 ```
 使用moveElement：
@@ -81,9 +84,9 @@ if (elem.movement) {
 
 ##Math.ceil, Math.floor & Math.round
 
-Math.round：四舍五入，取最接近的整数
-Math.ceil：向较大值舍入，取最接近的整数
-Math.floor：向较小值舍入，取最接近的整数
+* Math.round：四舍五入，取最接近的整数
+* Math.ceil：向较大值舍入，取最接近的整数
+* Math.floor：向较小值舍入，取最接近的整数
 
 ```
 var dist = 0;
