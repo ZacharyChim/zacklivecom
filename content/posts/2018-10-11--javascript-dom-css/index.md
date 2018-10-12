@@ -13,9 +13,9 @@ author: Zack
 
 ##结构--表示--行为
 
-HTML：结构层（Structural layer）
-CSS：表示层（Presentation layer）
-JavaScript：行为层（Behavior layer）
+* HTML：结构层（Structural layer）
+* CSS：表示层（Presentation layer）
+* JavaScript：行为层（Behavior layer）
 
 ##style属性
 
