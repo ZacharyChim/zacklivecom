@@ -100,4 +100,4 @@ if (xpos > final_x) {
 
 ##《JavaScript DOM编程艺术》完结
 
-《JavaScript DOM编程艺术》剩下的章节介绍了HTML5、JavaScript的一些框架以及一个综合示例。由于并没有太多新内容或与JavaScript本身关系不大，我就不深入了。其中，值得一提的是JavaScript框架的部分。本书撰写时，jQuery仍是主流，但现在，建议学习React.js或者Vue.js。
+《JavaScript DOM编程艺术》剩下的章节介绍了HTML5、JavaScript的一些框架以及一个综合示例。由于并没有太多新内容或重点不在JavaScript，我就不深入了。其中，值得一提的是JavaScript框架的部分。本书撰写时，jQuery仍是主流，但现在，建议学习React.js或者Vue.js。
