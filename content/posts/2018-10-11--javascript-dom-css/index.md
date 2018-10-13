@@ -13,6 +13,7 @@ author: Zack
 * [YouTube](https://youtu.be/QVncmU0dNTM)
 * [腾讯](https://v.qq.com/x/page/d0744gyb6jy.html)
 * [微博](https://weibo.com/1736214117/GDG0vlB9m)
+* [B站](https://www.bilibili.com/video/av33718091/)
 
 ##结构--表示--行为
 
