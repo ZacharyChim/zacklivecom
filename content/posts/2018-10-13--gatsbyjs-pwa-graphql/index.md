@@ -34,3 +34,5 @@ PWA透过Service Worker，将原本存放在Server上的data暂存在浏览器�
 ##关于这个系列
 
 在Gatsby.js方面，我也是新手，这个系列是要分享我的学习经验（文字加影片）。我会用Gatsby.js制作一个真实的网站，透过这个过程瞭解更多PWA、GraphQL以及React.js相关的知识
+
+本文参与<a href="https://ithelp.ithome.com.tw/articles/10201610">iT邦帮忙铁人赛</a>。<a href="https://nodejust.com/gatsbyjs/">繁体</a>
