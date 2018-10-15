@@ -7,7 +7,7 @@ author: Zack
 
 ![Gatsby.js](gatsbyjs.jpg)
 
-网页开发的世界日新月异，而我目前最关心的技术包括：React Stack、PWA、GraphQL还有Serverless等。而Gatsby.js这个静态网页产生器用上了前三者，因此，我决定好好地研究一下Gatsby.js，并且要用它完成一个新网站。
+网页开发的世界日新月异，我目前最关心的技术包括：React Stack、PWA、GraphQL还有Serverless等。而Gatsby.js这个静态网页产生器用上了前三者，因此，我决定好好地研究一下Gatsby.js，并且要用它完成一个新网站。
 
 ##未来的网页：渐进式网页应用程式
 
