@@ -7,7 +7,7 @@ author: Zack
 
 ![Gatsby.js目录结构](gatsbyjs-files.jpg)
 
-我们用Gatsby的Command Line工具以预设的Starter安装了一个示范网站。今天我們就來研究一下Gatsby的目錄結構。〔方案選單〕
+我们已经用Gatsby的Command Line工具以预设的Starter安装了一个示范网站。今天我們就來研究一下这个预设Starter生成的目录结构。
 
 ##视频教学连结
 
