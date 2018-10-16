@@ -9,7 +9,7 @@ author: Zack
 
 实作是最好的学习。今天要介绍Gatsby.js的安装及在local环境运行起来。
 
-##視頻教學連結
+##视频教学连结
 * [YouTube](https://youtu.be/OIDOKUvEyMY)
 * [微博](https://weibo.com/1736214117/GE7hXc7gL)
 
