@@ -10,7 +10,8 @@ author: Zack
 我们已经用Gatsby的Command Line工具以预设的Starter安装了一个示范网站。今天我們就來研究一下这个预设Starter生成的目录结构。
 
 ##视频教学连结
-
+* [YouTube](https://youtu.be/7q6gAOu2zM4)
+* [微博](https://weibo.com/1736214117/GEhdAspDL)
 
 ##主目录
 
