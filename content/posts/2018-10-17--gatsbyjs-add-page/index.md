@@ -10,6 +10,9 @@ author: Zack
 今天要介绍的内容很简单：如何在Gatsby中新增页面。新增页面的方法不只一种，今天先介绍最简单的方法。
 
 ## 视频教学连结
+* [YouTube](https://youtu.be/r2rY18ZB35A)
+* [微博](https://weibo.com/1736214117/GEqF0D9wX)
+* [腾讯](https://v.qq.com/x/page/k07528mfmz7.html)
 
 ## layout.js vs pages
 
