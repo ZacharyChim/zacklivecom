@@ -8,7 +8,7 @@ category: "Gadgets"
 
 这或许是目前最优秀且最高CP值的手机三轴稳定器。
 
-##DJI Osmo Mobile 2开箱影片
+## DJI Osmo Mobile 2开箱影片
 
 [点击前往YOUKU观看影片](http://v.youku.com/v_show/id_XMzUxMTE4MTM3Mg==.html)
 
@@ -21,7 +21,7 @@ category: "Gadgets"
 
 打开白色外盒，里面只有一个黑色的保护盒，而这个保护盒里面便是Osmo Mobile 2三轴稳定器以及其充电线。可惜的是，充电线是Micro USB而不是最新的Type C，意味着，我又要多带一条线。
 
-##DJI Osmo Mobile 2细节照片
+## DJI Osmo Mobile 2细节照片
 
 ![DJI Osmo Mobile 2 手机三轴稳定器细节](dji-osmo-mobile-2-gimbal-front.jpg)
 
@@ -39,7 +39,7 @@ Osmo Mobile 2的侧面加入了一个zoom in/out推钮，下拉可zoom in，上�
 
 接着，来看一下我用Osmo Mobile 2加上iPhone 8拍的一些样片。
 
-##DJI Osmo Mobile 2 样片 + iPhone 8
+## DJI Osmo Mobile 2 样片 + iPhone 8
 
 [点击前往YOUKU观看影片](http://player.youku.com/embed/XMzUxMTE5MzA4OA==)
 
@@ -75,7 +75,7 @@ Osmo Mobile 2的侧面加入了一个zoom in/out推钮，下拉可zoom in，上�
 
 个人感觉动态延时的效果也是很让人满意的，影片看起来很有意思。
 
-##总结：DJI Osmo Mobile 2是一款优秀且高CP值的手机三轴稳定器
+## 总结：DJI Osmo Mobile 2是一款优秀且高CP值的手机三轴稳定器
 
 DJI Osmo Mobile 2以129美元的价格（台湾卖4600台币左右），提供优秀的稳定效果，丰富的功能，还有15个小时的续航（可为手机充电），可说是大疆最高CP值的产品。虽然只玩了几天，但我也已经相当喜欢这个新玩具，并想到很多东西可拍（主要是延时摄影，如由黄昏入夜等）。整体来讲，我对DJI Osmo Mobile 2是满意的，唯一可以抱怨的便是每次使用前都要调平衡，会花掉一点时间，而且我不太能确定稳定器是否（完美地）平衡了（感觉有点误差也不会有问题）。
 

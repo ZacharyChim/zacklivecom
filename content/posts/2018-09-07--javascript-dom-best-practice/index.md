@@ -9,14 +9,14 @@ author: Zack
 
 这是《JavaScript学徒》系列的第九课，今天会进入《JavaScript DOM编程艺术》第5章，谈谈JavaScript的最佳实践。
 
-##教学视频连结
+## 教学视频连结
 
 * [YouTube](https://youtu.be/uWd6M1gkH3w)
 * [优酷](https://v.youku.com/v_show/id_XMzgxNTI3ODE4MA==.html)
 * [B站](https://www.bilibili.com/video/av31299614/)
 * [腾讯](http://v.qq.com/x/page/e07306iom6m.html)
 
-##平穏退化
+## 平穏退化
 
 平穏退化是指即使访问者的浏览器不支持JavaScript，网页也可能完成基本操作。
 
@@ -60,7 +60,7 @@ function popUp(winURL) {
 
 但这样还不够好，因此JavaScript代码出现在HTML当中，最好能将JavaScript分离到外部文件中。
 
-##分离JavaScript
+## 分离JavaScript
 
 最理想的情况是，所有JavaScript代码都放在一个独立的文件中，HTML文档中透过`<script>`载入这个文件。
 
@@ -91,7 +91,7 @@ function prepareLinks() {
 
 `window.onload`是确保整个HTML文档加载完成后，再执行JavaScript，避免发生JavaScript文件先载入完成，但HTML文档（也就是DOM）还没准备好。
 
-##向后兼容
+## 向后兼容
 
 另一个要考虑的问题是，浏览器对JavaScript的支持程度不一样。某些访问者的浏览器由于版本较旧等原因，不支持某些方法。可以透过以下方式检查：
 
@@ -117,9 +117,9 @@ function prepareLinks() {
 }
 ```
 
-##性能考虑
+## 性能考虑
 
-###少访问DOM和减少标记
+## #少访问DOM和减少标记
 
 每执行一次`document.getElementById`等DOM方法，就会搜索整个DOM一次。需要多次用到搜索结果时，可以将第一次的结果存到一个变量当中，之后就使用这个变量，便无需再度搜索DOM。如：
 
@@ -127,13 +127,13 @@ function prepareLinks() {
 
 另外，HTML文档中标签越多，DOM的规模就越大，搜索的成本也就越高，因此，可尽量减少标签数量。
 
-###合并脚本
+## #合并脚本
 
 尽量将JavaScript代码全部放在一个文件中，而不要分开在多个脚本文件，因为每个`<script>`标签都会向服务器发出一次请求，请求越多，网页的载入速度越慢。
 
 之前也讲过，最好将`<script>`标签放在文档最后，即`</body>`之前，这样网页载入得更快。
 
-###压缩脚本
+## #压缩脚本
 
 最后一步是压缩脚本，即去除脚本中不必要的东西，如空格和注释等。压缩后的代码不好读，但可以减少文件大小，可将它另存一个文件，在文件名加入min字样：myScript.min.js。
 

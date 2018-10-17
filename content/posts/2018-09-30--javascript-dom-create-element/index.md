@@ -9,21 +9,21 @@ author: Zack
 
 这是《JavaScript学徒》系列的第十一课，今天会进入《JavaScript DOM编程艺术》第7章，我们会一起学习如何用JavaScript动态创建标记。动态的意思是，在程式运行中创建标记，而不是在运行前就已经写好在index.html里面。之前，我们学习的是如何用JavaScript操作那些已经写好在index.html中的标记，现在我们要用JavaScript直接创建标记。
 
-##教学视频连结
+## 教学视频连结
 * [YouTube](https://youtu.be/6mmdnm5nM0M)
 * [微博](https://weibo.com/1736214117/GC7KviH6e)
 * [B站](https://www.bilibili.com/video/av32961876/)
 * [腾讯](http://v.qq.com/x/page/h0730w0cnh5.html)
 
-##传统方法
+## 传统方法
 
 传统方法方法不建议使用，只需大概了解一下，以便遇到时，知道是做什么的。
 
-###document.write
+## #document.write
 
 `document.write("<p>This is inserted.</p>")`
 
-###innerHTML
+## #innerHTML
 
 `innerHTML`既可以读取，也可以写入（赋值），但只能取得整体，不能取得里面的标记。
 
@@ -35,16 +35,16 @@ window.onload = function() {
 }
 ```
 
-##DOM方法
+## DOM方法
 
-###createElement
+## #createElement
 
 ```
 var para = document.createElement("p");
 alert(para.nodeName + ", " + para.nodeType);
 ```
 
-###appendChild
+## #appendChild
 
 ```
 var testdiv = document.getElementById("testdiv");
@@ -52,14 +52,14 @@ var para = document.createElement("p");
 testdiv.appendChild(para);
 ```
 
-###CreateTextNode
+## #CreateTextNode
 
 ```
 var txt = document.createTextNode("Hello world");
 para.appendChild(txt);
 ```
 
-###insertBefore
+## #insertBefore
 
 ```
 var gallery = document.getElementById("iamgegallery");
@@ -68,7 +68,7 @@ gallery.parentNode.insertBefore(placeholder, gallery);
 
 要插入到gallery前面，那便是在其父元素底下进行。
 
-###insertAfter
+## #insertAfter
 
 JavaScript不提供，自己写：
 
@@ -83,7 +83,7 @@ function insertAfter(newElement, targetElement) {
 }
 ```
 
-##修改图片库例子
+## 修改图片库例子
 
 ```
 function addLoadEvent(func) {

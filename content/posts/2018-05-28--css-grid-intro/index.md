@@ -96,9 +96,9 @@ Part 3:
 
 网格可以分为两种，一种是我们主动去定义的，称为显性网格（explicit grid）；另一种是系统自动产生，称为隐性网格（implicit grid）。
 
-##I. <a name="I">显性网格</a>
+## I. <a name="I">显性网格</a>
 
-###I.1 <a name="I1">网格的建立</a>
+## #I.1 <a name="I1">网格的建立</a>
 
 `display: grid`
 
@@ -186,7 +186,7 @@ grid-template-rows: 100px 100px 100px;
 
 ![网格例子](grid-example.jpg)
 
-###I.1.a <a name="I1a">repeat：多次重复同样的大小</a>
+## #I.1.a <a name="I1a">repeat：多次重复同样的大小</a>
 
 由于三栏的宽度一样，三行的高度也一样，因此可以写成：
 
@@ -197,7 +197,7 @@ grid-template-rows: repeat(3, 100px);
 
 `repeat`就是重复的意思，第一个参数是次数（此处为重复3次），第二个为大小，栏用1fr，即每栏都是1fr；行用了100px，即每行都是100px。
 
-####I.1.b <a name="I1b">minmax：指定最小值与最大值</a>
+## ## I.1.b <a name="I1b">minmax：指定最小值与最大值</a>
 
 ```
 grid-template-columns: 1fr minmax(auto, 50%) 1fr;
@@ -224,9 +224,9 @@ grid-template-rows: 100px minmax(100px, auto) 100px;
 
 你可以试著将第5格所有的文字移除，你会看到它的高度最100px和上下两行一样，这是因为最小值设定了100px，即使没有内容，它也会保持最小100px；但当内容超过100px的容量，它会自动增加行高（最大值为auto），也就是上图看到的情况。
 
-###I.1.c <a name="I1c">auto-fill與auto-fit</a>
+## #I.1.c <a name="I1c">auto-fill與auto-fit</a>
 
-####auto-fill
+## ## auto-fill
 
 如果你确定了每一栏的最小宽度（如100px），可以这样设定：
 
@@ -262,7 +262,7 @@ grid-template-columns: repeat(auto-fill, minmax(100px, 1fr));
 
 这就可以在不使用媒体查询（Media Query）的情况下，实现**响应式网页设计**。当然，这也不是说，有了网格就不需要媒体查询，最好的做法是两者组合使用。
 
-####auto-fit
+## ## auto-fit
 
 `auto-fit`跟`auto-fill`非常类似，唯一的差别是上述的第二种情况：当屏幕宽度能容下更多的div时，`auto-fit`会将多余的宽度平均分给每一栏，而不是像`auto-fill`那样增加一些空白栏。
 
@@ -272,7 +272,7 @@ grid-template-columns: repeat(auto-fill, minmax(100px, 1fr));
 
 第二行使用`auto-fit`，多余的空间被平均分配给了每一栏。
 
-###I.1.d <a name="I1d">grid-gap：间隔</a>
+## #I.1.d <a name="I1d">grid-gap：间隔</a>
 
 `grid-gap: 3rem 1rem;`：设定行与行的间隔为3rem，栏与栏的间隔为1rem；也可以分开设定：
 ```
@@ -284,11 +284,11 @@ grid-column-gap: 1rem;
 
 ![网格间隔](grid-gap.jpg)
 
-##I.2 <a name="I2">网格区块划分</a>
+## I.2 <a name="I2">网格区块划分</a>
 
 现在我们学会了如何建立网格，接著就要学习将多个单元格组成区域（area），这样我们就能够为每一个区块赋于不同的功能，例如页首（header）、页尾（footer）之类。
 
-###I.2.a <a name="I2a">网格线</a>
+## #I.2.a <a name="I2a">网格线</a>
 
 建立区块最简单的方法就是用网格线。CSS会自动为网格线编号：
 
@@ -296,7 +296,7 @@ grid-column-gap: 1rem;
 
 可以看到栏线会变栏数多一，同样行线会比行数多一。
 
-###I.2.a.i <a name="I2ai">网格线命名</a>
+## #I.2.a.i <a name="I2ai">网格线命名</a>
 
 ```
 grid-template-columns: [col-1-start] 1fr [col-2-start] 1fr [col-3-start] 1fr [col-3-end];
@@ -310,7 +310,7 @@ grid-template-rows: [row-1-start] 1fr [row-2-start] 1fr [row-3-start] 1fr [row-3
 3. 线的名字在大小的左右两侧： `[col-1-start] 1fr [col-1-end]`
 4. 同一条线可以有多个名字，放在同一个中括号中，用空白隔开：`[col-1-start] 1fr [col-1-end col-2-start] 1fr [col-2-end]`
 
-###I.2.a.ii <a name="I2aii">单元格定位</a>
+## #I.2.a.ii <a name="I2aii">单元格定位</a>
 
 透过网格线我们可以将一个div指定到特定的单元格中，例如，我们要将第一个（ID为part1的那个div）放在中间，也就是第五格，便可以在#part1的CSS中加入：
 
@@ -346,7 +346,7 @@ grid-row: 2;
 grid-column: 2;
 ```
 
-###I.2.a.iii <a name="I2aiii">占据多个单元格</a>
+## #I.2.a.iii <a name="I2aiii">占据多个单元格</a>
 
 一个div可以占据多个单元格，下例中第五格占了右下角四格，为此，我们把第七到第九这三个div从index.html中删除。
 
@@ -374,7 +374,7 @@ grid-row-start: 2;
 grid-row-end: 4;
 ```
 
-###I.2.a.iv <a name="I2aiv">使用网格线名称</a>
+## #I.2.a.iv <a name="I2aiv">使用网格线名称</a>
 
 若你已经为网格线命名，那就可以直接用其命称：
 
@@ -384,7 +384,7 @@ grid-column: col-2-start / col-3-end;
 grid-row:    row-2-start / row-3-end;
 ```
 
-###I.2.b <a name="I2b">网格区域（grid-area）</a>
+## #I.2.b <a name="I2b">网格区域（grid-area）</a>
 
 网格区域是使用网格最直观的方法。例如我们有这样一个设计：
 
@@ -433,7 +433,7 @@ grid-row-start:    header;
 grid-row-end:      header;
 ```
 
-##II. <a name="II">隐性网格（Implicit Grid）</a>
+## II. <a name="II">隐性网格（Implicit Grid）</a>
 
 隠性网格是指那些你没有主动定义而自动产生的网格。例如说，你只定义了一个三栏两行（六格）的网格，但最终的设计却要九格，多出来的三格会自动产生，它们称为隐性网格。
 
@@ -447,7 +447,7 @@ grid-template-rows: repeat(2, 100px);
 
 最后一行跟里面的文字一样高，这是自动产生的，所以是隐性网格。
 
-###II.1 <a name="II1">隐性网格的预设行高与栏宽</a>
+## #II.1 <a name="II1">隐性网格的预设行高与栏宽</a>
 
 我们可以设定预设的行高：
 
@@ -487,7 +487,7 @@ grid-auto-columns: 2fr;
 
 可以看到行固定在两行，为了将九格全部放进来，除了我们主动定义的三栏之外，自动增加了两栏，栏宽为2fr，即前三栏（1fr）的两位。
 
-###II.2 <a name="II2">隐性网格线名称</a>
+## #II.2 <a name="II2">隐性网格线名称</a>
 
 除了隐性的行与栏之外，当你用网格区域（grid-template-area）时，会自动为构成区域的的四边线（两行线和两栏线）命名。例如header区域的两条栏线和两条行线都分别叫做header-start和header-end。你可以这样用：
 
@@ -498,7 +498,7 @@ grid-row-start:    header-start;
 grid-row-end:      header-end;
 ```
 
-###II.3 <a name="II3">隐性网格区域名称</a>
+## #II.3 <a name="II3">隐性网格区域名称</a>
 
 如果一个区域或单元格的四条线都是同一个名称（如header）加上“-start”（header-start）和“-end”（header-end）构成，那这个区域便会自动叫这个名策（header）。如下例，该区域便会自动拥有header这个名称：
 
@@ -507,9 +507,9 @@ grid-template-rows:    [header-start] 1fr [header-end];
 grid-template-columns: [header-start] 1fr [header-end];
 ```
 
-##III. <a name="III">堆叠与对齐</a>
+## III. <a name="III">堆叠与对齐</a>
 
-###III.1 <a name="III1">网格堆叠：z-index</a>
+## #III.1 <a name="III1">网格堆叠：z-index</a>
 
 网格的区域或单元格是可以重叠的。例如，我们将前面的例子改为4x3的网格：
 
@@ -554,9 +554,9 @@ z-index: 1;
 
 ![网格z-index](grid-z-index.jpg)
 
-###III.2 <a name="III2">对齐</a>
+## #III.2 <a name="III2">对齐</a>
 
-###III.2.a <a name="III2a">全体单元格对齐设定</a>
+## #III.2.a <a name="III2a">全体单元格对齐设定</a>
 
 全体对齐设定意味着对网格中所有单元格进行统一设定。
 
@@ -678,7 +678,7 @@ align-items: center;
 
 你可以试试其他的组合，如`justify-items: start`加上`align-items: `，看看效果如何。
 
-###III.2.b <a name="III2b">个别单元格对齐设定</a>
+## #III.2.b <a name="III2b">个别单元格对齐设定</a>
 
 如果要对某一个单元格进行设定，可以使用`justify-self`和`align-self`，self就是自我的意思，要放在你要设定的那个单元格（如#part1、#part2等）当中。它们的值跟`justify-items`和`align-items`完全一样。
 
@@ -702,7 +702,7 @@ align-items: center;
 
 ![个别单元格对齐](align-justify-self.jpg)
 
-###III.2.c <a name="III2c">网格整体对齐</a>
+## #III.2.c <a name="III2c">网格整体对齐</a>
 
 网格可以作为一个整体进行对齐，以我们的例子，就是九个单元格作为一个整体一起靠右之类。
 

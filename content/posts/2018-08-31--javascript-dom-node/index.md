@@ -9,7 +9,7 @@ author: Zack
 
 这是《JavaScript学徒》系列的第四课，本课会进入《JavaScript DOM编程艺术》第3章，更深入地介绍DOM（Document Object Model 文档对象模型）。
 
-##教学视频连结
+## 教学视频连结
 
 * [YouTube](https://youtu.be/GGzf09XUEVQ)
 * [优酷](https://v.youku.com/v_show/id_XMzgwODA3NDgxMg==.html)
@@ -17,7 +17,7 @@ author: Zack
 * [B站](https://www.bilibili.com/video/av30959388/)
 * [腾讯](http://v.qq.com/x/page/z0730tokptu.html)
 
-###DOM
+## #DOM
 
 D: Document - 文档；每一个网页都是一个文档，如：index.html。
 
@@ -36,7 +36,7 @@ M：Model - 模型；将文档对象看成如下的模型：
 
 其中，`<html>`是整个网页文档的起点，所以没有父级，也没有兄弟级，像一棵树的根，因此也称为**根元素**。
 
-##节点
+## 节点
 
 在图中的每一个项目（蓝色）都称为一个节点（**node**）。节点分三种：
 

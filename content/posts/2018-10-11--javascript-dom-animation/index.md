@@ -9,13 +9,13 @@ author: Zack
 
 这是《JavaScript学徒》系列的第十四课，今天会介绍《JavaScript DOM编程艺术》第10章动画，学习用JavaScript来实现动画效果。
 
-##教学视频连结
+## 教学视频连结
 * [YouTube](https://youtu.be/i39UAdpadU4)
 * [微博](https://weibo.com/1736214117/GDG2eClwy)
 * [腾讯](https://v.qq.com/x/page/o07446t4u8f.html)
 * [B站](https://www.bilibili.com/video/av33718416/)
 
-##setTimeout & clearTimeout
+## setTimeout & clearTimeout
 
 ```
 movement = setTimeout("moveMessage()", 3000);
@@ -25,7 +25,7 @@ movement = setTimeout("moveMessage()", 3000);
 clearTimeout(movement);
 ```
 
-##parseInt & parseFloat
+## parseInt & parseFloat
 
 提取数值：
 
@@ -36,7 +36,7 @@ parseInt("39 steps");
 
 提取浮点数（带小数点）可以用`parseFloat`。
 
-##moveElement函数
+## moveElement函数
 
 ```
 function moveElement(elementID, final_x, final_y, interval) {
@@ -72,7 +72,7 @@ function moveElement(elementID, final_x, final_y, interval) {
 moveElement("message", 200, 100, 10);
 ```
 
-##为元素创建属性
+## 为元素创建属性
 
 ```
 elem.movement = setTimeout(repeat, interval);
@@ -86,7 +86,7 @@ if (elem.movement) {
 ```
 先判断`elem.movement`，也就是是否已执行过`setTimeout`，若是，则清除之前的队列，再执行新的`setTimeout`。
 
-##Math.ceil, Math.floor & Math.round
+## Math.ceil, Math.floor & Math.round
 
 * Math.round：四舍五入，取最接近的整数
 * Math.ceil：向较大值舍入，取最接近的整数
@@ -102,6 +102,6 @@ if (xpos > final_x) {
 
 这样可使动画每次移10之一的距离，达到一开始移动较快，渐渐慢下来的效果。
 
-##《JavaScript DOM编程艺术》完结
+## 《JavaScript DOM编程艺术》完结
 
 《JavaScript DOM编程艺术》剩下的章节介绍了HTML5、JavaScript的一些框架以及一个综合示例。由于并没有太多新内容或重点不在JavaScript，我就不深入了。其中，值得一提的是JavaScript框架的部分。本书撰写时，jQuery仍是主流，但现在，建议学习React.js或者Vue.js。

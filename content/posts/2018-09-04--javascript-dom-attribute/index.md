@@ -9,14 +9,14 @@ author: Zack
 
 这是《JavaScript学徒》系列的第六课，今天会继续《JavaScript DOM编程艺术》第3章，介绍如何用DOM方法获取与修改元素属性。
 
-##教学视频连结
+## 教学视频连结
 
 * [YouTube](https://youtu.be/FXLP7Z6dD-o)
 * [优酷](https://v.youku.com/v_show/id_XMzgxMTMxNDUyNA==.html)
 * [B站](https://www.bilibili.com/video/av31119311/)
 * [腾讯](http://v.qq.com/x/page/w07302ky7qg.html)
 
-##获取属性：getAttribute
+## 获取属性：getAttribute
 
 `object.getAttribute(attribute)`
 
@@ -43,7 +43,7 @@ for (var i = 0; i < para.length; i++) {
 
 只有属性存在时才alert。
 
-##修改属性：setAttribute
+## 修改属性：setAttribute
 
 `object.setAttribute(attribute, value)`
 
@@ -60,7 +60,7 @@ alert(buyList.getAttribute("title"));
 
 当你查看网页的源代码时，并不会看到修改后的内容，因为浏览器会先载入网页，再运行JavaScript进行动态修改，因此所有修改并不会影响原本的网页文件（HTML）。
 
-##文本节点？
+## 文本节点？
 
 我们知道节点有三种：元素节点、属性节点和文本节点。而我们学习了：
 

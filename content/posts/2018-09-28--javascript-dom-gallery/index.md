@@ -9,7 +9,7 @@ author: Zack
 
 这是《JavaScript学徒》系列的第十课，今天会进入《JavaScript DOM编程艺术》第6章，将上一章的最佳实践应用到图片库例子中。
 
-##教学视频连结
+## 教学视频连结
 
 * [YouTube](https://youtu.be/eGdJuXp2p20)
 * [B站](https://www.bilibili.com/video/av32729095/)
@@ -17,7 +17,7 @@ author: Zack
 * [腾讯](http://v.qq.com/x/page/h0730affpau.html)
 
 
-##能否平穏退化？
+## 能否平穏退化？
 
 ```
 <li><a href="images/balloon.jpg" title="Balloon" onclick="showPic(this); return false;"> Ballon</a></li>
@@ -25,7 +25,7 @@ author: Zack
 
 以这段程式为例，`href`中我们不使用JavaScript伪协议（`javascript:`）或者`#`号，就是为了即使JavaScript不可用，程式仍能打开图片。
 
-##JavaScript是否与HTML标记分离？
+## JavaScript是否与HTML标记分离？
 
 在上面那段程式中，`onclick`的部分便是JavaScript，它跟HTML混在一起了。这是可以改进的地方。
 
@@ -97,7 +97,7 @@ function showPic(whichpic) {
 
 这代表`showPic`成功（`showPic`返回`true`），我们应取消连结跳转，即`prepareGallery`要返回`false`，与`showPic`相反；反之，若`showPic`出错并返回`false`，`prepareGallery`则应返回`true`，让连结进行跳转。
 
-###三元操作符（ternary operator）
+## #三元操作符（ternary operator）
 
 `showPic`当中还可以加入更多的检查：
 
@@ -115,7 +115,7 @@ var text = whichpic.getAttribute("title") ? whichpic.getAttribute("title") : "";
 
 这此检查可按个人喜好加入。
 
-##键盘事件
+## 键盘事件
 
 按下键盘上任一个出键都会触发`onkeypress`事件，如果我们也想让用户按下键盘任意键来显示图片，可以加入：
 
@@ -128,7 +128,7 @@ links[i].onkeypress = links[i].onclick;
 
 但`onkeypress`会使所有键失去原本的功能，如Tab键，不再能够跳到下一个元素；同时，`onclick`其实也会被回车键触发，因此，如非必要，不应使用`onkeypress`。
 
-##加入CSS
+## 加入CSS
 
 在index.html的`head`中加入：
 
@@ -178,7 +178,7 @@ li {
 }
 ```
 
-##DOM Core和HTML-DOM
+## DOM Core和HTML-DOM
 
 **DOM Core**：任何程式语言都可以使用，不限JavaScript或网页，方法包括
 

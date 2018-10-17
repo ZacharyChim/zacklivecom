@@ -9,7 +9,7 @@ author: Zack
 
 这是《JavaScript学徒》系列的第五课，今天会继续《JavaScript DOM编程艺术》第3章，介绍如何用DOM方法获取元素节点。
 
-##教学视频连结
+## 教学视频连结
 
 * [YouTube](https://youtu.be/lwc45ZTDE54)
 * [优酷](https://v.youku.com/v_show/id_XMzgwODMyMzgyNA==.html)
@@ -17,7 +17,7 @@ author: Zack
 * [腾讯](http://v.qq.com/x/page/e0730w0a5zs.html)
 
 
-##获取元素节点的方法
+## 获取元素节点的方法
 
 注意JavaScript采用**驼峰式**命名法，即从第二个单字开始，每个单字的首字母都需大写。
 

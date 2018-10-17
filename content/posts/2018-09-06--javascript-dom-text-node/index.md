@@ -9,7 +9,7 @@ author: Zack
 
 这是《JavaScript学徒》系列的第八课，今天会继续《JavaScript DOM编程艺术》第4章，进一步完善图片库网页。这一课的学习重点是文本节点的操作。
 
-##教学视频连结
+## 教学视频连结
 
 * [YouTube](https://youtu.be/fHZVRX6tbCU)
 * [微博](http://weibo.com/u/1736214117)
@@ -17,7 +17,7 @@ author: Zack
 * [B站](https://www.bilibili.com/video/av31274606/)
 * [腾讯](http://v.qq.com/x/page/q0730de00l2.html)
 
-##childNodes属性
+## childNodes属性
 
 **childNodes**可以用来取得一个元素对象的所有子节点，是一个包含全部子节点的数组。是复数，有s。
 
@@ -42,7 +42,7 @@ function countBodyChildren() {
 window.onload = countBodyChildren;
 ```
 
-##nodeType属性
+## nodeType属性
 
 之前讲过节点一共有三种，它们有各自的nodeType属性值：
 
@@ -52,7 +52,7 @@ window.onload = countBodyChildren;
 
 可以将countBodyChildren函数最后alert的内容改为body_element.nodeType，body是元素节点，结果应为1.
 
-##nodeValue属性
+## nodeValue属性
 
 **nodeValue**可以取得文本节点的值。但要记得，诸如段落标签p当中的文字并不是这标签的nodeValue，而是它底下的文本节点的nodeValue。而这个文本节点则是段落标签的第一个childNodes。
 
@@ -71,13 +71,13 @@ nodeValue可以修改：
 
 `description.childNodes[0].nodeValue = text;`
 
-##firstChild和lastChild属性
+## firstChild和lastChild属性
 
 数组元素childNodes[0]可以写成firstChild，即第一个子节点。
 
 同理，最后一个子节点可以写成lastChild。
 
-##修改图片库
+## 修改图片库
 
 将图片的title属性值放到description当中，最终的showPic函数：
 
@@ -125,7 +125,7 @@ img {
 }
 ```
 
-##《JavaScript DOM编程艺术》第4章重点
+## 《JavaScript DOM编程艺术》第4章重点
 
 这一章的重点是修改文本节点，介绍以下五种属性：
 

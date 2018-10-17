@@ -9,7 +9,7 @@ author: Zack
 
 这是《JavaScript学徒》系列的第七课，今天会进入《JavaScript DOM编程艺术》第4章，这一章我们将完成一个图片库网页。这一课，我们先完成图片库的趋型，并学习事件处理函数的概念。
 
-##教学视频连结
+## 教学视频连结
 
 * [YouTube](https://youtu.be/htTnq9RMAkM)
 * [微博](https://weibo.com/1736214117/Gy3hi1Zt2)
@@ -17,7 +17,7 @@ author: Zack
 * [优酷](https://v.youku.com/v_show/id_XMzgxMjYyNjcxNg==.html)
 * [腾讯](http://v.qq.com/x/page/e0730gs6ywp.html)
 
-##事件处理函数
+## 事件处理函数
 
 事件处理函数会在特定事件发生时触发，例如，当鼠标停在某个元素上时会触发`onmouseover`事件处理函数；鼠标离开时，又会触发`onmouseout`事件。在图片库中，我们会用到`onclick`事件，也就是点击事件。使用方法如下：
 
@@ -29,13 +29,13 @@ author: Zack
 
 `<a href="https://zacklive.com" onclick="showPic(this); return false;">Click me</a>`
 
-##图片库设计
+## 图片库设计
 
 * “占位符（placeholder）”图片预留一个浏览区域。
 * 图片连结被点击时，拦截网页的默认行为，即不前往连结地址（不刷新窗口）
 * 图片连结被点击时，将placeholder图片换成该图片连结相对应的图片。
 
-##HTML与JavaScript
+## HTML与JavaScript
 
 index.html：
 

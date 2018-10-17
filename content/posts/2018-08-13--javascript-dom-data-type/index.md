@@ -15,7 +15,7 @@ JavaScript学徒系列会以经典书籍为教材制作影片，和大家一起�
 
 本课介绍JavaScript语法基础：数据类型与运算。
 
-##视频连结
+## 视频连结
 
 * [YouTube](https://youtu.be/v8NpLlGprP4)
 * [B站](https://www.bilibili.com/video/av29885894/)
@@ -24,13 +24,13 @@ JavaScript学徒系列会以经典书籍为教材制作影片，和大家一起�
 
 学习JavaScript要掌握的第一个概念便是DOM。
 
-##DOM：Document Object Model
+## DOM：Document Object Model
 
 DOM的概念是将整个网页视为一个文件（Document）对象（Object），网页上的每一个标签都视为这个文件对象底下的一个节点，如下图：
 
 ![Document Object Model](dom.jpg)
 
-##JavaScript在HTML文件中的位置
+## JavaScript在HTML文件中的位置
 
 JavaScript的程式可放在`<script></script>`当中，然后将这个`<script>`放在`<head>`或`<body>`里面。但更好的做法是，将JavaScript程式独立放在一个文件中，如myScript.js；再透过`<script src="myScript.js"></script>`将文件导入。如下：
 
@@ -54,13 +54,13 @@ JavaScript的程式可放在`<script></script>`当中，然后将这个`<script>
 
 接著你便可以在myScript.js里写JavaScript程式。由于，Script中文也翻译成脚本，所以JavaScript程式有时也被程为脚本。
 
-##JavaScript语法
+## JavaScript语法
 
 1. 一行为一个指令，或称语句（Statement）。
 2. 分号`;`也可以用来分隔语句，即两个以分号结尾的指令可以放同一行。
 3. 建议：一行写一个语句，并加上分号作为结束。
 
-##JavaScript注释
+## JavaScript注释
 
 注释是用来提醒自己的讯息，就文未的注解，程式会忽略。写法有两种：
 
@@ -80,7 +80,7 @@ JavaScript的程式可放在`<script></script>`当中，然后将这个`<script>
 
 在JavaScript也可以用`<!--`作为单行注释，不需`-->`，但只能用于单行。
 
-##JavaScript变量
+## JavaScript变量
 
 **变量（variable）**可以理解为存放**值**的容器。例如，我们可以用一个叫做`age`的变量存放数字`33`:
 
@@ -90,7 +90,7 @@ var age = 33;
 
 `var`来自变量的英文variable，它算是一个指令，声明了它后面接著的是一个变量。因此，这句指令称为声明。`=`在这里是赋值的意思，也就是把`33`这个数字放到`age`这个变量当中。
 
-##JavaScript数据类型
+## JavaScript数据类型
 
 JavaScript中的数据有著不同的类型，例如，`33`就是**数值**类型。JavaScript数据类型有：
 
@@ -152,7 +152,7 @@ JavaScript中的数据有著不同的类型，例如，`33`就是**数值**类�
    var student = { name: "John", age: 15 };
    ```
 
-##JavaScript运算
+## JavaScript运算
 
 1. `+`、`-`、`*`（乘）、`/`（除）、还有小括号和我们学过的算法完全一样。
 

@@ -11,13 +11,13 @@ author: Zack
 
 这是《JavaScript学徒》系列的第三课，本课会继续《JavaScript DOM编程艺术》第2章，介绍JavaScript中的函数与对象。
 
-##教学视频连结
+## 教学视频连结
 * [YouTube](https://youtu.be/8CynRzsC74I)
 * [BiliBili](https://www.bilibili.com/video/av29987143/)
 * [YouKu](https://v.youku.com/v_show/id_XMzc5MjE3MzAxMg==.html)
 * [腾讯](http://v.qq.com/x/page/h0730b7fsg2.html)
 
-##函数
+## 函数
 
 函数是将一段程式码封装起来，以便重覆使用。
 
@@ -56,13 +56,13 @@ var result = multiply(2, 5);
 
 函数名不能有空格，大家常使用驼峰式命名：从第二个单字开始，每个单字的第一个字母大写，如printNames。
 
-##变量的作用域
+## 变量的作用域
 
 变量的有效范围称为**作用域**（scope）。函数内部声明的变量，如前例`multiply`里的total，只在函数里面有效，称为局部变量（local variable）。而在函数之外，也就是在主程式中声明的变量，则是在任何地方都有效，包括在函数里也能使用，因此称为全局变量（global variable）。
 
 简单的讲，函数开创的自己的小世界。在这个小世界里，可以取用外面大世界的资源（变量），但是，在小世界里原创的变量，只在小世界里有效。除非是透过返回（return）送到大世界，否则，大世界是不承认小世界中原创的变量。
 
-##对象
+## 对象
 
 在[数据类型](/javascript-dom-data-type)中，已经提到过对象（object）。对象是一个数据集合，里面包含两种数据：
 
@@ -91,7 +91,7 @@ john.sleep();
 
 我们可以自行建立对象，JavaScript也提供了一些内建的对象给我们使用。
 
-##JavaScript的内建对象
+## JavaScript的内建对象
 
 数组是一个内建对象，以下建立一个数组的实例：
 
@@ -125,6 +125,6 @@ var current_day = new Date();
 var today = current_day.getDay();
 ```
 
-##第二章JavaScript基础语法结束
+## 第二章JavaScript基础语法结束
 
 第二章将JavaScript的基础语法快速地介绍了一遍，很多内容没有深入讲解。这种做法，我是支持的。毕竟，现阶段一下子讲太多，读者也无法消化。反而是有了一点基本概念，然后在实际应用中慢慢消化，或许效果会更好。

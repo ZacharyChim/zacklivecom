@@ -9,19 +9,19 @@ author: Zack
 
 这是《JavaScript学徒》系列的第十三课，今天会介绍《JavaScript DOM编程艺术》第9章CSS-DOM，学习用JavaScript来操作CSS。
 
-##教学视频连结
+## 教学视频连结
 * [YouTube](https://youtu.be/QVncmU0dNTM)
 * [腾讯](https://v.qq.com/x/page/d0744gyb6jy.html)
 * [微博](https://weibo.com/1736214117/GDG0vlB9m)
 * [B站](https://www.bilibili.com/video/av33718091/)
 
-##结构--表示--行为
+## 结构--表示--行为
 
 * HTML：结构层（Structural layer）
 * CSS：表示层（Presentation layer）
 * JavaScript：行为层（Behavior layer）
 
-##style属性
+## style属性
 
 ```
 <p id="example" style="color: grey; font-family: 'Arial', sans-serif;">An Example</p>
@@ -49,7 +49,7 @@ para.style.fontFamily
 para.style.color = "black";
 ```
 
-##className属性
+## className属性
 
 覆盖`class`属性：
 ```

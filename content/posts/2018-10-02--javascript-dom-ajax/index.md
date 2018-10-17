@@ -9,14 +9,14 @@ author: Zack
 
 这是《JavaScript学徒》系列的第十二课，今天继续《JavaScript DOM编程艺术》第7章，我们会一起学习Ajax的概念。Ajax是异步加载页面内容的技术，意思是，点击连结后，并不会刷新整个页面，但也能载入并显示新内容。这样，我们就不用每次操作后都要等待网页刷新。你的网页用起来就像桌面应用一样，大大提高用户体验。
 
-##教学视频连结
+## 教学视频连结
 
 * [YouTube](https://youtu.be/JnWTVyLqxIQ)
 * [微博](https://weibo.com/1736214117/GCiU0fyoZ)
 * [B站](https://www.bilibili.com/video/av33053611/)
 * [腾讯](http://v.qq.com/x/page/a0730r3s5jy.html)
 
-##XMLHttpRequest
+## XMLHttpRequest
 
 Ajax的核心就是XMLHttpRequest对象：
 

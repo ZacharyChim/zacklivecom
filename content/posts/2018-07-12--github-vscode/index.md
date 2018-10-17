@@ -19,7 +19,7 @@ GitHub基于Git版本管理系统，与VS Code整合后可更有效管理程式�
 
 3. [YouKu](https://v.youku.com/v_show/id_XMzc0OTM4NDUxNg==.html)
 
-##上传修改过的文件至GitHub
+## 上传修改过的文件至GitHub
 
 我们在第一课时已经在GitHub上建立了一个程式仓库，但已经有好几课的程式没有没新到仓库上面。今天我们先将之前修改过的文件上传到GitHub之上。方法其实已经讲过，这里就简单地带一下。
 
@@ -35,7 +35,7 @@ GitHub基于Git版本管理系统，与VS Code整合后可更有效管理程式�
 
 这个过程虽然不难，但每次都要通过GitHub的网页进行，效率不高。我们可以通过将GitHub和VS Code整合，直接在VS Code里面完成这些操作。
 
-##安装Git
+## 安装Git
 
 GitHub是基于Git的技术，所以我们要先安装Git。前往Git的官网：[https://git-scm.com/](https://git-scm.com/)
 
@@ -43,7 +43,7 @@ GitHub是基于Git的技术，所以我们要先安装Git。前往Git的官网�
 
 在中间右侧便能下载Git的安装文件，Windows和Mac的版本都有提供，根据你的电脑选择相应的版本下载安装即可。
 
-##建立SSH密钥
+## 建立SSH密钥
 
 要使用GitHub，首先要登入你的GitHub帐号。同样地，要上传程式码，也需要登入你的GitHub，不然就变成什么人都能修改你的程式。但每次都要输入帐号密码也是一件烦人的事，于是便有了SSH密钥。SSH密钥就像一把锁和钥匙，你把钥匙放在自己的电脑里，并将锁交给GitHub。每次连结GitHub时，就会进行钥匙跟锁的配对，能配上的就会让你进去修改程式码。
 
@@ -115,7 +115,7 @@ Are you sure you want to continue connecting (yes/no)?
 
 输入yes后，便会得到包含"You've successfully authenticated"的讯息，那便代表成功了。
 
-##克隆仓库
+## 克隆仓库
 
 我们的仓库放在GitHub上面，现在要把它克隆(clone)下来，这两个仓库便能“连结“起来。
 
@@ -145,7 +145,7 @@ Are you sure you want to continue connecting (yes/no)?
 
 当然，你也可以从文件选单里面的打开文件夹选项来打开。打开后会看到，文件夹里面的文件和GitHub上的完全一样。
 
-##Git的工作流程
+## Git的工作流程
 
 现在，我们已经将仓库从GitHub上面克隆了下来，以后便可以在本地（我们的电脑）里对文件进行修改，然后透过VS Code快速地更新到GitHub上。马上就试试看：
 
@@ -183,7 +183,7 @@ Git专属区右上角的勾便是提交功能：
 
 这时，你可以进入GitHub的官网查看一下index.html里的标题是不是也改了。
 
-##Git操作三部曲
+## Git操作三部曲
 
 1. 确定修改(加号图标)
 
@@ -193,7 +193,7 @@ Git专属区右上角的勾便是提交功能：
 
 以后，每当你完成一项修改（如增加一个功能），便应该进行一次三部曲，将你的修改上传到GitHub上面。
 
-##总结
+## 总结
 
 今天我们介绍的是Git的最基本操作，
 
