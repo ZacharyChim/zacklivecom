@@ -15,7 +15,7 @@ author: Zack
 * [腾讯](https://v.qq.com/x/page/m0750ym86qa.html)
 * [B站](https://www.bilibili.com/video/av34007655/)
 
-##主目录
+## 主目录
 
 * .cache：存放cache，可无视。
 * node_modules：存放node的modules，可无视。
@@ -28,7 +28,7 @@ author: Zack
 * package.json：NPM设定
 * package-lock.json, yarn.lock：NPM和yarn的锁定文件，无视。
 
-##src目录
+## src目录
 
 这个目录下的结构会因Starter而不同，你也可以自行设计。
 
