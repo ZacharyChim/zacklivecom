@@ -13,6 +13,7 @@ author: Zack
 * [YouTube](https://youtu.be/r2rY18ZB35A)
 * [微博](https://weibo.com/1736214117/GEqF0D9wX)
 * [腾讯](https://v.qq.com/x/page/k07528mfmz7.html)
+* [B站](https://www.bilibili.com/video/av34068796/)
 
 ## layout.js vs pages
 
