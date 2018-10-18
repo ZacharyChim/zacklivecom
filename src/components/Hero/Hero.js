@@ -10,10 +10,10 @@ const Hero = props => {
     <React.Fragment>
       <section className="hero">
         <h1>
-          向 <strong>经典书籍</strong> 学习编程
+          采用国际最新技术 打造<strong>未来网页</strong>
         </h1>
         <button onClick={scrollToContent} aria-label="scroll">
-          <FaArrowDown />
+          <FaArrowDown />
         </button>
       </section>
 
