@@ -12,6 +12,8 @@ author: Zack
 ## 视频教学连结
 * [YouTube](https://youtu.be/1XQ3CphDDJ4)
 * [微博](https://weibo.com/1736214117/GED0J2qcF)
+* [B站](https://www.bilibili.com/video/av34144645/)
+* [腾讯](http://v.qq.com/x/page/h0754mweyud.html)
 
 ## gatsby-config.js
 
