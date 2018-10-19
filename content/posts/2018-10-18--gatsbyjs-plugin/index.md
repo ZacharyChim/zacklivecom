@@ -10,7 +10,7 @@ author: Zack
 和WordPress一样，Gatsby.js也有plugin系统，透过NPM安装。你可以在[Gatsby.js 官网](https://www.gatsbyjs.org/plugins/)找到所有plugin。今天我们要学习怎样安装plugin。
 
 ## 视频教学连结
-
+* [YouTube](https://youtu.be/1XQ3CphDDJ4)
 
 ## gatsby-config.js
 
