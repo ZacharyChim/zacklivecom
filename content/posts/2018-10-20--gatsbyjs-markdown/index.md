@@ -1,5 +1,5 @@
 ---
-title: Gatsby.js 未来的网页06：支持Markdown
+title: Gatsby.js 未来的网页06：加入Markdown
 category: "Gatsby.js"
 cover: gatsbyjs-markdown.jpg
 author: Zack
@@ -49,10 +49,10 @@ npm install --save gatsby-transformer-remark
 这个文件的由frontmatter开始。frontmatter是网站的基本资料，如title。以下是我们的index.md：
 
 ```
-\```
+---
 path: 'blog-post-1'
 title: 'My post'
-\```
+---
 
 # Post Heading
 ```
@@ -97,3 +97,5 @@ export const postQuery = graphql`
 graphql开始是GraphQL的内容。第二行的BlogPostByPath是这段query的名称，其接受一个参数：$path。我们要在markdownRemark中找frontmatter的path等于参数给予的$path的数据，找到后，我们要取得其html以及frontmatter中的path和title当中存放的内容。
 
 下一步是要用Gatsby的createPages API创建页，这部分的内容，我们留到明天继续。
+
+本文参与[iT邦帮忙铁人赛](https://ithelp.ithome.com.tw/articles/10201974)。[繁体](https://nodejust.com/gatsbyjs/)

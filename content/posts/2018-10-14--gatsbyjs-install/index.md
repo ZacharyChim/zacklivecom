@@ -37,4 +37,4 @@ gatsby develop
 
 今天先到此，明天我们会瞭解一下gatsby的目录结构。
 
-本文参与[iT邦帮忙铁人赛](https://ithelp.ithome.com.tw/articles/10201974)。[繁体](https://nodejust.com/gatsbyjs-install/)
+本文参与[iT邦帮忙铁人赛](https://ithelp.ithome.com.tw/articles/10201974)。[繁体](https://nodejust.com/gatsbyjs/)

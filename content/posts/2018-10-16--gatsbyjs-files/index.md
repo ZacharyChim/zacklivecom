@@ -35,3 +35,5 @@ author: Zack
 * components：网站的主要结构元件，如header或layout（网页结构）
 * images：存放图片
 * pages：不同页面的内容，通常供components里的layout.js使用。
+
+本文参与[iT邦帮忙铁人赛](https://ithelp.ithome.com.tw/articles/10201974)。[繁体](https://nodejust.com/gatsbyjs/)
