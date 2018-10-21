@@ -1,0 +1,71 @@
+---
+title: Gatsby.js 未来的网页07：自動生成頁面
+category: "Gatsby.js"
+cover: gatsbyjs-createpages.jpg
+author: Zack
+---
+
+![Gatsby.js 自動生成頁面](gatsbyjs-createpages.jpg)
+
+上一篇中我们准备好了Markdown丶post template，以及相应的一些GraphQL query，今天就要使用Gatsby提供的createPages API自动産生blog文章。
+
+## 视频教学连结
+
+## gatsby-node.js
+gatsby-node.js便是我们使用createPages的地方。Gatsby会根据这里面的设定産生相应的node（post, page等）。如果主目录下找不到这个文件，可自行新增，但名称必需使用gatsby-node.js。
+
+在gatsby-node.js中加入：
+
+```
+const path = require('path');
+
+exports.createPages = ({actions, graphql}) => {
+  const {createPage} = actions;
+
+  const postTemplate = path.resolve('src/templates/post.js');
+
+  return graphql(`{
+    allMarkdownRemark {
+      edges {
+        node {
+          html
+          id
+          frontmatter {
+            path
+            title
+          }
+        }
+      }
+    }
+  }`)
+  .then(res => {
+    if (res.errors) {
+      return Promise.reject(res.errors);
+    }
+
+    res.data.allMarkdownRemark.edges.forEach(({node}) => {
+      createPage({
+        path: node.frontmatter.path,
+        component: postTemplate
+      })
+    })
+  })
+}
+```
+
+我們用GraphQL取得所有的文章，用foreach針對每一篇文章使用createPage建立新頁面，這裡則需要用到path和postTemplate。
+
+### 更正：
+上一篇的templates/blog.js當中的：
+```
+import React from 'react'
+```
+React 需要大寫。
+
+另外，20-10-2018-blog-post-1/index.md當中：
+```
+path: '/blog-post-1'
+```
+引號後漏了“/”。
+
+本文参与[iT邦帮忙铁人赛](https://ithelp.ithome.com.tw/articles/10201974)。[繁体](https://nodejust.com/gatsbyjs/)

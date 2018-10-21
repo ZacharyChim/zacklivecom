@@ -54,7 +54,7 @@ npm install --save gatsby-transformer-remark
 
 ```
 ---
-path: 'blog-post-1'
+path: '/blog-post-1'
 title: 'My post'
 ---
 
@@ -67,7 +67,7 @@ blog的文章要怎样呈现？这就需要用到模版，让所有的文章都�
 
 在/src底下，新增templates目录，在其中新增post.js作为模版文件，其内容为：
 ```
-import react from 'react';
+import React from 'react';
 import Helmet from 'react-helmet';
 
 export default function Template({data}) {
