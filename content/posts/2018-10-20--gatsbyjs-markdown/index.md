@@ -10,6 +10,10 @@ author: Zack
 Gatsby可以以Markdown作为资料来源自动产生页面，这让我们可以轻易的建立Blog之类的网站：写blog只需写markdown。
 
 ## 视频教学连结
+* [YouTube](https://youtu.be/auOyS_YLabs)
+* [微博](https://weibo.com/1736214117/GETGpEJdV)
+* [B站](https://www.bilibili.com/video/av34283084/)
+* [腾讯](http://v.qq.com/x/page/u0757rz0ff0.html)
 
 ## gatsby-source-filesystem
 
