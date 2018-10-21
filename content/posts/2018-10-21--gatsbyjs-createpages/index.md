@@ -1,5 +1,5 @@
 ---
-title: Gatsby.js 未来的网页07：自動生成頁面
+title: Gatsby.js 未来的网页07：自动生成页面
 category: "Gatsby.js"
 cover: gatsbyjs-createpages.jpg
 author: Zack
@@ -10,6 +10,7 @@ author: Zack
 上一篇中我们准备好了Markdown丶post template，以及相应的一些GraphQL query，今天就要使用Gatsby提供的createPages API自动産生blog文章。
 
 ## 视频教学连结
+* [YouTube](https://youtu.be/BTV_V2IokF0)
 
 ## gatsby-node.js
 gatsby-node.js便是我们使用createPages的地方。Gatsby会根据这里面的设定産生相应的node（post, page等）。如果主目录下找不到这个文件，可自行新增，但名称必需使用gatsby-node.js。
