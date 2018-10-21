@@ -53,19 +53,19 @@ exports.createPages = ({actions, graphql}) => {
 }
 ```
 
-我們用GraphQL取得所有的文章，用foreach針對每一篇文章使用createPage建立新頁面，這裡則需要用到path和postTemplate。
+我们用GraphQL取得所有的文章，用foreach针对每一篇文章使用createPage建立新页面，这里则需要用到path和postTemplate。
 
 ### 更正：
-上一篇的templates/blog.js當中的：
+上一篇的templates/blog.js当中的：
 ```
 import React from 'react'
 ```
-React 需要大寫。
+React 需要大写。
 
-另外，20-10-2018-blog-post-1/index.md當中：
+另外，20-10-2018-blog-post-1/index.md当中：
 ```
 path: '/blog-post-1'
 ```
-引號後漏了“/”。
+引号後漏了“/”。
 
 本文参与[iT邦帮忙铁人赛](https://ithelp.ithome.com.tw/articles/10201974)。[繁体](https://nodejust.com/gatsbyjs/)
