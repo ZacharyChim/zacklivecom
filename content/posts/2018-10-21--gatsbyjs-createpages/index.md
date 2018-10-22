@@ -11,6 +11,9 @@ author: Zack
 
 ## 视频教学连结
 * [YouTube](https://youtu.be/BTV_V2IokF0)
+* [B站](https://www.bilibili.com/video/av34357580/)
+* [微博](https://weibo.com/1736214117/GETGpEJdV)
+* [腾讯](http://v.qq.com/x/page/g0758t0w9ki.html)
 
 ## gatsby-node.js
 gatsby-node.js便是我们使用createPages的地方。Gatsby会根据这里面的设定産生相应的node（post, page等）。如果主目录下找不到这个文件，可自行新增，但名称必需使用gatsby-node.js。
