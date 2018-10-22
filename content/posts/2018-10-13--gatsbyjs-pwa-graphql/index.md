@@ -41,5 +41,8 @@ PWA透过Service Worker，将原本存放在Server上的data暂存在浏览器�
 2. [Gatsby.js 未来的网页02：安裝Gatsby.js](/gatsbyjs-install)
 3. [Gatsby.js 未来的网页03：目录结构](/gatsbyjs-files)
 4. [Gatsby.js 未来的网页04：新增页面](/gatsbyjs-add-page)
+5. [Gatsby.js 未来的网页05：安装Plugin](/gatsbyjs-plugin)
+6. [Gatsby.js 未来的网页06：加入Markdown](/gatsbyjs-markdown)
+7. [Gatsby.js 未来的网页07：自动生成页面](/gatsbyjs-createpages)
 
 本文参与<a href="https://ithelp.ithome.com.tw/articles/10201610">iT邦帮忙铁人赛</a>。<a href="https://nodejust.com/gatsbyjs/">繁体</a>
