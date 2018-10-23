@@ -10,6 +10,10 @@ author: Zack
 Gatsby提供了一個叫做 **GraphiQL** 的工具，帮助我们测试网站上的GraphQL查询。GraphiQL提供一个可视化界面，让我们可以直观地看到查询的结果，最后还能透过其Prettify功能对查询进行美化，以便用于Gatsby当中。今天，我们就来了解一下这个GraphiQL工具。
 
 ## 视频教学连结
+* [YouTube](https://youtu.be/PN5lx_OxDOI)
+* [微博](https://weibo.com/1736214117/GFbKI51KM)
+* [腾讯](http://v.qq.com/x/page/l0760dtft8j.html)
+* [B站](https://www.bilibili.com/video/av34419972/)
 
 ## GraphiQL
 
