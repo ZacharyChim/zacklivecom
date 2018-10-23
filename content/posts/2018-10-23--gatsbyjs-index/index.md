@@ -11,10 +11,7 @@ author: Zack
 
 
 ## 视频教学连结
-* [YouTube](https://youtu.be/PN5lx_OxDOI)
-* [微博](https://weibo.com/1736214117/GFbKI51KM)
-* [腾讯](http://v.qq.com/x/page/l0760dtft8j.html)
-* [B站](https://www.bilibili.com/video/av34419972/)
+* [YouTube](https://youtu.be/xa79RdkE9pk)
 
 ## 加入GraphQL
 
