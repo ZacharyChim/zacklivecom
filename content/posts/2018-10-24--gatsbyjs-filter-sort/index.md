@@ -12,6 +12,8 @@ author: Zack
 
 ## 视频教学连结
 * [YouTube](https://youtu.be/lePIzInlRcY)
+* [B站](https://www.bilibili.com/video/av34549088/)
+* [徵博](https://weibo.com/1736214117/GFwag6N9u)
 
 ## Index列表
 将连结列表改为ul显示
