@@ -11,6 +11,7 @@ author: Zack
 
 
 ## 视频教学连结
+* [YouTube](https://youtu.be/lePIzInlRcY)
 
 ## Index列表
 将连结列表改为ul显示
