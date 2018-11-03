@@ -1,6 +1,6 @@
 require("dotenv").config();
 const config = require("./content/meta/config");
-const transformer = require("./src/utils/algolia");
+// const transformer = require("./src/utils/algolia");
 
 const query = `{
   allMarkdownRemark( filter: { fields: { slug: { ne: null } } }) {
@@ -56,16 +56,16 @@ module.exports = {
         component: require.resolve(`./src/layouts/`)
       }
     },
-    {
-      resolve: `gatsby-plugin-algolia`,
-      options: {
-        appId: process.env.ALGOLIA_APP_ID ? process.env.ALGOLIA_APP_ID : "",
-        apiKey: process.env.ALGOLIA_ADMIN_API_KEY ? process.env.ALGOLIA_ADMIN_API_KEY : "",
-        indexName: process.env.ALGOLIA_INDEX_NAME ? process.env.ALGOLIA_INDEX_NAME : "",
-        queries,
-        chunkSize: 10000 // default: 1000
-      }
-    },
+    // {
+    //   resolve: `gatsby-plugin-algolia`,
+    //   options: {
+    //     appId: process.env.ALGOLIA_APP_ID ? process.env.ALGOLIA_APP_ID : "",
+    //     apiKey: process.env.ALGOLIA_ADMIN_API_KEY ? process.env.ALGOLIA_ADMIN_API_KEY : "",
+    //     indexName: process.env.ALGOLIA_INDEX_NAME ? process.env.ALGOLIA_INDEX_NAME : "",
+    //     queries,
+    //     chunkSize: 10000 // default: 1000
+    //   }
+    // },
     {
       resolve: `gatsby-source-filesystem`,
       options: {
