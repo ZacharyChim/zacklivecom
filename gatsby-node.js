@@ -107,7 +107,7 @@ exports.createPages = ({ graphql, actions }) => {
         // Create posts
         const posts = items.filter(item => item.node.fields.source === "posts");
 
-        const postsPerPage = 10;
+        const postsPerPage = 7;
         const numPages = Math.ceil(posts.length / postsPerPage);
 
         Array.from({ length: numPages }).forEach((node, i) => {
