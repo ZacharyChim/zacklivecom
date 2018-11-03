@@ -1,6 +1,6 @@
 import PropTypes from "prop-types";
 import React from "react";
-
+import { graphql } from "gatsby";
 require("prismjs/themes/prism.css");
 
 import Seo from "../components/Seo";
@@ -13,11 +13,8 @@ const PostTemplate = props => {
     data: {
       post,
       authornote: { html: authorNote }
-      // site: {
-      //   siteMetadata: { facebook }
-      // }
     },
-    pathContext: { next, prev }
+    pageContext: { next, prev }
   } = props;
 
   return (
@@ -44,7 +41,7 @@ const PostTemplate = props => {
 
 PostTemplate.propTypes = {
   data: PropTypes.object.isRequired,
-  pathContext: PropTypes.object.isRequired
+  pageContext: PropTypes.object.isRequired
 };
 
 export default PostTemplate;
@@ -72,17 +69,9 @@ export const postQuery = graphql`
         }
       }
     }
-    authornote: markdownRemark(id: { regex: "/author/" }) {
+    authornote: markdownRemark(fileAbsolutePath: { regex: "/author/" }) {
       id
       html
     }
   }
 `;
-
-    // site {
-    //   siteMetadata {
-    //     facebook {
-    //       appId
-    //     }
-    //   }
-  // }

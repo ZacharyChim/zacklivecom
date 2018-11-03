@@ -1,7 +1,7 @@
 import React from "react";
 import PropTypes from "prop-types";
 
-import FaArrowDown from "react-icons/lib/fa/arrow-down";
+import { FaArrowDown } from "react-icons/fa/";
 
 const Hero = props => {
   const { scrollToContent, backgrounds, theme } = props;
@@ -10,10 +10,10 @@ const Hero = props => {
     <React.Fragment>
       <section className="hero">
         <h1>
-          最新技术 <strong>未来网页</strong>
+        最新技术&nbsp; <strong>未来网页</strong>
         </h1>
         <button onClick={scrollToContent} aria-label="scroll">
-          <FaArrowDown />
+          <FaArrowDown />
         </button>
       </section>
 
@@ -40,7 +40,7 @@ const Hero = props => {
           margin: ${theme.space.stack.l};
           color: ${theme.hero.h1.color};
           line-height: ${theme.hero.h1.lineHeight};
-          text-remove-gap: both 0 "Open Sans";
+          text-remove-gap: both 0 "Raleway";
 
           :global(strong) {
             position: relative;
@@ -75,7 +75,11 @@ const Hero = props => {
           }
 
           :global(svg) {
+            position: relative;
+            top: 5px;
             fill: ${theme.color.neutral.white};
+            stroke-width: 40;
+            stroke: ${theme.color.neutral.white};
             animation-duration: ${theme.time.duration.long};
             animation-name: buttonIconMove;
             animation-iteration-count: infinite;

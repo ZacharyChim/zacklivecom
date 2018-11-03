@@ -67,7 +67,7 @@ font:
   # font options
   family:
     initial: 'Arial, sans-serif'
-    target: &font-family-target 'Open Sans'
+    target: &font-family-target 'Raleway'
   weight:
     standard: 400
     bold: 600
