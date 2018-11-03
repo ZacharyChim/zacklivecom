@@ -30,6 +30,9 @@ const Blog = props => {
                 <h4>Newer Posts</h4>
               </Link>
             )}
+            <div><h4>
+              {index} / {numPages}
+            </h4></div>
             {next && (
               <Link to={`/${index + 1}`}>
                 <h4>Older Posts</h4>
@@ -105,7 +108,7 @@ const Blog = props => {
             justify-content: center;
 
             :global(a) {
-              flex-basis: 50%;
+              flex-basis: 33%;
             }
 
             :global(a:nth-child(2)) {
