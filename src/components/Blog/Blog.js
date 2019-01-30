@@ -27,15 +27,17 @@ const Blog = props => {
             {prev && (
               <Link to={`/${index > 2 ? index - 1 : ""}`}>
                 <FaArrowLeft />
-                <h4>Newer Posts</h4>
+                <h4>Previous Page</h4>
               </Link>
             )}
-            <div><h4>
-              {index} / {numPages}
-            </h4></div>
+            <div>
+              <h4>
+                {index} / {numPages}
+              </h4>
+            </div>
             {next && (
               <Link to={`/${index + 1}`}>
-                <h4>Older Posts</h4>
+                <h4>Next Page</h4>
                 <FaArrowRight />
               </Link>
             )}
