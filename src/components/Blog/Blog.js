@@ -27,17 +27,47 @@ const Blog = props => {
             {prev && (
               <Link to={`/${index > 2 ? index - 1 : ""}`}>
                 <FaArrowLeft />
-                <h4>Previous Page</h4>
+                <h4>Previous</h4>
               </Link>
             )}
-            <div>
-              <h4>
-                {index} / {numPages}
-              </h4>
-            </div>
+
+            <ul
+              style={{
+                display: "flex",
+                flexWrap: "wrap",
+                maxWidth: "700px",
+                margin: "0 auto",
+                alignItems: "center",
+                listStyle: "none",
+                padding: 0,
+                lineHeight: "30px"
+              }}
+            >
+              {Array.from({ length: numPages }, (_, i) => (
+                <li
+                  key={`pagination-number${i + 1}`}
+                  style={{
+                    margin: 0
+                  }}
+                >
+                  <Link
+                    to={`/${i === 0 ? "" : i + 1}`}
+                    style={{
+                      padding: "3px 8px",
+                      borderRadius: "5px",
+                      textDecoration: "none",
+                      color: i + 1 === index ? "#ffffff" : "",
+                      background: i + 1 === index ? "#007acc" : ""
+                    }}
+                  >
+                    {i + 1}
+                  </Link>
+                </li>
+              ))}
+            </ul>
             {next && (
               <Link to={`/${index + 1}`}>
-                <h4>Next Page</h4>
+                <h4>Next</h4>
                 <FaArrowRight />
               </Link>
             )}
