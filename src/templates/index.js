@@ -39,17 +39,19 @@ class IndexPage extends React.Component {
     return (
       <React.Fragment>
         {index === 1 ? (
-          <ThemeContext.Consumer>
-            {theme => (
-              <Hero
-                scrollToContent={this.scrollToContent}
-                backgrounds={backgrounds}
-                theme={theme}
-              />
-            )}
-          </ThemeContext.Consumer>
+          <React.Fragment>
+            <ThemeContext.Consumer>
+              {theme => (
+                <Hero
+                  scrollToContent={this.scrollToContent}
+                  backgrounds={backgrounds}
+                  theme={theme}
+                />
+              )}
+            </ThemeContext.Consumer>
+            <hr ref={this.separator} />
+          </React.Fragment>
         ) : null}
-        <hr ref={this.separator} />
 
         <ThemeContext.Consumer>
           {theme => <Blog posts={posts} theme={theme} index={index} numPages={numPages} />}
