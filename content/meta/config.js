@@ -1,7 +1,7 @@
 module.exports = {
   siteTitle: "程式学徒 ZackLive", // <title>
   shortSiteTitle: "程式学徒 ZackLive", // <title> ending for posts and pages
-  siteDescription: "H最新技术 未来网页",
+  siteDescription: "最新技术 未来网页",
   siteUrl: "https://zacklive.com",
   // pathPrefix: "",
   siteImage: "preview.jpg",
