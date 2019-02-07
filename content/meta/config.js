@@ -1,7 +1,7 @@
 module.exports = {
   siteTitle: "程式学徒 ZackLive", // <title>
   shortSiteTitle: "程式学徒 ZackLive", // <title> ending for posts and pages
-  siteDescription: "最新技术 未来网页",
+  siteDescription: "不断学习",
   siteUrl: "https://zacklive.com",
   // pathPrefix: "",
   siteImage: "preview.jpg",
@@ -13,7 +13,7 @@ module.exports = {
 
   /* info */
   headerTitle: "程式学徒",
-  headerSubTitle: "最新技术 未来网页",
+  headerSubTitle: "不断学习",
 
   /* manifest.json */
   manifestName: "程式学徒 ZackLive",
