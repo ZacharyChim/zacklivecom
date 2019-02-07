@@ -9,7 +9,7 @@ author: Zack
 
 ## box-sizing 是什么？
 
-CSS 的[盒子模型 Box Model](https://zacklive.com/css-box-model/)不会将 padding 与 border 计算到容器（如 div）的的宽度（width）当中，这就导致你所设定的容器宽度未必是最终宽度（需要加上 padding 与 border）。这被很多开发者所诟病，因此就有了`box-size: border-box`的设定，其效果便是将 padding 和 border 纳入容器宽度。
+CSS 的[盒子模型 Box Model](https://zacklive.com/css-box-model/)不会将 padding 与 border 计算到容器（如 div）的的宽度（width）当中，这就导致你所设定的容器宽度未必是最终宽度（需要加上 padding 与 border）。这被很多开发者所诟病，因此就有了`box-sizing: border-box`的设定，其效果便是将 padding 和 border 纳入容器宽度。
 
 ## 如何应用 box-sizing
 
