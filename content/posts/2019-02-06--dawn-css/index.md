@@ -1,11 +1,11 @@
 ---
 title: Box-sizing最佳实践与Bootstrap的Reboot.css
 category: "coding"
-cover: css-reset-dawn.jpg
+cover: box-sizing.jpg
 author: Zack
 ---
 
-![Box-sizing最佳实践与Bootstrap的Reboot.css](css-reset-dawn.jpg)
+![Box-sizing最佳实践与Bootstrap的Reboot.css](box-sizing.jpg)
 
 ## box-sizing 是什么？
 
