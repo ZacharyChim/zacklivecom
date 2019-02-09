@@ -149,6 +149,11 @@ class Menu extends React.Component {
             {this.items.map(item => (
               <Item item={item} key={item.label} icon={item.icon} theme={theme} />
             ))}
+            <li className="item">
+              <a style={{ padding: 10, display: "flex" }} href="https://atzack.com">
+                <FaGlobe />&nbsp;ENG
+              </a>
+            </li>
           </ul>
           {this.state.hiddenItems.length > 0 && <Expand onClick={this.toggleMenu} theme={theme} />}
           {open &&
