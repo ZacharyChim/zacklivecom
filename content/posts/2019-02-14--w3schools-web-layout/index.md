@@ -1,5 +1,5 @@
 ---
-title: 响应式网页布局 - W3Schools教学01
+title: 响应式网页布局 - W3Schools视频01
 category: "coding"
 cover: w3schools-float-layout.jpg
 author: Zack
