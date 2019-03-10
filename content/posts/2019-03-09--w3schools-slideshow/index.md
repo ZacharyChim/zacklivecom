@@ -15,8 +15,8 @@ author: Zack
 
 ## 视频连结
 
-* [B站](https://www.bilibili.com/video/av45523828/)
-* [YouTube](https://youtu.be/7-RcgXc2KXg)
+* [B站](https://www.bilibili.com/video/av45927107/)
+* [YouTube](https://youtu.be/ZXmceyqTnFo)
 
 ## 幻灯片（Slideshow）
 
