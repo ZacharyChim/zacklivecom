@@ -34,15 +34,15 @@ author: Zack
 ```
 <div class="slideshow-container">
 
-  <div class="mySlides fade">
+  <div class="mySlides">
     <img src="img_nature_wide.jpg" style="width:100%">
   </div>
 
-  <div class="mySlides fade">
+  <div class="mySlides">
     <img src="img_snow_wide.jpg" style="width:100%">
   </div>
 
-  <div class="mySlides fade">
+  <div class="mySlides">
     <img src="img_mountains_wide.jpg" style="width:100%">
   </div>
 
@@ -70,7 +70,6 @@ author: Zack
 
 /* Next & previous buttons */
 .prev, .next {
-  cursor: pointer;
   position: absolute;
   top: 50%;
   width: auto;
@@ -79,14 +78,11 @@ author: Zack
   color: white;
   font-weight: bold;
   font-size: 18px;
-  border-radius: 0 3px 3px 0;
-  user-select: none;
 }
 
 /* Position the "next button" to the right */
 .next {
   right: 0;
-  border-radius: 3px 0 0 3px;
 }
 ```
 
