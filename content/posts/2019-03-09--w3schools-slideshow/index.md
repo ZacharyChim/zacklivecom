@@ -126,7 +126,10 @@ W3Schools系列的代码都在GitHub上：[W3Schools GitHub](https://github.com/
 
 [W3Schools](https://www.w3schools.com)是知名的网页设计／前端开发教学网站，不仅提供HTML、CSS、JavaScript等的详尽教学，还可以把它当作说明文件（Documents）。有经验的前端或多或少已经接触过这个网站，因为它经常出现在搜索结果的前几项。其中，它的[How To](https://www.w3schools.com/howto/default.asp)部分更是包含了大量非常实用的例子，例如，如何制作SlideShow（图片轮播）、Lightbox、Parallax（视差效果）等等。因此我想做一系列的影片专门介绍这些How To。
 
+W3Schools系列全部视频：
+
 1. [Float响应式网页布局](https://zacklive.com/w3schools-web-layout/)
 2. [Flexbox响应式网页布局](https://zacklive.com/w3schools-flex/)
 3. [CSS Grid响应式网页布局](https://zacklive.com/w3schools-grid/)
 4. [幻灯片如何实现](https://zacklive.com/w3schools-slideshow/)
+5. [响应式导航如何实现](https://zacklive.com/w3schools-responsvie-nav/)

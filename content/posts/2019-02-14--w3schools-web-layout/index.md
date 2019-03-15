@@ -110,3 +110,11 @@ Float布局的重点是
 你可以试著自行将.topnav也修改一下，要注意，width如果没有特别指定便是auto，另外，我发现原本例子采用的400px作为断点，换成min-width之后没有反应，需要改为500px。具体原因，我也不太确定，如果你知道的话，欢迎告知。
 
 我开了一个GitHub的仓库专门放W3Schools系列的代码，要查看Mobile First版的代码请移步：[W3Schools GitHub](https://github.com/ZacharyChim/W3Schools)
+
+W3Schools系列全部视频：
+
+1. [Float响应式网页布局](https://zacklive.com/w3schools-web-layout/)
+2. [Flexbox响应式网页布局](https://zacklive.com/w3schools-flex/)
+3. [CSS Grid响应式网页布局](https://zacklive.com/w3schools-grid/)
+4. [幻灯片如何实现](https://zacklive.com/w3schools-slideshow/)
+5. [响应式导航如何实现](https://zacklive.com/w3schools-responsvie-nav/)
