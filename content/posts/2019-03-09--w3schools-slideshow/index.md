@@ -1,5 +1,5 @@
 ---
-title: 幻灯片如何实现 - W3Schools视频03
+title: 幻灯片如何实现 - W3Schools视频04
 category: "coding"
 cover: slideshow.jpg
 author: Zack
