@@ -1,5 +1,5 @@
 ---
-title: 响应式导航如何实现 - W3Schools视频04
+title: 响应式导航如何实现 - W3Schools视频05
 category: "coding"
 cover: responsive-nav.jpg
 author: Zack
