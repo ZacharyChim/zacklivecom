@@ -14,7 +14,7 @@ author: Zack
 
 ## 视频连结
 
-* [B站](https://www.bilibili.com/video/av45927107/)
+* [B站](https://www.bilibili.com/video/av46388163/)
 * [YouTube](https://youtu.be/KWeK-y3KGJo)
 
 ## 响应式导航（Responsive Navigation)
