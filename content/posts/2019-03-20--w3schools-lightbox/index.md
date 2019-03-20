@@ -14,8 +14,8 @@ author: Zack
 
 ## 视频连结
 
-* [B站](https://www.bilibili.com/video/av46388163/)
-* [YouTube](https://youtu.be/KWeK-y3KGJo)
+* [B站](https://www.bilibili.com/video/av46844478/)
+* [YouTube](https://youtu.be/Q88UFRlqMYA)
 
 ## 灯箱效果（Lightbox)
 
@@ -90,13 +90,13 @@ author: Zack
 }
 
 /* Add Animation - Zoom in the Modal */
-.modal-content, #caption { 
+.modal-content, #caption {
   animation-name: zoom;
   animation-duration: 0.6s;
 }
 
 @keyframes zoom {
-  from {transform:scale(0)} 
+  from {transform:scale(0)}
   to {transform:scale(1)}
 }
 
