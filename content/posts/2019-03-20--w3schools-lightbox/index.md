@@ -7,7 +7,7 @@ author: Zack
 
 ![灯箱效果](lightbox.jpg)
 
-灯箱效果是将图片放大弹出显示，并将背景变暗，以突出图片。这种效果可用于单张图片，也可用于图片库。其原理跟模态框（Modal）基本一样。今天我们就来看看W3Schools是怎样实理灯箱效果。W3Schools有分Modal Images和Lightbox两个教学，主要差别在于Lightbox是为多张图片设计，而Modal Images则是单张图片。为了方便理解这里选择Modal Images，若能理解此例，加上之前的[幻灯片](https://zacklive.com/w3schools-slideshow)，就差不多等于Lightbox中的例子。
+灯箱（Lightbox）效果是将图片放大弹出显示，并将背景变暗，以突出图片。这种效果可用于单张图片，也可用于图片库。其原理跟模态框（Modal）基本一样。今天我们就来看看W3Schools是怎样实理灯箱效果。W3Schools有分Modal Images和Lightbox两个教学，主要差别在于Lightbox是为多张图片设计，而Modal Images则是单张图片。为了方便理解这里选择Modal Images，若能理解此例，加上之前的[幻灯片](https://zacklive.com/w3schools-slideshow)，就差不多等于Lightbox中的例子。
 
 * [W3Schools灯箱效果教学](https://www.w3schools.com/howto/howto_css_modal_images.asp)
 * [灯箱效果例子](https://www.w3schools.com/howto/tryit.asp?filename=tryhow_js_topnav)
