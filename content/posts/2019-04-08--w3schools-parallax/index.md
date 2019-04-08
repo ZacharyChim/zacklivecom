@@ -15,7 +15,7 @@ author: Zack
 
 ## 视频连结
 
-* [B站](https://www.bilibili.com/video/av46844478/)
+* [B站](https://www.bilibili.com/video/av48667387/)
 * [YouTube](https://youtu.be/LoYzCMQIopk)
 
 ## 视差效果（Parallax)
