@@ -170,3 +170,6 @@ W3Schools系列全部视频：
 3. [CSS Grid响应式网页布局](https://zacklive.com/w3schools-grid/)
 4. [幻灯片如何实现](https://zacklive.com/w3schools-slideshow/)
 5. [响应式导航如何实现](https://zacklive.com/w3schools-responsvie-nav/)
+6. [灯箱效果如何实现](https://zacklive.com/w3schools-lightbox/)
+7. [Parallax-视差效果如何实现](https://zacklive.com/w3schools-parallax/)
+8. [可拖拉效果如何实现](https://zacklive.com/w3schools-draggable/)
