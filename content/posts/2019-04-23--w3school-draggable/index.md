@@ -13,8 +13,8 @@ author: Zack
 
 ## 视频连结
 
-* [B站](https://www.bilibili.com/video/av48667387/)
-* [YouTube](https://youtu.be/LoYzCMQIopk)
+* [B站](https://www.bilibili.com/video/av50303514)
+* [YouTube](https://youtu.be/sZ7FVnGgvNc)
 
 ## 可拖拉效果
 
